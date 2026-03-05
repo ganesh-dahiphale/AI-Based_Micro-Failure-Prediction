@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Micro-Failure Prediction</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Background Elements for Glassmorphism -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="container">
+
+        <header>
+            <div class="header-titles">
+                <h1>AI-Based Micro-Failure Prediction</h1>
+                <p>Predicting and explaining rare infrastructure degradations in real-time.</p>
+            </div>
+
+            <div class="controls">
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span id="api-status">Initializing Pipeline...</span>
+                </div>
+                <button id="btn-advance" class="btn primary" disabled>▶ Advance Time</button>
+                <button id="btn-failure" class="btn danger" disabled>⚠️ Simulate Failure Event</button>
+            </div>
+        </header>
+
+        <!-- Ground Truth Banner (Hidden by default) -->
+        <div id="ground-truth-banner" class="banner hidden">
+            🚨 ACTUAL SYSTEM GROUND TRUTH: Anomalous degradation occurred!
+        </div>
+
+        <div class="dashboard-grid">
+
+            <!-- System Overview Panel -->
+            <section class="panel glass overview-panel">
+                <h2>System Overview</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <span class="metric-title">Assets Monitored</span>
+                        <span class="metric-value">3</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-title">Critical Alerts (>80)</span>
+                        <span class="metric-value" id="val-critical">0</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-title">Avg System Risk</span>
+                        <span class="metric-value" id="val-avg-risk">--</span>
+                    </div>
+                    <div class="metric-card">
+                        <span class="metric-title">Last Updated</span>
+                        <span class="metric-value timestamp" id="val-time">--</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Main Content Area -->
+            <div class="content-split">
+
+                <!-- Left: Table -->
+                <section class="panel glass table-panel">
+                    <h2>Maintenance Prioritization Queue</h2>
+                    <div class="table-container">
+                        <table id="assets-table">
+                            <thead>
+                                <tr>
+                                    <th>Asset ID</th>
+                                    <th>Risk Score</th>
+                                    <th>Trend</th>
+                                    <th>LSTM MSE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Inserted dynamically via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Right: Explainability Details -->
+                <section class="panel glass detail-panel">
+                    <h2>Asset Explainer (SHAP)</h2>
+                    <p class="subtitle">Understand <em>why</em> the AI flagged this asset.</p>
+
+                    <div class="select-container">
+                        <label>Target Asset:</label>
+                        <select id="asset-select">
+                            <option value="Grid Node G-01">Grid Node G-01 (Power Stability)</option>
+                            <option value="Water Main W-04">Water Main W-04 (Leak Status)</option>
+                            <option value="Pump P-03">Pump P-03 (Burst Status)</option>
+                            <option value="Bridge B-05">Bridge B-05 (Bridge Condition)</option>
+                            <option value="Road Segment R-12">Road Segment R-12 (Infrastructure Defect)</option>
+                        </select>
+                    </div>
+
+                    <div id="risk-score-box" class="risk-box score-green">
+                        <h4>Risk Confidence: <span id="detail-score">--</span>/100</h4>
+                    </div>
+
+                    <div id="recommendation-box" class="recommendation">
+                        ✅ Operating normally.
+                    </div>
+
+                    <h3 class="chart-title">Real-time Feature Drivers</h3>
+                    <div class="chart-container">
+                        <canvas id="shapChart"></canvas>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

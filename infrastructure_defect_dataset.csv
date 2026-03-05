@@ -1,0 +1,2001 @@
+Infrastructure_Type,Defect_Location,Defect_Length_mm,Defect_Width_mm,Defect_Depth_mm,Severity_Level,Lighting_Condition,Occlusion_Level,Inspection_Mode,Target_Defect_Class
+Road,Wall,411.61,8.02,44.33,High,Normal,Partial,UAV,Deformation
+Building,Deck,279.56,16.76,34.63,Low,Low,Partial,UAV,Spalling
+Bridge,Surface,320.36,3.2,72.18,High,Normal,Partial,Ground,Corrosion
+Road,Beam,265.51,9.53,29.41,High,Normal,None,Fixed Camera,Crack
+Road,Surface,234.27,48.28,25.74,Medium,Low,Partial,UAV,Corrosion
+Building,Beam,121.15,21.7,36.27,Low,High,Severe,UAV,Spalling
+Bridge,Column,155.08,31.78,18.54,Low,High,None,UAV,Crack
+Bridge,Beam,148.54,36.44,69.82,Medium,High,Partial,Fixed Camera,Corrosion
+Road,Wall,283.83,18.66,62.01,Medium,Low,Severe,Ground,Corrosion
+Tunnel,Deck,64.38,7.79,48.8,Medium,Low,Severe,Ground,Deformation
+Road,Column,458.81,10.73,39.64,Low,High,Partial,Ground,Healthy
+Road,Beam,361.72,16.01,91.0,High,Normal,Severe,UAV,Deformation
+Road,Surface,203.72,31.99,3.88,Low,High,None,Ground,Corrosion
+Road,Column,83.52,20.21,77.14,Low,Low,None,UAV,Corrosion
+Building,Column,441.59,0.84,90.29,Medium,Normal,Severe,Fixed Camera,Crack
+Bridge,Beam,412.77,26.41,45.19,Low,Normal,None,Fixed Camera,Crack
+Building,Column,362.25,46.11,55.52,Medium,Low,Partial,Ground,Crack
+Building,Surface,139.42,40.7,94.5,High,Normal,Severe,UAV,Crack
+Building,Column,204.21,41.35,22.02,High,High,None,UAV,Crack
+Road,Surface,55.86,39.86,52.49,High,Low,Partial,Ground,Crack
+Tunnel,Beam,98.57,16.52,48.0,Medium,Low,Partial,Fixed Camera,Crack
+Bridge,Deck,392.59,38.38,26.58,Medium,Low,None,Fixed Camera,Spalling
+Tunnel,Column,358.94,7.59,82.04,Low,Low,Severe,Fixed Camera,Healthy
+Building,Deck,298.78,33.06,90.06,Medium,Normal,Partial,Fixed Camera,Healthy
+Building,Surface,448.38,32.26,78.41,Low,Low,Partial,Fixed Camera,Crack
+Tunnel,Column,293.72,1.77,20.34,Low,Low,Partial,Ground,Corrosion
+Tunnel,Wall,236.15,39.5,9.59,Low,Normal,Partial,Ground,Healthy
+Tunnel,Deck,173.48,45.21,60.94,Medium,Low,Severe,Ground,Crack
+Building,Column,470.52,13.74,6.65,Medium,Normal,None,Fixed Camera,Deformation
+Building,Deck,45.94,40.71,67.61,High,Normal,None,Fixed Camera,Spalling
+Bridge,Column,465.79,4.58,53.51,Low,Low,None,Ground,Healthy
+Bridge,Beam,414.22,30.2,66.62,High,High,Partial,Ground,Healthy
+Building,Deck,69.32,24.54,59.43,High,Low,Severe,Fixed Camera,Spalling
+Tunnel,Wall,284.67,27.52,42.85,Medium,High,None,UAV,Spalling
+Tunnel,Wall,433.94,46.35,20.89,Medium,Normal,Severe,Ground,Crack
+Bridge,Surface,288.05,43.63,31.26,Low,High,None,Fixed Camera,Crack
+Building,Column,454.06,39.36,52.93,High,Low,Partial,Fixed Camera,Corrosion
+Bridge,Deck,471.78,14.05,65.53,Medium,Low,None,Ground,Crack
+Bridge,Surface,214.08,45.64,78.17,High,High,Partial,UAV,Crack
+Road,Deck,191.77,5.33,76.95,Medium,Low,Partial,Fixed Camera,Corrosion
+Road,Column,468.48,42.74,97.3,High,High,None,Ground,Healthy
+Road,Wall,339.19,16.74,29.3,High,Normal,Severe,Fixed Camera,Crack
+Tunnel,Beam,62.43,3.16,8.04,Low,High,Partial,Fixed Camera,Corrosion
+Building,Wall,25.93,33.63,35.22,Low,High,Severe,Fixed Camera,Corrosion
+Building,Surface,284.49,11.95,74.59,Medium,High,None,Fixed Camera,Spalling
+Building,Beam,465.43,12.56,44.37,Medium,High,Partial,UAV,Crack
+Building,Surface,422.9,15.65,81.96,Low,Normal,Severe,Ground,Healthy
+Road,Column,339.54,3.65,55.38,High,Normal,Partial,Ground,Spalling
+Tunnel,Beam,73.86,9.27,93.05,Medium,Normal,None,Ground,Spalling
+Tunnel,Surface,130.84,0.75,94.84,High,High,Partial,Ground,Crack
+Road,Column,438.38,22.55,7.86,High,Normal,None,Ground,Corrosion
+Tunnel,Wall,95.49,4.67,46.18,Medium,Low,Severe,UAV,Deformation
+Road,Column,142.83,34.29,61.36,High,Normal,Partial,Fixed Camera,Crack
+Building,Deck,69.15,12.16,26.33,Medium,High,Severe,Fixed Camera,Corrosion
+Road,Column,339.67,47.21,41.3,High,Low,None,Ground,Crack
+Building,Column,472.27,43.63,68.09,Low,High,None,Fixed Camera,Healthy
+Building,Deck,138.14,14.83,23.45,Low,Low,Severe,Fixed Camera,Crack
+Bridge,Surface,240.33,39.27,60.6,Medium,High,Severe,Fixed Camera,Healthy
+Road,Surface,319.0,40.26,70.05,Medium,High,None,Ground,Corrosion
+Bridge,Column,499.74,49.33,9.96,Medium,Low,Severe,Ground,Spalling
+Road,Deck,56.88,30.09,50.26,Medium,Normal,None,UAV,Spalling
+Road,Deck,251.79,4.56,27.04,Low,Low,Severe,Ground,Crack
+Bridge,Wall,195.63,32.52,72.71,High,Low,None,UAV,Corrosion
+Bridge,Surface,433.58,31.44,19.77,Medium,Low,None,Ground,Corrosion
+Road,Beam,240.6,32.1,89.33,Medium,Low,Partial,Fixed Camera,Crack
+Tunnel,Surface,59.93,15.7,43.66,Medium,Low,None,UAV,Deformation
+Building,Surface,319.04,43.05,20.6,High,High,None,UAV,Crack
+Bridge,Wall,386.54,47.99,44.36,High,High,Partial,UAV,Spalling
+Building,Beam,6.43,11.28,41.47,Medium,Normal,Partial,Ground,Corrosion
+Tunnel,Wall,430.18,4.86,43.46,Low,Normal,Severe,UAV,Crack
+Tunnel,Beam,97.08,10.13,58.97,Medium,Low,Severe,Ground,Spalling
+Tunnel,Column,278.27,41.12,52.6,Medium,Normal,None,UAV,Spalling
+Bridge,Beam,210.82,33.99,15.83,High,Normal,Severe,Ground,Corrosion
+Tunnel,Wall,361.23,31.98,7.49,Low,Low,Severe,UAV,Spalling
+Bridge,Surface,188.72,20.39,73.21,High,High,None,Fixed Camera,Crack
+Tunnel,Beam,435.53,29.1,56.41,Medium,High,Partial,Fixed Camera,Healthy
+Building,Beam,366.6,15.74,36.54,High,Normal,Partial,UAV,Corrosion
+Building,Deck,325.62,24.12,81.03,Low,High,None,Ground,Crack
+Road,Surface,399.14,39.76,39.42,High,High,None,Ground,Deformation
+Building,Column,378.24,49.07,79.8,High,Normal,None,Ground,Crack
+Road,Wall,22.79,46.66,31.27,High,Low,None,Fixed Camera,Crack
+Building,Column,200.39,46.73,8.21,Low,Normal,None,Fixed Camera,Corrosion
+Bridge,Surface,465.75,20.41,93.33,Low,Normal,None,Fixed Camera,Healthy
+Building,Beam,67.23,23.71,40.06,Medium,Normal,Severe,Ground,Healthy
+Road,Beam,369.86,35.43,79.48,Low,Low,Severe,Ground,Deformation
+Road,Surface,487.42,46.15,28.64,Low,Low,Severe,Ground,Corrosion
+Tunnel,Beam,30.84,7.53,64.99,Low,Low,Partial,UAV,Spalling
+Bridge,Beam,342.69,15.56,87.46,Medium,Low,None,UAV,Corrosion
+Building,Beam,236.74,7.39,5.12,Medium,Normal,None,UAV,Corrosion
+Tunnel,Wall,291.69,30.79,83.23,Low,High,Severe,Fixed Camera,Healthy
+Building,Wall,47.24,15.66,57.56,Low,Normal,Partial,Fixed Camera,Crack
+Building,Deck,26.29,16.64,61.14,Medium,Low,Severe,Ground,Corrosion
+Tunnel,Column,335.1,4.01,52.79,Medium,High,None,UAV,Healthy
+Tunnel,Surface,412.54,17.81,87.57,Low,Normal,None,Ground,Deformation
+Tunnel,Surface,392.1,43.19,5.3,Low,High,Severe,UAV,Crack
+Tunnel,Surface,274.18,12.04,26.84,High,Low,Severe,UAV,Crack
+Tunnel,Deck,54.43,34.91,87.7,High,High,None,Ground,Spalling
+Building,Wall,345.58,31.67,75.48,High,High,Severe,Ground,Corrosion
+Tunnel,Deck,124.73,43.24,2.75,High,Low,None,UAV,Corrosion
+Bridge,Surface,455.98,7.05,52.18,Low,High,Severe,UAV,Corrosion
+Road,Column,419.94,48.89,53.43,Medium,Normal,Partial,Fixed Camera,Healthy
+Tunnel,Beam,356.14,29.34,40.69,Medium,High,None,Ground,Crack
+Tunnel,Wall,474.68,49.78,30.44,Medium,Normal,Partial,Ground,Corrosion
+Building,Wall,20.55,45.62,68.49,Low,High,Severe,Ground,Corrosion
+Tunnel,Deck,369.42,11.47,21.57,Medium,High,Partial,Ground,Crack
+Tunnel,Wall,168.47,3.28,80.1,Medium,Low,Severe,UAV,Crack
+Tunnel,Surface,453.5,13.15,80.5,Low,Low,Partial,Fixed Camera,Healthy
+Building,Surface,137.0,26.61,42.11,High,Normal,Partial,Ground,Healthy
+Tunnel,Deck,363.8,8.99,29.07,Low,Low,Partial,UAV,Crack
+Road,Surface,439.44,8.79,29.1,Low,Low,None,UAV,Healthy
+Building,Column,25.62,23.4,48.75,Low,Low,Partial,UAV,Crack
+Road,Deck,201.84,2.15,72.24,Low,Low,Severe,UAV,Spalling
+Building,Column,382.34,6.53,36.53,Low,Low,Severe,UAV,Crack
+Tunnel,Beam,230.18,21.09,61.39,High,Normal,None,Ground,Healthy
+Road,Column,137.29,3.62,38.87,Medium,Normal,None,Ground,Crack
+Building,Beam,113.8,20.14,31.15,Medium,Low,Severe,Fixed Camera,Spalling
+Bridge,Beam,70.1,23.96,3.46,Low,Low,Partial,Ground,Deformation
+Tunnel,Column,429.28,22.84,1.39,Medium,Normal,Severe,UAV,Crack
+Building,Deck,289.8,43.52,23.49,High,High,None,Fixed Camera,Corrosion
+Bridge,Surface,42.81,26.74,41.23,Medium,Normal,None,UAV,Crack
+Building,Surface,194.38,23.67,85.27,Medium,High,Severe,UAV,Deformation
+Bridge,Beam,187.03,20.83,80.05,High,Low,Partial,Ground,Corrosion
+Tunnel,Beam,94.96,40.97,27.45,High,Low,Partial,UAV,Spalling
+Road,Deck,220.58,44.81,25.21,Medium,Normal,None,Ground,Healthy
+Bridge,Wall,169.39,42.74,23.5,Low,Low,Severe,UAV,Corrosion
+Building,Column,174.19,33.84,34.58,Medium,High,Severe,Fixed Camera,Crack
+Tunnel,Beam,370.82,7.3,50.32,Medium,High,None,UAV,Spalling
+Bridge,Surface,115.52,14.21,44.43,Medium,Normal,Severe,Ground,Deformation
+Building,Deck,322.72,2.78,22.61,High,High,None,UAV,Healthy
+Building,Column,287.47,46.58,13.91,Medium,Normal,Partial,Ground,Crack
+Building,Deck,286.21,33.21,2.25,High,Normal,Partial,Ground,Corrosion
+Bridge,Column,333.19,37.44,16.24,Low,High,Severe,Fixed Camera,Deformation
+Bridge,Column,276.45,15.92,70.83,Low,High,Partial,Ground,Deformation
+Bridge,Beam,440.23,42.36,25.12,Low,High,Partial,Fixed Camera,Spalling
+Road,Deck,339.41,13.35,47.39,High,High,None,Fixed Camera,Crack
+Bridge,Deck,275.75,0.58,59.54,High,High,None,UAV,Corrosion
+Bridge,Surface,415.73,19.13,88.8,Medium,High,Severe,Fixed Camera,Crack
+Bridge,Surface,305.04,28.75,89.0,Medium,High,None,Ground,Healthy
+Road,Beam,149.12,24.2,74.83,Medium,Low,Severe,Ground,Crack
+Bridge,Beam,107.51,43.17,4.48,High,Normal,Severe,Fixed Camera,Spalling
+Building,Wall,80.4,5.72,57.93,High,Normal,None,UAV,Spalling
+Bridge,Surface,450.23,27.91,78.87,Medium,High,Partial,Fixed Camera,Corrosion
+Building,Column,356.52,25.89,2.71,Medium,Normal,Partial,Fixed Camera,Corrosion
+Building,Deck,469.0,14.43,55.42,Low,High,Partial,Ground,Spalling
+Building,Beam,303.63,41.2,85.92,Medium,Low,Partial,UAV,Corrosion
+Road,Deck,239.33,37.77,47.94,Medium,Normal,Severe,UAV,Crack
+Road,Deck,34.56,36.78,1.41,Low,Normal,Partial,UAV,Corrosion
+Road,Wall,337.46,43.87,2.09,High,Low,Severe,UAV,Deformation
+Bridge,Surface,293.19,36.28,42.25,Medium,Low,None,Ground,Healthy
+Building,Beam,495.15,11.98,16.35,High,Low,None,UAV,Spalling
+Road,Deck,123.38,35.43,66.78,Low,Normal,Severe,UAV,Deformation
+Road,Beam,267.71,15.73,71.17,Medium,Normal,Partial,UAV,Spalling
+Bridge,Column,327.22,12.49,18.61,Medium,Low,Severe,Ground,Spalling
+Road,Wall,324.07,4.11,88.96,Low,Low,Partial,Ground,Healthy
+Bridge,Column,282.84,37.33,44.75,Medium,Low,Partial,UAV,Corrosion
+Tunnel,Beam,389.58,35.69,15.14,Low,Low,Severe,Ground,Crack
+Road,Beam,106.47,12.11,76.66,Low,Low,Severe,Fixed Camera,Healthy
+Tunnel,Surface,364.19,37.59,79.21,Low,High,Partial,UAV,Deformation
+Bridge,Deck,311.77,45.93,64.29,Low,Low,Severe,Ground,Corrosion
+Building,Deck,448.56,5.85,85.49,Medium,High,Partial,UAV,Healthy
+Road,Column,424.36,12.02,74.0,Low,Normal,Severe,UAV,Corrosion
+Bridge,Wall,161.0,37.64,88.34,Medium,Normal,None,Ground,Corrosion
+Building,Deck,141.74,14.09,43.95,High,High,Partial,Fixed Camera,Spalling
+Building,Surface,490.92,31.42,75.01,Medium,Low,None,UAV,Crack
+Tunnel,Column,266.0,4.52,99.98,High,Normal,Severe,Fixed Camera,Deformation
+Bridge,Column,453.68,22.88,72.77,Medium,Low,None,Ground,Crack
+Building,Surface,86.12,37.09,12.3,Medium,Low,Severe,UAV,Crack
+Road,Wall,323.2,34.48,52.31,Low,High,Partial,Ground,Spalling
+Road,Surface,405.88,40.85,59.15,High,Normal,Severe,Ground,Spalling
+Tunnel,Wall,473.96,43.93,18.25,High,Normal,Severe,Ground,Crack
+Building,Surface,171.98,38.77,96.33,Low,High,Partial,Ground,Healthy
+Bridge,Surface,363.87,33.74,18.38,Low,Low,Severe,UAV,Spalling
+Road,Beam,271.71,2.07,18.58,Low,Low,Partial,Fixed Camera,Crack
+Building,Column,35.01,26.98,91.6,Medium,Normal,Severe,Fixed Camera,Corrosion
+Building,Surface,346.55,2.37,47.06,Medium,High,Partial,UAV,Deformation
+Tunnel,Surface,346.6,40.5,7.26,Medium,High,None,UAV,Spalling
+Road,Deck,465.65,16.38,60.22,Low,Low,Severe,Fixed Camera,Crack
+Road,Column,251.17,28.34,60.58,High,Low,Severe,Fixed Camera,Crack
+Bridge,Deck,118.97,14.33,7.39,Low,High,Severe,UAV,Corrosion
+Road,Column,27.06,39.23,97.28,Low,Normal,Partial,Ground,Corrosion
+Bridge,Deck,210.74,44.38,54.86,Medium,Low,Severe,UAV,Spalling
+Road,Surface,154.45,20.23,56.42,Low,High,Partial,Fixed Camera,Healthy
+Tunnel,Surface,381.74,43.21,52.49,Low,High,Severe,Ground,Crack
+Road,Beam,180.36,13.72,61.46,Low,High,None,Fixed Camera,Healthy
+Bridge,Deck,474.79,26.97,27.17,Medium,Normal,Severe,Ground,Healthy
+Bridge,Wall,481.34,43.01,29.44,High,Low,None,Fixed Camera,Healthy
+Tunnel,Beam,312.35,16.63,51.62,High,Low,Partial,Ground,Healthy
+Road,Deck,464.69,47.73,80.86,Medium,Low,None,UAV,Deformation
+Road,Deck,381.62,6.53,5.94,Low,Normal,Severe,UAV,Spalling
+Tunnel,Beam,275.7,1.4,60.74,Medium,Low,Severe,Ground,Corrosion
+Road,Surface,94.25,45.25,80.87,Medium,Low,Partial,Ground,Corrosion
+Road,Deck,232.01,3.9,16.53,Low,Low,Severe,UAV,Healthy
+Bridge,Surface,282.63,49.6,2.49,Low,Low,Severe,UAV,Corrosion
+Road,Beam,432.66,47.59,31.96,Low,Normal,Partial,Ground,Crack
+Road,Surface,243.26,7.28,59.23,High,High,Partial,Ground,Crack
+Tunnel,Column,449.35,27.11,14.69,Low,High,None,UAV,Deformation
+Tunnel,Wall,338.8,9.65,43.19,High,Low,Partial,Fixed Camera,Deformation
+Building,Deck,72.81,21.69,55.68,Low,Low,Severe,UAV,Corrosion
+Bridge,Wall,497.52,3.54,60.29,Low,Low,Partial,Ground,Crack
+Road,Surface,265.98,11.58,28.17,Medium,Normal,Severe,Ground,Spalling
+Road,Deck,198.97,18.48,40.6,Medium,Low,None,Fixed Camera,Crack
+Building,Surface,331.26,22.21,78.06,Low,Normal,Partial,UAV,Spalling
+Road,Column,58.9,48.89,94.18,Low,Low,Severe,Ground,Corrosion
+Bridge,Beam,320.09,40.49,86.33,Low,Low,Partial,UAV,Healthy
+Building,Deck,251.63,37.0,56.86,Low,High,Partial,Ground,Spalling
+Bridge,Column,206.3,27.08,41.62,Low,Low,Partial,Fixed Camera,Spalling
+Building,Column,476.74,42.08,33.96,High,Normal,Partial,UAV,Deformation
+Building,Deck,263.66,17.3,13.37,Medium,High,None,UAV,Corrosion
+Tunnel,Surface,113.46,35.59,11.55,Medium,Normal,Severe,Fixed Camera,Crack
+Bridge,Column,232.19,49.69,69.15,Low,High,Partial,Ground,Spalling
+Road,Wall,460.1,16.07,26.72,Low,Normal,Severe,Ground,Healthy
+Road,Column,92.17,33.86,26.21,Low,High,None,UAV,Corrosion
+Bridge,Surface,110.91,42.29,99.82,Medium,Normal,Severe,Fixed Camera,Spalling
+Road,Surface,11.45,45.83,19.6,Medium,Normal,Severe,UAV,Healthy
+Road,Wall,12.02,36.04,15.66,Low,Low,None,UAV,Deformation
+Bridge,Column,415.55,14.54,10.77,High,High,Partial,Ground,Spalling
+Building,Surface,367.4,16.65,58.4,Medium,High,Severe,Ground,Deformation
+Bridge,Deck,180.75,1.53,63.16,Low,Low,Severe,Ground,Healthy
+Building,Beam,350.66,38.16,37.16,Low,Normal,Partial,Ground,Healthy
+Road,Beam,200.63,2.62,54.01,Medium,Normal,Partial,Ground,Healthy
+Road,Beam,476.68,43.3,79.05,High,High,Severe,Fixed Camera,Spalling
+Road,Column,483.69,6.37,81.99,Low,Normal,None,UAV,Corrosion
+Tunnel,Wall,199.43,9.01,95.83,Low,High,Partial,Fixed Camera,Crack
+Building,Surface,427.84,24.09,82.6,Medium,High,Partial,UAV,Corrosion
+Tunnel,Deck,387.68,37.03,56.92,Low,Normal,None,Ground,Healthy
+Tunnel,Deck,158.45,7.38,18.79,Medium,Normal,Severe,Fixed Camera,Healthy
+Bridge,Column,119.86,22.28,10.88,Medium,Normal,Partial,UAV,Spalling
+Tunnel,Beam,231.83,24.4,6.4,Low,Low,Severe,Ground,Spalling
+Bridge,Column,391.77,11.01,66.99,Low,High,Severe,Ground,Corrosion
+Bridge,Wall,480.28,6.22,80.95,Medium,Normal,Severe,Fixed Camera,Corrosion
+Tunnel,Wall,382.97,41.9,51.36,Low,Low,None,Fixed Camera,Deformation
+Building,Surface,428.33,25.37,6.42,Low,Normal,Severe,Fixed Camera,Corrosion
+Building,Surface,303.52,1.21,54.01,High,High,Severe,Ground,Crack
+Building,Wall,418.53,40.25,93.64,Low,Low,Partial,UAV,Spalling
+Building,Wall,393.29,49.05,60.16,Medium,High,Partial,UAV,Crack
+Building,Wall,191.61,30.49,81.13,Low,Normal,None,Fixed Camera,Healthy
+Tunnel,Column,278.24,25.43,80.22,Medium,Normal,None,UAV,Corrosion
+Tunnel,Wall,403.35,43.98,93.28,Low,Normal,Partial,Ground,Healthy
+Road,Deck,27.8,47.65,77.25,High,Low,Partial,UAV,Crack
+Building,Beam,405.0,37.85,75.02,Medium,Low,None,Ground,Crack
+Tunnel,Wall,93.05,22.55,24.18,Low,Low,Severe,Fixed Camera,Spalling
+Road,Beam,259.77,29.81,6.93,Medium,Low,None,UAV,Deformation
+Building,Column,405.1,35.2,52.24,Low,Normal,Severe,Ground,Spalling
+Bridge,Beam,130.64,10.12,13.32,Medium,Normal,Partial,Fixed Camera,Crack
+Road,Column,126.67,22.64,96.26,High,Normal,Partial,Fixed Camera,Crack
+Tunnel,Deck,204.37,41.58,29.7,Medium,Low,Partial,Fixed Camera,Spalling
+Bridge,Column,447.85,32.91,85.44,Low,Low,Severe,Fixed Camera,Crack
+Bridge,Column,5.22,20.85,39.37,Medium,Normal,None,UAV,Corrosion
+Bridge,Surface,451.18,33.34,33.0,Low,Normal,Severe,Ground,Spalling
+Road,Wall,81.13,6.35,93.58,High,Low,None,UAV,Crack
+Tunnel,Wall,495.09,20.37,36.97,Medium,High,None,Ground,Crack
+Bridge,Deck,477.65,39.76,39.64,Low,Normal,None,Fixed Camera,Crack
+Building,Deck,249.86,11.42,11.5,Low,Normal,Partial,UAV,Healthy
+Bridge,Wall,258.8,9.71,67.37,High,Normal,None,Fixed Camera,Corrosion
+Bridge,Surface,243.37,47.57,29.6,High,Low,Partial,Ground,Healthy
+Road,Wall,319.54,10.89,58.97,Low,Normal,None,Fixed Camera,Corrosion
+Road,Surface,49.91,13.42,59.54,Low,Normal,None,UAV,Deformation
+Tunnel,Deck,21.15,48.5,72.2,Medium,Normal,Partial,UAV,Crack
+Building,Beam,33.56,36.87,74.78,Low,Normal,Partial,Ground,Corrosion
+Road,Deck,224.96,35.13,51.93,Low,Normal,Severe,Ground,Deformation
+Bridge,Deck,141.4,42.72,33.77,Low,High,None,UAV,Deformation
+Tunnel,Column,312.91,6.23,83.91,Low,High,Partial,UAV,Deformation
+Bridge,Column,496.26,35.44,31.68,Medium,Normal,Severe,UAV,Deformation
+Bridge,Column,196.23,25.43,51.24,High,Normal,Severe,UAV,Crack
+Road,Column,289.05,41.54,40.72,Medium,Normal,Partial,Ground,Corrosion
+Tunnel,Surface,210.72,25.65,85.65,Low,Normal,None,UAV,Corrosion
+Building,Wall,424.4,31.2,43.76,Medium,Low,Severe,Ground,Healthy
+Building,Beam,451.61,24.15,39.22,Medium,Low,None,UAV,Corrosion
+Road,Deck,439.29,24.17,69.29,Low,Low,None,UAV,Healthy
+Road,Surface,487.31,38.51,60.64,High,High,Severe,Fixed Camera,Corrosion
+Tunnel,Beam,18.62,31.61,11.62,Medium,Normal,Partial,Fixed Camera,Spalling
+Building,Surface,420.71,31.85,51.31,High,Low,None,UAV,Crack
+Building,Surface,377.13,22.79,73.81,Medium,Normal,Partial,Ground,Corrosion
+Building,Deck,118.2,26.79,99.22,Medium,Normal,Severe,UAV,Deformation
+Bridge,Wall,478.38,37.41,63.29,Low,High,None,Fixed Camera,Spalling
+Building,Column,78.35,41.38,37.66,Medium,High,Partial,UAV,Healthy
+Bridge,Wall,341.38,34.98,23.39,Low,Low,Partial,Fixed Camera,Deformation
+Tunnel,Deck,116.32,46.24,87.41,High,Low,None,UAV,Spalling
+Bridge,Deck,218.53,41.11,81.64,High,High,Partial,UAV,Healthy
+Tunnel,Deck,360.98,28.31,24.16,High,High,Partial,Ground,Spalling
+Building,Beam,283.85,33.73,20.86,Medium,Normal,Severe,Fixed Camera,Spalling
+Building,Wall,216.61,46.35,71.8,High,Normal,Severe,Fixed Camera,Crack
+Tunnel,Wall,166.54,31.15,32.18,Low,Low,Partial,Fixed Camera,Corrosion
+Road,Surface,420.63,41.33,31.33,Medium,Low,Partial,Ground,Deformation
+Tunnel,Surface,76.19,34.6,16.08,Medium,High,None,UAV,Healthy
+Road,Surface,217.9,27.82,27.13,Medium,Low,Severe,Ground,Corrosion
+Bridge,Deck,452.36,12.47,43.32,Medium,Normal,None,UAV,Crack
+Bridge,Wall,423.7,21.59,73.55,Low,High,Partial,Ground,Spalling
+Bridge,Deck,203.47,48.4,34.29,Low,Normal,None,Ground,Crack
+Building,Beam,382.74,33.06,33.53,High,High,Partial,Fixed Camera,Deformation
+Bridge,Surface,412.46,28.44,29.21,Medium,High,Severe,Ground,Deformation
+Road,Deck,445.0,46.68,48.35,Low,Normal,Severe,UAV,Corrosion
+Bridge,Deck,274.53,29.53,18.88,High,Low,Partial,Ground,Healthy
+Tunnel,Beam,106.21,26.54,49.08,High,Low,Severe,Ground,Spalling
+Tunnel,Column,131.38,38.09,70.71,Low,Low,Partial,UAV,Spalling
+Building,Wall,151.37,35.78,3.95,High,Low,None,Fixed Camera,Crack
+Tunnel,Column,298.93,10.06,1.97,High,Normal,Partial,UAV,Corrosion
+Road,Surface,21.24,23.83,8.44,High,High,None,UAV,Healthy
+Bridge,Deck,319.84,23.89,54.03,High,Normal,Partial,UAV,Crack
+Building,Beam,185.36,19.22,85.59,Medium,Low,Severe,Ground,Corrosion
+Bridge,Beam,151.14,26.11,1.48,Low,Low,Partial,Ground,Corrosion
+Bridge,Wall,440.35,20.95,93.73,Low,Normal,Partial,UAV,Crack
+Road,Column,232.7,10.37,11.52,Low,High,Partial,UAV,Corrosion
+Tunnel,Wall,52.05,20.91,84.36,Medium,Normal,Severe,Fixed Camera,Crack
+Tunnel,Deck,414.24,4.08,48.8,Low,Normal,Partial,Ground,Healthy
+Bridge,Wall,28.58,29.0,66.28,Low,Normal,Severe,Ground,Deformation
+Building,Beam,364.74,42.76,51.56,Low,High,Partial,Ground,Corrosion
+Tunnel,Beam,388.08,36.4,48.23,Low,Normal,None,Ground,Deformation
+Building,Surface,179.54,18.34,83.66,High,Normal,Partial,UAV,Crack
+Tunnel,Surface,413.27,4.81,75.83,Low,Low,None,UAV,Spalling
+Building,Deck,260.25,10.51,48.86,Medium,Normal,Severe,Fixed Camera,Crack
+Road,Column,234.33,27.5,12.05,Medium,Low,Severe,Ground,Crack
+Building,Wall,27.47,10.75,12.42,Low,Low,Partial,Ground,Healthy
+Road,Deck,148.56,27.43,80.35,High,Low,Severe,UAV,Crack
+Road,Surface,465.85,11.96,53.41,Medium,High,Partial,Fixed Camera,Deformation
+Building,Wall,198.95,42.52,48.68,Low,Low,Severe,UAV,Corrosion
+Road,Surface,275.62,20.16,68.38,Low,Normal,None,Ground,Crack
+Bridge,Wall,268.35,12.65,86.03,Low,Normal,Severe,Ground,Deformation
+Road,Column,297.26,40.71,63.26,Low,Low,None,Fixed Camera,Spalling
+Tunnel,Deck,35.36,17.47,76.52,Low,Low,Partial,UAV,Corrosion
+Building,Wall,184.28,6.02,76.76,Medium,Normal,Partial,Ground,Corrosion
+Bridge,Beam,362.95,28.74,36.27,High,Low,Partial,Ground,Crack
+Building,Beam,104.28,29.29,28.13,Medium,High,None,Fixed Camera,Healthy
+Tunnel,Wall,105.77,35.88,80.32,Low,Low,Partial,Ground,Corrosion
+Tunnel,Wall,9.99,12.39,38.34,Low,High,Partial,Ground,Crack
+Tunnel,Wall,221.55,22.47,90.43,Medium,High,None,UAV,Healthy
+Road,Beam,441.95,14.48,7.9,Low,High,Severe,Fixed Camera,Crack
+Road,Beam,30.69,4.51,6.76,Low,Low,Partial,Fixed Camera,Crack
+Building,Wall,99.6,43.89,92.77,High,High,Severe,Fixed Camera,Corrosion
+Building,Surface,158.49,36.58,65.2,Low,High,Severe,UAV,Spalling
+Bridge,Surface,367.2,15.42,38.58,High,Low,Partial,Fixed Camera,Crack
+Bridge,Column,322.11,30.17,75.75,Low,High,Partial,Ground,Corrosion
+Building,Deck,210.89,10.46,67.56,High,Low,None,Fixed Camera,Healthy
+Road,Surface,380.74,44.57,53.59,Medium,Normal,None,Ground,Crack
+Tunnel,Beam,306.77,6.19,10.79,Medium,High,Partial,Fixed Camera,Corrosion
+Building,Surface,448.54,0.69,81.41,Low,Low,Severe,Fixed Camera,Corrosion
+Bridge,Column,409.92,25.35,86.74,High,Normal,None,UAV,Spalling
+Road,Column,130.14,29.36,18.04,High,High,None,Fixed Camera,Healthy
+Building,Deck,139.36,29.16,85.2,Medium,High,Partial,Fixed Camera,Corrosion
+Building,Surface,67.05,3.2,87.91,Medium,Low,Partial,UAV,Crack
+Road,Beam,171.8,16.05,55.39,Medium,Normal,Partial,Ground,Corrosion
+Building,Beam,499.77,25.21,65.96,Low,Low,Partial,Fixed Camera,Crack
+Road,Wall,205.85,11.22,38.84,Medium,High,None,Fixed Camera,Spalling
+Tunnel,Beam,114.14,43.69,28.9,High,High,None,Ground,Crack
+Road,Deck,382.43,4.81,72.48,Low,High,None,UAV,Corrosion
+Road,Deck,273.52,24.63,86.33,Low,High,Severe,Fixed Camera,Spalling
+Road,Beam,79.05,34.73,65.75,Medium,Normal,None,UAV,Crack
+Building,Beam,193.44,13.46,51.65,Medium,Normal,None,Ground,Spalling
+Building,Wall,210.16,31.4,16.73,Low,Low,Partial,Ground,Crack
+Road,Beam,378.15,41.55,6.29,Low,Low,None,UAV,Healthy
+Building,Wall,15.23,9.92,45.12,Low,Low,None,Ground,Corrosion
+Bridge,Wall,138.16,45.9,5.89,High,High,None,Ground,Healthy
+Bridge,Beam,261.21,27.9,57.36,Low,Low,Partial,Fixed Camera,Corrosion
+Building,Column,138.08,15.31,38.89,Medium,Normal,None,UAV,Deformation
+Building,Column,316.07,21.83,75.96,Low,Low,None,Fixed Camera,Crack
+Road,Wall,243.52,15.95,31.26,High,Low,Severe,UAV,Spalling
+Tunnel,Beam,184.05,36.39,59.71,High,Normal,Severe,Fixed Camera,Corrosion
+Building,Column,474.86,39.92,54.23,Low,Normal,Severe,Ground,Spalling
+Bridge,Beam,317.92,41.73,1.47,Low,High,Severe,UAV,Spalling
+Road,Beam,69.32,49.3,8.17,High,Normal,Partial,UAV,Spalling
+Building,Beam,282.25,39.67,29.75,Low,Normal,Severe,UAV,Spalling
+Bridge,Surface,391.46,30.27,88.34,Low,Low,None,UAV,Crack
+Bridge,Beam,355.7,17.29,15.55,High,Normal,Severe,Ground,Crack
+Tunnel,Surface,90.18,27.46,71.38,High,High,Partial,Ground,Spalling
+Road,Wall,486.35,2.53,97.36,Medium,Low,Severe,Ground,Crack
+Road,Column,227.16,37.37,79.27,Low,High,Severe,Fixed Camera,Crack
+Tunnel,Column,83.72,22.57,25.05,Low,Normal,Partial,Ground,Crack
+Tunnel,Column,94.2,1.49,90.93,Low,High,Partial,Fixed Camera,Crack
+Road,Column,53.63,3.59,10.22,High,High,Partial,Fixed Camera,Spalling
+Road,Column,402.74,19.68,47.35,High,Normal,Partial,Ground,Spalling
+Building,Column,65.41,29.38,88.87,High,Normal,Partial,Ground,Healthy
+Building,Column,66.94,23.48,64.49,Low,Low,Partial,Ground,Corrosion
+Tunnel,Wall,425.98,31.15,41.95,Medium,Low,None,Fixed Camera,Healthy
+Building,Beam,175.58,24.27,29.99,Low,Low,Severe,UAV,Spalling
+Bridge,Deck,20.27,33.25,38.13,Low,Normal,Severe,Ground,Healthy
+Building,Surface,30.69,11.35,51.39,High,High,Partial,Fixed Camera,Deformation
+Building,Deck,75.37,6.09,32.59,Low,High,Partial,Fixed Camera,Deformation
+Bridge,Deck,110.63,30.02,96.93,Medium,Low,None,Ground,Corrosion
+Tunnel,Beam,334.25,24.49,93.37,Medium,Low,None,Fixed Camera,Crack
+Bridge,Beam,82.88,1.83,87.2,High,Normal,Partial,Ground,Crack
+Building,Beam,63.84,19.33,42.76,High,High,None,Fixed Camera,Healthy
+Tunnel,Column,383.54,5.75,69.44,High,Low,None,UAV,Healthy
+Building,Wall,337.17,26.8,90.38,Medium,Normal,Partial,Fixed Camera,Deformation
+Bridge,Column,220.49,20.09,85.19,Low,Low,Partial,Ground,Healthy
+Bridge,Wall,276.91,30.85,42.02,Medium,Normal,Partial,UAV,Healthy
+Building,Wall,159.43,40.38,12.13,Medium,High,Partial,Ground,Spalling
+Road,Deck,243.84,15.33,8.49,Medium,Normal,Severe,Fixed Camera,Spalling
+Road,Deck,255.8,48.12,58.13,Medium,Low,Severe,UAV,Corrosion
+Bridge,Wall,196.68,27.01,64.62,Low,Low,Partial,UAV,Corrosion
+Bridge,Wall,453.75,31.11,85.13,Low,High,None,Fixed Camera,Crack
+Road,Column,12.95,34.19,29.96,Low,High,Partial,UAV,Corrosion
+Road,Column,392.17,33.5,17.58,Medium,Low,Severe,UAV,Spalling
+Building,Deck,66.57,25.79,38.52,Medium,Low,None,UAV,Corrosion
+Building,Beam,399.79,21.72,36.0,Medium,Low,Severe,Ground,Healthy
+Road,Wall,309.88,3.16,14.11,Low,High,Partial,Ground,Corrosion
+Building,Column,422.42,1.59,67.56,Low,Low,Severe,UAV,Crack
+Building,Deck,53.27,18.22,51.36,High,High,Severe,Fixed Camera,Deformation
+Tunnel,Column,281.7,17.02,72.39,High,Low,Severe,Fixed Camera,Spalling
+Building,Wall,253.04,19.69,35.92,Medium,Normal,None,Ground,Crack
+Bridge,Wall,354.57,7.35,33.24,Medium,Normal,Severe,Fixed Camera,Spalling
+Building,Surface,269.47,37.04,47.79,Low,Low,None,UAV,Corrosion
+Building,Beam,272.66,42.92,87.86,Medium,Normal,Partial,Fixed Camera,Healthy
+Road,Surface,217.65,46.97,4.99,High,High,Partial,Ground,Spalling
+Bridge,Deck,157.87,24.87,80.68,Medium,Normal,Severe,Ground,Crack
+Building,Column,243.72,35.19,37.53,Medium,Normal,None,UAV,Spalling
+Building,Deck,63.65,42.85,85.61,Medium,High,Partial,Ground,Healthy
+Tunnel,Wall,480.95,21.21,80.42,Medium,Normal,None,Ground,Spalling
+Building,Surface,358.63,15.82,35.53,Medium,Normal,None,Ground,Deformation
+Building,Surface,476.47,46.87,69.69,Medium,Low,Severe,Fixed Camera,Crack
+Tunnel,Surface,117.23,26.03,16.8,Medium,High,Severe,Ground,Healthy
+Road,Deck,440.27,25.11,89.73,Low,High,None,Fixed Camera,Deformation
+Building,Wall,405.35,9.33,41.04,High,Low,None,Ground,Deformation
+Tunnel,Column,340.19,5.85,46.11,High,Low,Severe,Ground,Corrosion
+Bridge,Column,314.39,42.18,70.87,Low,Normal,None,Fixed Camera,Healthy
+Road,Deck,161.69,30.9,82.26,Medium,Normal,Severe,Fixed Camera,Spalling
+Bridge,Surface,409.12,16.63,24.4,Low,Normal,None,UAV,Healthy
+Bridge,Beam,253.25,9.99,66.47,Low,Low,Severe,UAV,Corrosion
+Tunnel,Deck,40.09,28.0,39.81,Low,High,None,Fixed Camera,Crack
+Building,Deck,159.87,29.4,37.5,Medium,Normal,Severe,Ground,Corrosion
+Tunnel,Wall,467.97,10.75,69.31,High,Low,None,UAV,Corrosion
+Tunnel,Column,426.09,42.64,39.33,Medium,High,Partial,Fixed Camera,Spalling
+Tunnel,Deck,491.04,4.67,35.26,Medium,Low,Partial,Fixed Camera,Spalling
+Tunnel,Deck,315.86,18.13,83.75,Medium,Normal,None,Ground,Spalling
+Road,Surface,127.52,34.18,11.03,Low,Low,Partial,Fixed Camera,Deformation
+Building,Surface,85.59,14.07,67.91,Low,Low,None,UAV,Crack
+Bridge,Beam,97.52,41.47,25.62,High,Low,None,Ground,Corrosion
+Bridge,Wall,14.8,37.12,2.53,High,Low,Partial,Fixed Camera,Healthy
+Building,Beam,198.39,39.56,17.51,Medium,High,None,Fixed Camera,Spalling
+Bridge,Surface,99.76,6.4,61.06,Medium,Normal,Severe,Ground,Spalling
+Building,Column,208.77,7.46,71.2,High,High,None,Ground,Corrosion
+Bridge,Surface,467.82,14.68,3.08,Low,Low,None,Ground,Spalling
+Tunnel,Wall,218.12,26.14,4.61,High,Low,Partial,UAV,Crack
+Bridge,Surface,439.6,37.53,90.35,Medium,Normal,Severe,UAV,Spalling
+Building,Wall,304.72,41.91,8.26,Medium,Normal,None,Fixed Camera,Healthy
+Building,Wall,127.33,35.36,89.52,Low,High,None,Fixed Camera,Spalling
+Building,Wall,181.15,46.47,23.59,Medium,High,None,Ground,Crack
+Building,Wall,46.54,37.07,74.26,High,Normal,None,Fixed Camera,Deformation
+Building,Wall,170.06,15.66,31.66,Low,High,None,Fixed Camera,Corrosion
+Road,Column,340.38,13.62,86.02,Medium,Low,None,Ground,Crack
+Road,Beam,40.69,34.96,70.35,Low,Low,Severe,UAV,Healthy
+Bridge,Deck,106.67,10.05,40.78,High,Normal,Severe,UAV,Crack
+Building,Beam,193.81,5.09,8.55,Medium,High,None,UAV,Healthy
+Bridge,Wall,491.11,26.85,73.54,High,Low,None,Fixed Camera,Corrosion
+Building,Column,393.51,41.17,62.07,Low,Normal,Partial,Ground,Deformation
+Building,Surface,368.08,5.52,1.29,Low,High,Severe,UAV,Spalling
+Road,Column,62.51,39.7,1.93,Low,Low,Severe,Fixed Camera,Crack
+Road,Wall,391.59,40.67,81.07,Low,High,None,Ground,Spalling
+Tunnel,Column,393.71,24.37,26.68,Low,High,Severe,UAV,Healthy
+Road,Column,302.55,3.34,63.98,Medium,High,Severe,UAV,Deformation
+Tunnel,Wall,495.23,9.14,45.97,Low,Normal,Partial,Ground,Spalling
+Tunnel,Column,166.0,35.52,86.48,Medium,Low,Partial,Fixed Camera,Healthy
+Tunnel,Deck,470.93,35.73,91.78,Low,Normal,Severe,Fixed Camera,Crack
+Tunnel,Deck,457.79,44.97,99.68,Medium,Low,Severe,UAV,Crack
+Tunnel,Column,10.68,29.34,16.21,Medium,Low,Severe,Ground,Crack
+Bridge,Surface,227.81,6.64,86.43,Medium,Normal,None,Fixed Camera,Deformation
+Road,Wall,488.67,6.51,27.34,High,Normal,Partial,Ground,Deformation
+Tunnel,Deck,56.05,36.2,59.49,Low,Low,None,Ground,Spalling
+Building,Surface,276.15,9.6,51.07,Medium,Low,Partial,UAV,Healthy
+Road,Column,489.58,16.76,2.78,Medium,Low,Partial,Ground,Deformation
+Road,Surface,279.97,24.62,93.34,Medium,High,Partial,Ground,Corrosion
+Tunnel,Beam,98.96,1.73,8.75,Medium,Low,Severe,Ground,Crack
+Bridge,Deck,293.18,12.82,69.13,Medium,Normal,Partial,Fixed Camera,Healthy
+Tunnel,Column,106.2,20.69,78.72,Medium,Normal,None,UAV,Crack
+Bridge,Wall,262.25,14.34,79.73,Medium,Normal,Partial,UAV,Spalling
+Building,Column,41.65,7.25,14.41,High,Low,None,Ground,Corrosion
+Road,Wall,304.71,36.54,45.31,High,Low,Partial,Ground,Crack
+Building,Column,260.81,40.75,83.11,Low,High,Partial,Fixed Camera,Spalling
+Bridge,Surface,371.38,13.25,30.97,Low,High,Severe,UAV,Crack
+Bridge,Surface,317.2,38.83,47.31,High,Normal,None,Fixed Camera,Healthy
+Building,Surface,277.06,19.58,28.01,High,High,Partial,UAV,Corrosion
+Bridge,Beam,346.44,25.58,46.89,Low,High,Partial,Fixed Camera,Spalling
+Building,Wall,76.25,42.87,88.9,Low,Normal,None,Ground,Deformation
+Road,Surface,299.7,37.62,46.06,High,Low,Partial,Fixed Camera,Deformation
+Building,Beam,90.19,40.35,56.04,Medium,High,Severe,Ground,Healthy
+Road,Wall,463.13,7.27,40.99,Low,Low,None,UAV,Crack
+Building,Column,38.83,3.95,46.55,Medium,Normal,Severe,UAV,Crack
+Bridge,Beam,218.04,44.72,2.5,High,Normal,None,Ground,Crack
+Building,Deck,349.42,19.7,29.09,High,High,None,UAV,Healthy
+Bridge,Beam,231.72,14.75,44.22,Medium,Normal,None,Fixed Camera,Healthy
+Building,Beam,50.59,36.37,63.75,Medium,Normal,Partial,Ground,Corrosion
+Building,Wall,278.92,41.9,45.56,Low,Normal,None,UAV,Deformation
+Tunnel,Column,322.61,43.19,34.44,High,High,None,Fixed Camera,Crack
+Bridge,Deck,353.38,16.14,39.42,Low,High,None,Fixed Camera,Crack
+Tunnel,Surface,189.76,42.68,24.99,High,High,Severe,UAV,Deformation
+Bridge,Surface,284.01,2.53,92.52,Low,Normal,None,UAV,Crack
+Tunnel,Beam,228.09,2.96,52.65,High,Low,Partial,Fixed Camera,Corrosion
+Road,Wall,337.67,31.36,2.33,Low,Normal,None,Ground,Spalling
+Building,Wall,293.86,3.62,2.93,Medium,High,None,UAV,Deformation
+Bridge,Surface,265.25,16.57,97.32,Low,Low,Severe,UAV,Corrosion
+Bridge,Deck,128.51,33.8,22.92,Medium,Low,Partial,Ground,Spalling
+Building,Column,6.0,17.19,80.76,High,High,Partial,Ground,Spalling
+Bridge,Deck,91.17,9.39,6.77,Medium,Low,Partial,UAV,Crack
+Bridge,Column,62.95,14.43,92.2,Medium,Low,None,Ground,Deformation
+Tunnel,Surface,227.3,23.15,87.57,Low,High,None,Fixed Camera,Crack
+Bridge,Column,308.07,24.03,57.54,High,Low,Partial,Fixed Camera,Crack
+Road,Wall,110.48,39.26,1.89,Medium,Low,Partial,Fixed Camera,Corrosion
+Road,Beam,469.83,37.63,26.52,Medium,High,Severe,UAV,Healthy
+Building,Beam,8.31,23.11,41.28,High,Low,Partial,Ground,Crack
+Bridge,Surface,387.29,42.36,46.55,Medium,Low,None,Fixed Camera,Crack
+Building,Wall,314.48,6.15,30.47,Medium,Low,None,Ground,Crack
+Road,Deck,189.91,13.14,4.26,Medium,Low,None,Fixed Camera,Corrosion
+Bridge,Wall,29.99,41.48,59.42,Medium,High,Severe,Ground,Spalling
+Bridge,Beam,315.61,19.21,52.89,High,Normal,Partial,Fixed Camera,Crack
+Building,Beam,195.88,49.07,29.02,High,Normal,None,Fixed Camera,Deformation
+Road,Wall,468.45,23.58,4.76,Low,Low,Severe,Fixed Camera,Deformation
+Bridge,Wall,273.29,39.7,99.46,Low,High,Severe,Fixed Camera,Deformation
+Building,Beam,470.13,20.41,48.72,Low,High,None,Fixed Camera,Corrosion
+Road,Deck,114.14,21.54,75.84,Low,Low,Severe,Fixed Camera,Corrosion
+Building,Surface,364.23,19.45,45.78,Medium,Normal,Severe,Fixed Camera,Corrosion
+Tunnel,Surface,310.54,36.09,5.27,High,Low,None,Fixed Camera,Spalling
+Bridge,Wall,371.01,27.6,31.65,Low,High,Severe,Fixed Camera,Crack
+Tunnel,Surface,111.26,47.22,32.69,Medium,High,None,Ground,Deformation
+Road,Beam,334.17,12.92,84.0,High,Normal,None,Ground,Corrosion
+Tunnel,Beam,251.53,5.48,65.77,High,High,Severe,UAV,Crack
+Tunnel,Wall,372.7,19.97,28.27,Medium,High,None,Fixed Camera,Crack
+Road,Wall,166.89,31.03,96.81,High,High,None,Ground,Crack
+Building,Wall,445.58,43.11,32.83,Medium,Normal,Partial,Ground,Healthy
+Tunnel,Deck,46.73,17.64,99.83,Low,High,None,Ground,Crack
+Building,Surface,404.56,32.86,99.62,Low,Low,Partial,Ground,Healthy
+Tunnel,Wall,431.35,17.83,19.93,Low,Normal,Partial,Ground,Spalling
+Building,Column,409.54,31.05,31.96,Low,Low,Partial,Ground,Healthy
+Road,Column,258.8,44.3,49.12,High,Low,Partial,UAV,Corrosion
+Tunnel,Beam,222.0,11.95,66.75,High,Normal,Severe,Ground,Healthy
+Road,Surface,498.15,20.51,53.28,Medium,Low,Severe,UAV,Crack
+Tunnel,Wall,118.44,49.67,96.97,Medium,Normal,None,UAV,Spalling
+Road,Column,275.7,43.49,72.67,Low,Low,None,Fixed Camera,Crack
+Road,Surface,336.98,28.45,21.99,Medium,Normal,None,Fixed Camera,Corrosion
+Tunnel,Beam,351.93,26.07,11.4,High,High,Severe,Fixed Camera,Spalling
+Tunnel,Deck,105.99,14.59,69.15,Low,High,Partial,Ground,Spalling
+Tunnel,Surface,328.73,26.1,16.69,Low,Low,Severe,Fixed Camera,Corrosion
+Bridge,Surface,410.09,42.48,78.98,Medium,High,Severe,Ground,Crack
+Building,Deck,29.76,34.42,31.79,Medium,Normal,None,Ground,Spalling
+Bridge,Surface,456.2,14.86,33.36,Medium,Low,None,Fixed Camera,Corrosion
+Bridge,Beam,19.6,10.47,2.07,Medium,High,None,Fixed Camera,Crack
+Road,Beam,181.21,13.63,70.4,Medium,High,Partial,UAV,Healthy
+Tunnel,Deck,12.83,8.9,12.21,Low,Low,Partial,UAV,Healthy
+Building,Wall,43.19,5.23,77.52,Low,High,Severe,Ground,Healthy
+Road,Column,456.03,21.25,49.69,Medium,High,Partial,Ground,Deformation
+Bridge,Wall,180.66,6.11,78.64,High,Low,None,Fixed Camera,Crack
+Tunnel,Surface,215.26,9.01,58.81,High,High,Partial,Fixed Camera,Healthy
+Road,Column,111.6,27.59,9.16,High,High,Partial,UAV,Corrosion
+Tunnel,Deck,300.56,8.65,76.8,Medium,High,Partial,Fixed Camera,Crack
+Road,Deck,299.43,3.66,7.91,Medium,High,Partial,Ground,Deformation
+Tunnel,Column,189.24,16.21,48.39,Medium,Low,None,Fixed Camera,Crack
+Bridge,Beam,169.85,11.41,18.06,High,Normal,None,UAV,Spalling
+Building,Column,443.06,26.01,75.48,Low,Normal,Severe,Ground,Crack
+Bridge,Surface,194.73,5.57,91.25,Medium,High,Severe,UAV,Corrosion
+Building,Beam,249.28,37.71,55.86,Medium,High,Severe,UAV,Spalling
+Tunnel,Deck,145.24,45.36,53.19,Medium,Normal,Partial,Ground,Corrosion
+Road,Column,394.45,37.3,76.63,Low,High,Partial,UAV,Crack
+Bridge,Wall,201.74,26.87,1.5,Medium,Normal,None,Fixed Camera,Corrosion
+Building,Wall,259.24,43.1,91.86,High,Low,Severe,Fixed Camera,Corrosion
+Bridge,Surface,130.41,34.9,20.55,Medium,Low,None,UAV,Crack
+Building,Wall,493.89,1.02,98.43,High,Low,Severe,Fixed Camera,Healthy
+Bridge,Column,149.29,20.01,73.89,Low,Low,Severe,UAV,Corrosion
+Building,Column,386.52,42.62,77.65,High,Low,Severe,Fixed Camera,Healthy
+Building,Wall,216.61,17.62,65.96,Medium,Low,Partial,UAV,Crack
+Tunnel,Column,107.08,2.24,47.69,Medium,Normal,Severe,Fixed Camera,Corrosion
+Building,Surface,400.86,37.44,57.59,Low,High,Severe,Ground,Crack
+Tunnel,Beam,170.14,40.2,5.59,Low,Normal,Partial,Ground,Corrosion
+Building,Surface,433.27,8.45,62.77,Medium,Low,Severe,Fixed Camera,Crack
+Road,Surface,458.05,27.1,62.98,Medium,High,Partial,UAV,Corrosion
+Road,Column,430.61,10.0,89.23,Medium,High,Partial,Fixed Camera,Corrosion
+Road,Beam,22.33,36.1,51.06,Low,Low,None,UAV,Crack
+Building,Column,394.75,13.94,8.64,High,Low,Partial,Fixed Camera,Spalling
+Tunnel,Deck,208.61,16.15,31.31,High,Low,Partial,Fixed Camera,Healthy
+Tunnel,Column,437.49,42.33,65.91,Low,Low,Partial,Ground,Crack
+Building,Column,320.79,24.08,24.69,Medium,Low,Severe,UAV,Deformation
+Road,Column,417.65,33.65,28.77,High,Low,None,UAV,Deformation
+Road,Beam,252.22,20.42,82.23,Medium,High,Severe,UAV,Corrosion
+Tunnel,Column,269.84,15.25,58.85,Low,Low,Partial,UAV,Healthy
+Road,Beam,76.47,31.46,51.34,Medium,Low,Partial,UAV,Healthy
+Bridge,Wall,393.07,8.17,32.53,Low,High,None,Ground,Corrosion
+Tunnel,Deck,212.6,18.96,73.36,Low,Normal,None,Fixed Camera,Spalling
+Road,Beam,252.54,10.85,29.48,Low,Low,Partial,UAV,Spalling
+Tunnel,Wall,393.62,34.94,73.97,Medium,High,Partial,UAV,Corrosion
+Bridge,Beam,301.43,47.24,7.94,Low,High,Severe,Fixed Camera,Corrosion
+Tunnel,Beam,104.54,49.78,86.59,High,Normal,Partial,Ground,Healthy
+Tunnel,Deck,297.17,22.79,50.46,Low,Low,Severe,Ground,Deformation
+Tunnel,Surface,206.78,13.0,44.41,Low,Low,None,Ground,Crack
+Tunnel,Surface,237.42,22.42,61.49,Medium,Low,Severe,Fixed Camera,Crack
+Bridge,Beam,19.01,42.44,62.8,Low,High,Partial,Fixed Camera,Healthy
+Building,Column,108.96,10.7,14.07,Medium,Low,Severe,Ground,Crack
+Tunnel,Wall,144.11,47.63,75.87,Low,Low,Severe,Ground,Deformation
+Tunnel,Column,357.92,17.42,28.32,Low,Low,None,Fixed Camera,Crack
+Road,Column,10.69,49.3,90.59,Low,Low,Severe,Ground,Crack
+Tunnel,Beam,207.34,42.01,81.97,Medium,Normal,Partial,UAV,Crack
+Road,Beam,462.39,40.52,35.28,Low,Normal,Severe,Fixed Camera,Corrosion
+Building,Beam,60.38,16.24,80.97,High,Normal,Severe,Ground,Crack
+Bridge,Beam,260.63,0.93,36.28,Medium,Low,Severe,UAV,Spalling
+Bridge,Surface,394.33,19.42,10.99,Medium,Low,Partial,Fixed Camera,Spalling
+Building,Beam,471.55,15.44,96.23,Medium,High,Severe,Fixed Camera,Corrosion
+Bridge,Surface,374.65,2.35,65.61,Medium,High,Partial,UAV,Deformation
+Building,Surface,361.68,25.52,46.15,High,High,Severe,Fixed Camera,Corrosion
+Building,Beam,414.11,20.45,40.38,Low,Low,None,Ground,Corrosion
+Building,Deck,225.87,31.91,33.15,Low,Normal,None,Fixed Camera,Corrosion
+Bridge,Wall,403.89,31.25,98.16,Low,Normal,None,Ground,Corrosion
+Road,Column,8.94,6.48,14.34,Low,Normal,Partial,UAV,Healthy
+Building,Surface,462.66,48.86,32.17,Low,Low,Partial,UAV,Deformation
+Tunnel,Wall,224.44,9.75,49.06,Medium,Normal,Partial,Fixed Camera,Corrosion
+Bridge,Deck,278.92,22.54,48.32,Medium,High,Severe,UAV,Deformation
+Building,Column,131.17,24.66,47.67,High,High,Partial,UAV,Corrosion
+Building,Column,372.55,40.75,18.4,Low,Normal,Partial,Fixed Camera,Crack
+Tunnel,Surface,42.93,5.41,15.35,Low,High,Partial,Ground,Corrosion
+Road,Beam,436.95,21.72,26.22,High,Normal,Partial,Fixed Camera,Deformation
+Road,Deck,414.92,31.61,91.54,High,Normal,None,Fixed Camera,Corrosion
+Road,Surface,111.95,11.15,12.19,Medium,High,Severe,Ground,Healthy
+Building,Deck,405.62,31.56,75.99,Medium,High,None,Ground,Corrosion
+Building,Beam,394.25,46.22,76.0,High,High,Severe,Ground,Corrosion
+Building,Beam,317.95,49.88,81.17,Medium,High,Severe,Fixed Camera,Healthy
+Bridge,Surface,189.89,2.11,88.77,Low,Normal,None,Ground,Corrosion
+Tunnel,Beam,139.39,12.16,27.04,High,High,Partial,UAV,Deformation
+Building,Wall,119.73,15.86,23.23,Medium,High,None,Ground,Deformation
+Tunnel,Column,162.71,20.26,47.09,Low,Low,Severe,UAV,Healthy
+Tunnel,Surface,452.26,12.49,27.24,Medium,High,Severe,Ground,Crack
+Road,Deck,43.43,10.57,73.7,Medium,High,Partial,UAV,Crack
+Bridge,Wall,415.29,47.75,63.96,High,Normal,None,UAV,Deformation
+Building,Surface,177.7,45.97,87.62,Low,Normal,Severe,UAV,Spalling
+Road,Beam,263.19,2.83,9.19,High,Low,None,UAV,Spalling
+Road,Beam,398.27,17.27,91.59,Medium,High,Partial,UAV,Crack
+Building,Beam,442.77,20.55,30.04,Medium,High,Partial,Ground,Corrosion
+Tunnel,Beam,175.67,12.33,49.58,Low,High,Severe,Fixed Camera,Spalling
+Road,Deck,233.61,31.63,44.42,Medium,High,Partial,Fixed Camera,Crack
+Tunnel,Wall,210.19,32.2,76.27,High,High,Severe,Fixed Camera,Crack
+Bridge,Column,11.56,42.6,42.61,Low,High,Severe,Fixed Camera,Crack
+Tunnel,Deck,151.49,37.17,94.41,Low,Low,Partial,Fixed Camera,Crack
+Bridge,Deck,232.3,27.36,90.35,Medium,High,Partial,UAV,Deformation
+Tunnel,Column,208.49,32.85,87.34,High,High,None,Ground,Deformation
+Road,Column,362.35,14.06,8.05,Low,High,None,UAV,Crack
+Road,Beam,195.48,29.86,85.57,Medium,Low,Severe,Ground,Crack
+Bridge,Deck,247.24,24.72,78.38,Medium,High,None,Ground,Spalling
+Building,Surface,217.66,7.1,11.25,Low,Low,Severe,Ground,Corrosion
+Bridge,Column,371.61,12.51,11.63,Medium,Normal,Partial,Ground,Deformation
+Bridge,Column,432.17,14.94,11.02,Low,High,Partial,Fixed Camera,Deformation
+Tunnel,Wall,268.29,46.25,2.12,High,Low,None,Ground,Healthy
+Tunnel,Surface,395.77,11.9,55.31,Medium,Normal,Severe,Ground,Spalling
+Bridge,Surface,151.91,14.82,97.37,Medium,Low,Severe,Fixed Camera,Corrosion
+Road,Column,272.98,18.78,44.43,Low,Low,None,UAV,Spalling
+Tunnel,Beam,175.89,33.36,54.53,Low,Normal,Severe,UAV,Crack
+Building,Wall,210.03,6.35,96.83,High,High,Severe,UAV,Crack
+Tunnel,Surface,367.54,47.72,26.26,Medium,High,Partial,UAV,Crack
+Tunnel,Column,441.42,43.35,85.99,Medium,Low,Severe,Ground,Corrosion
+Building,Surface,65.14,29.07,55.09,Medium,Normal,Severe,Fixed Camera,Crack
+Bridge,Wall,319.15,33.86,57.38,Medium,High,Severe,Fixed Camera,Crack
+Building,Wall,293.16,1.32,34.97,Low,Low,None,UAV,Spalling
+Bridge,Deck,63.62,17.28,56.6,Low,Normal,None,Fixed Camera,Healthy
+Bridge,Column,109.89,39.89,8.24,Low,Low,None,Ground,Crack
+Bridge,Wall,158.95,4.34,76.7,High,Normal,Severe,UAV,Spalling
+Building,Deck,87.63,14.47,29.18,Low,High,Severe,Ground,Crack
+Bridge,Deck,125.65,29.47,88.87,Low,High,None,Ground,Healthy
+Road,Surface,137.46,13.19,37.42,High,Low,None,Ground,Corrosion
+Building,Surface,171.16,46.73,15.14,Low,High,Severe,Ground,Healthy
+Road,Deck,375.95,6.99,69.89,Medium,High,Severe,Ground,Corrosion
+Bridge,Surface,288.1,39.97,17.29,Low,Normal,Partial,UAV,Deformation
+Tunnel,Wall,493.19,25.64,75.61,Low,High,None,Ground,Crack
+Bridge,Beam,210.29,37.64,96.84,Medium,Normal,Severe,UAV,Corrosion
+Road,Wall,378.16,15.88,78.18,Low,Normal,None,Fixed Camera,Crack
+Road,Deck,436.38,25.97,3.22,High,Low,None,Ground,Crack
+Building,Deck,341.09,42.91,60.39,Medium,Normal,None,Ground,Deformation
+Tunnel,Wall,208.87,23.61,69.85,Low,High,Partial,Fixed Camera,Spalling
+Building,Surface,378.03,18.31,82.72,Low,Normal,Severe,UAV,Corrosion
+Road,Surface,105.82,27.04,6.54,Medium,Normal,Severe,Ground,Healthy
+Bridge,Deck,167.14,36.01,48.53,Low,Low,None,Fixed Camera,Corrosion
+Tunnel,Column,275.61,22.46,54.0,Low,High,Severe,Fixed Camera,Healthy
+Bridge,Surface,289.83,46.97,17.74,Medium,High,Partial,Ground,Crack
+Bridge,Wall,15.96,15.1,32.92,High,High,None,UAV,Healthy
+Tunnel,Surface,472.83,24.04,44.58,Medium,Normal,Partial,UAV,Crack
+Building,Wall,349.83,37.97,83.49,Medium,High,Partial,Ground,Spalling
+Bridge,Deck,250.37,34.61,93.01,High,High,Severe,Fixed Camera,Corrosion
+Road,Surface,466.9,43.25,63.21,Low,Normal,Severe,Ground,Spalling
+Bridge,Wall,222.35,49.84,40.1,High,Low,Partial,UAV,Spalling
+Tunnel,Deck,490.32,21.63,26.15,High,Low,Severe,Fixed Camera,Corrosion
+Tunnel,Column,258.58,6.0,98.23,Low,Normal,Partial,Ground,Healthy
+Tunnel,Wall,61.57,2.01,98.32,High,Low,Partial,Fixed Camera,Healthy
+Building,Column,383.58,36.48,92.57,Low,Low,None,UAV,Healthy
+Bridge,Column,341.05,43.76,78.78,Low,Low,Partial,UAV,Healthy
+Building,Beam,387.63,11.43,33.25,High,High,Partial,UAV,Deformation
+Building,Surface,475.96,8.34,81.88,Medium,Low,Severe,Ground,Healthy
+Tunnel,Wall,389.36,3.58,41.47,Low,High,None,Fixed Camera,Healthy
+Tunnel,Column,307.61,41.22,33.35,Low,Low,Severe,Ground,Corrosion
+Building,Beam,429.37,15.91,74.74,High,High,None,Ground,Deformation
+Bridge,Deck,338.26,20.38,8.89,High,Normal,Severe,Ground,Healthy
+Road,Wall,207.02,25.39,5.81,Medium,Normal,Partial,Ground,Deformation
+Building,Column,443.38,42.05,45.35,High,Low,None,Fixed Camera,Corrosion
+Bridge,Surface,114.84,32.72,45.12,Low,High,None,Fixed Camera,Crack
+Tunnel,Beam,358.75,30.95,89.67,Low,Normal,None,Ground,Deformation
+Tunnel,Column,441.37,9.2,13.49,Medium,Normal,None,Ground,Healthy
+Bridge,Surface,367.0,25.9,13.21,High,Normal,Severe,UAV,Corrosion
+Road,Column,350.15,35.91,15.6,Low,Normal,Severe,UAV,Crack
+Tunnel,Wall,377.56,48.68,3.94,Low,Low,None,Fixed Camera,Corrosion
+Tunnel,Wall,235.2,10.47,8.1,High,High,None,UAV,Spalling
+Tunnel,Wall,437.71,0.97,66.33,High,Normal,None,Fixed Camera,Corrosion
+Bridge,Beam,105.7,4.23,43.73,Medium,Low,Severe,Fixed Camera,Spalling
+Building,Wall,68.06,19.1,76.6,Low,Normal,None,Fixed Camera,Healthy
+Tunnel,Surface,146.33,41.12,99.27,High,Normal,None,UAV,Spalling
+Building,Column,268.13,0.85,66.24,High,Normal,None,UAV,Corrosion
+Road,Deck,257.73,23.11,6.0,Medium,Normal,Severe,Fixed Camera,Healthy
+Tunnel,Surface,411.2,16.8,11.35,High,Low,Partial,Fixed Camera,Spalling
+Tunnel,Surface,205.26,3.1,88.22,High,High,Partial,Ground,Crack
+Road,Wall,244.75,22.79,53.22,High,Low,Severe,Fixed Camera,Corrosion
+Tunnel,Beam,11.62,13.11,82.66,High,Low,Partial,Fixed Camera,Spalling
+Building,Column,207.82,17.92,85.8,Medium,Low,None,Ground,Deformation
+Bridge,Beam,325.65,35.43,92.84,Medium,Normal,None,Fixed Camera,Healthy
+Building,Column,12.68,26.32,95.03,Medium,High,Severe,Fixed Camera,Corrosion
+Bridge,Column,144.04,6.67,55.93,Medium,Normal,Severe,Fixed Camera,Crack
+Bridge,Beam,107.94,48.09,34.76,High,Low,Partial,Ground,Crack
+Building,Surface,25.78,31.98,96.22,High,Normal,Partial,UAV,Deformation
+Building,Column,242.23,38.41,55.19,Medium,High,None,Fixed Camera,Deformation
+Building,Beam,94.95,4.42,7.36,Medium,High,Severe,Ground,Corrosion
+Building,Column,372.83,2.83,64.63,Medium,Normal,Partial,Fixed Camera,Corrosion
+Road,Deck,424.72,1.46,59.18,Medium,Low,Partial,Ground,Healthy
+Tunnel,Surface,275.06,9.85,89.68,Medium,Normal,None,Fixed Camera,Healthy
+Bridge,Wall,490.95,21.01,65.67,Low,Low,None,Ground,Crack
+Building,Column,227.99,46.82,35.56,Medium,High,None,UAV,Deformation
+Building,Deck,259.12,23.12,96.66,Low,Normal,None,UAV,Spalling
+Building,Wall,494.66,14.87,80.36,Low,High,Partial,UAV,Crack
+Road,Wall,119.62,28.32,63.41,High,Low,Severe,Fixed Camera,Corrosion
+Building,Column,471.56,6.04,30.0,Low,Low,Severe,Ground,Crack
+Building,Beam,26.2,30.67,37.98,Low,Normal,None,Fixed Camera,Corrosion
+Building,Column,225.96,28.64,67.33,Low,Normal,None,Fixed Camera,Spalling
+Tunnel,Deck,39.65,39.7,8.13,Low,Normal,Partial,Ground,Corrosion
+Road,Wall,365.97,49.34,26.41,High,High,None,Fixed Camera,Corrosion
+Building,Column,306.16,12.92,71.68,Medium,Low,Severe,Ground,Spalling
+Bridge,Beam,354.78,25.73,48.52,High,Low,None,Ground,Crack
+Bridge,Column,190.37,45.49,40.84,Low,High,Severe,UAV,Deformation
+Bridge,Surface,187.89,39.37,15.99,Low,Normal,None,UAV,Corrosion
+Road,Beam,27.43,24.63,44.74,Low,Normal,None,UAV,Corrosion
+Road,Deck,178.22,47.3,77.3,Medium,High,Severe,Ground,Healthy
+Bridge,Wall,465.0,3.33,27.14,Medium,Low,Partial,UAV,Corrosion
+Building,Column,192.72,46.58,1.53,High,Low,Partial,Ground,Spalling
+Road,Beam,416.53,3.0,67.18,Medium,Low,None,Fixed Camera,Corrosion
+Bridge,Surface,421.95,27.59,97.29,Medium,Low,None,UAV,Healthy
+Bridge,Beam,189.75,44.58,61.08,High,High,Severe,Ground,Deformation
+Building,Surface,317.83,13.5,12.87,High,Low,Severe,Ground,Crack
+Tunnel,Deck,52.21,23.88,32.75,Low,High,None,Ground,Deformation
+Road,Wall,56.32,16.55,86.9,Low,Normal,Severe,Ground,Crack
+Building,Deck,29.09,47.63,24.02,Medium,High,Partial,UAV,Healthy
+Bridge,Column,292.6,41.27,61.16,Medium,Low,Partial,UAV,Corrosion
+Bridge,Beam,215.91,35.6,40.86,High,Normal,Severe,UAV,Deformation
+Building,Surface,276.28,29.59,21.58,Medium,High,Severe,Ground,Corrosion
+Road,Surface,262.93,41.12,81.53,Low,High,Severe,Fixed Camera,Spalling
+Tunnel,Beam,178.35,19.92,74.54,High,High,Partial,Ground,Healthy
+Tunnel,Beam,340.35,22.65,66.5,High,Normal,None,Fixed Camera,Healthy
+Bridge,Column,380.46,36.64,24.4,Low,High,Severe,UAV,Crack
+Road,Deck,12.24,18.21,10.69,High,Low,Severe,Ground,Spalling
+Tunnel,Surface,107.58,3.66,58.04,Low,Normal,Severe,Ground,Corrosion
+Road,Column,358.05,4.18,55.81,Low,Normal,None,UAV,Corrosion
+Road,Deck,196.38,6.21,19.65,High,High,Severe,Ground,Corrosion
+Bridge,Column,332.93,43.55,6.57,Medium,Low,Severe,Fixed Camera,Corrosion
+Tunnel,Surface,176.75,23.88,8.99,Low,Normal,Partial,Fixed Camera,Spalling
+Building,Beam,198.42,35.79,99.28,Low,High,Severe,Fixed Camera,Crack
+Bridge,Beam,83.55,19.95,78.57,Medium,Low,Partial,Ground,Spalling
+Tunnel,Deck,132.82,13.31,92.28,Low,High,None,Ground,Crack
+Tunnel,Wall,304.68,17.69,20.31,Medium,High,Severe,Fixed Camera,Corrosion
+Tunnel,Deck,219.42,39.81,96.1,Medium,Normal,Severe,Ground,Deformation
+Tunnel,Wall,388.28,31.45,15.12,Low,Normal,Partial,Fixed Camera,Crack
+Tunnel,Column,427.03,46.91,51.4,Medium,High,None,UAV,Corrosion
+Road,Column,273.11,34.15,83.14,High,Normal,None,Fixed Camera,Corrosion
+Bridge,Surface,380.34,28.72,35.63,Medium,Normal,Partial,UAV,Corrosion
+Road,Wall,156.92,30.7,43.06,Low,Low,None,UAV,Spalling
+Building,Surface,210.41,47.15,13.69,Low,Low,None,UAV,Corrosion
+Tunnel,Beam,357.82,39.52,13.17,Medium,High,None,Fixed Camera,Crack
+Bridge,Wall,196.17,1.69,62.34,High,High,None,Fixed Camera,Healthy
+Tunnel,Deck,296.31,26.94,67.88,Low,High,None,Ground,Healthy
+Bridge,Beam,96.76,34.57,77.96,Low,High,None,Ground,Crack
+Road,Beam,301.89,37.56,56.11,Medium,Low,None,UAV,Spalling
+Bridge,Deck,431.45,11.05,64.93,Medium,Normal,None,Fixed Camera,Corrosion
+Building,Beam,434.98,43.43,2.34,Low,Low,Severe,Ground,Crack
+Building,Wall,363.55,47.81,17.05,High,High,Partial,Ground,Corrosion
+Bridge,Surface,374.15,12.22,98.51,Low,High,None,Ground,Spalling
+Bridge,Beam,281.17,44.19,8.52,Medium,Low,Partial,Fixed Camera,Crack
+Bridge,Wall,294.41,5.3,68.2,Medium,Low,None,Ground,Healthy
+Bridge,Column,71.16,3.26,18.43,Medium,High,None,UAV,Corrosion
+Building,Wall,224.71,6.9,71.96,Low,Normal,Severe,Fixed Camera,Corrosion
+Tunnel,Surface,228.13,3.36,70.89,Medium,High,Partial,Ground,Deformation
+Bridge,Wall,479.46,42.33,24.19,Low,Low,Partial,Ground,Crack
+Bridge,Deck,218.39,3.42,27.69,Low,High,Severe,Fixed Camera,Corrosion
+Building,Surface,276.92,13.95,65.82,Medium,High,Severe,Ground,Corrosion
+Building,Column,268.96,5.64,39.62,Medium,Normal,Partial,Ground,Corrosion
+Road,Deck,320.2,15.12,20.26,Low,High,None,UAV,Corrosion
+Bridge,Wall,375.38,4.98,73.44,Low,High,None,Fixed Camera,Crack
+Road,Surface,116.4,33.57,16.26,High,High,Partial,Ground,Crack
+Building,Column,266.72,7.1,85.71,High,Low,None,Fixed Camera,Crack
+Building,Deck,413.83,42.67,51.95,Low,Low,Severe,Fixed Camera,Healthy
+Tunnel,Column,234.24,40.95,11.46,Medium,Normal,Severe,UAV,Crack
+Bridge,Wall,142.84,1.18,69.71,Medium,High,Severe,UAV,Crack
+Road,Column,329.08,44.84,52.4,Medium,Low,Partial,Fixed Camera,Healthy
+Building,Beam,412.76,1.93,30.51,High,Normal,Partial,UAV,Spalling
+Building,Deck,36.25,12.36,42.83,Low,High,Partial,UAV,Corrosion
+Road,Column,389.51,2.1,30.54,High,Normal,None,Ground,Crack
+Tunnel,Wall,411.72,17.12,27.04,Medium,Normal,Partial,UAV,Spalling
+Building,Wall,233.45,25.94,17.2,Medium,Normal,Partial,UAV,Crack
+Bridge,Column,491.74,39.93,36.91,Medium,Normal,Severe,Ground,Spalling
+Building,Wall,394.42,17.23,25.85,High,Normal,None,Ground,Healthy
+Bridge,Surface,387.96,35.42,68.66,Low,Normal,None,Fixed Camera,Spalling
+Road,Surface,375.18,9.78,68.7,Low,Normal,Severe,UAV,Crack
+Bridge,Surface,79.55,37.65,50.68,Low,High,None,Ground,Spalling
+Road,Beam,112.53,12.18,78.02,High,High,Partial,UAV,Spalling
+Bridge,Column,234.68,7.61,84.29,Medium,Normal,None,Fixed Camera,Spalling
+Road,Beam,135.68,9.68,58.4,Medium,High,Severe,UAV,Corrosion
+Bridge,Wall,210.54,9.51,62.27,Low,Normal,None,UAV,Spalling
+Tunnel,Beam,444.79,25.89,29.01,High,High,Severe,UAV,Spalling
+Bridge,Wall,413.04,42.32,89.59,High,Low,Partial,Ground,Healthy
+Bridge,Wall,316.87,4.44,3.4,Medium,Normal,Partial,Ground,Deformation
+Tunnel,Deck,429.77,35.49,35.51,Low,Low,Severe,Fixed Camera,Crack
+Building,Surface,392.97,32.89,72.46,Low,Normal,Partial,UAV,Deformation
+Building,Wall,217.35,43.69,8.93,Medium,Normal,Partial,Fixed Camera,Crack
+Bridge,Deck,104.53,12.59,19.13,Medium,Low,None,Fixed Camera,Deformation
+Tunnel,Surface,259.53,22.78,59.34,Low,Low,Partial,Ground,Crack
+Bridge,Wall,369.43,46.33,56.44,Medium,Low,Severe,UAV,Corrosion
+Road,Wall,221.03,33.17,74.15,Low,Normal,Partial,UAV,Deformation
+Road,Beam,335.05,19.74,81.45,High,Low,None,Fixed Camera,Corrosion
+Bridge,Beam,51.69,7.0,13.73,Medium,Low,Severe,UAV,Deformation
+Building,Surface,375.26,13.49,2.82,Low,High,Partial,Ground,Spalling
+Building,Wall,407.29,29.27,69.27,Medium,High,Partial,Fixed Camera,Corrosion
+Bridge,Column,354.88,36.05,30.84,Low,Low,Partial,Fixed Camera,Corrosion
+Bridge,Beam,483.8,6.66,62.97,Low,Low,Severe,Ground,Healthy
+Road,Surface,414.19,30.18,15.9,High,Low,None,Ground,Crack
+Building,Wall,452.03,27.74,47.43,Low,Low,Severe,Ground,Deformation
+Bridge,Wall,467.12,25.94,50.94,Low,High,Severe,Ground,Deformation
+Road,Column,401.67,34.66,58.92,Low,Normal,None,Ground,Healthy
+Building,Surface,338.76,41.95,51.8,Low,Low,Severe,Ground,Deformation
+Tunnel,Wall,7.83,16.49,50.07,Low,Low,Severe,Fixed Camera,Spalling
+Road,Beam,235.58,44.51,33.94,Low,High,Partial,UAV,Healthy
+Building,Column,287.73,8.45,8.05,Medium,Low,Severe,UAV,Deformation
+Building,Surface,155.49,9.06,9.86,Low,Low,Partial,Fixed Camera,Deformation
+Road,Column,162.46,13.71,43.94,Medium,High,Severe,UAV,Crack
+Tunnel,Beam,480.77,6.42,36.22,Low,Low,Partial,UAV,Corrosion
+Road,Surface,446.4,11.9,52.1,Low,Low,Partial,Fixed Camera,Spalling
+Building,Column,425.34,5.77,31.18,Low,High,Partial,UAV,Spalling
+Bridge,Deck,205.98,41.18,69.1,High,Normal,None,UAV,Corrosion
+Bridge,Beam,11.78,7.38,86.53,Medium,Low,Severe,Fixed Camera,Crack
+Road,Beam,44.71,37.49,30.59,High,Low,Severe,UAV,Spalling
+Building,Beam,159.54,2.87,20.11,Low,Normal,Severe,Ground,Corrosion
+Bridge,Deck,12.79,47.45,12.5,High,High,None,Fixed Camera,Crack
+Building,Deck,13.49,35.7,62.01,Low,Normal,Partial,UAV,Corrosion
+Road,Wall,458.72,0.84,44.94,Low,Low,Severe,UAV,Deformation
+Bridge,Column,354.55,38.31,19.61,Medium,Normal,None,Ground,Corrosion
+Building,Wall,157.93,25.95,65.66,Low,High,None,Fixed Camera,Crack
+Bridge,Column,70.66,39.08,15.7,High,Low,Severe,Fixed Camera,Crack
+Road,Deck,258.26,26.36,55.88,Low,High,Partial,UAV,Corrosion
+Building,Deck,7.65,32.23,53.19,High,High,None,Ground,Deformation
+Bridge,Wall,469.51,39.42,73.69,Medium,Normal,Severe,Ground,Spalling
+Road,Surface,210.33,20.55,6.46,Medium,Normal,Partial,Ground,Crack
+Bridge,Wall,204.16,0.63,88.9,Low,High,None,Ground,Corrosion
+Bridge,Column,198.34,42.57,70.6,Low,High,None,Ground,Healthy
+Tunnel,Wall,39.32,19.35,22.4,High,Low,Severe,Ground,Crack
+Tunnel,Beam,320.97,25.05,19.16,Low,High,Severe,Fixed Camera,Spalling
+Road,Column,367.84,0.88,43.73,Medium,High,Partial,UAV,Corrosion
+Tunnel,Column,339.68,24.86,81.94,High,Normal,Severe,UAV,Crack
+Road,Surface,73.53,49.33,84.45,Low,High,Severe,Ground,Crack
+Tunnel,Deck,291.53,14.27,52.53,Medium,High,Partial,Fixed Camera,Spalling
+Bridge,Column,286.89,20.07,86.22,Medium,Normal,Severe,Fixed Camera,Crack
+Road,Deck,434.86,34.52,1.54,Low,Low,Partial,Ground,Crack
+Road,Wall,192.67,40.83,4.48,Low,Normal,Partial,UAV,Corrosion
+Bridge,Beam,188.89,21.16,91.27,Medium,Normal,Partial,Ground,Crack
+Road,Surface,311.17,15.83,77.76,Low,High,Severe,Fixed Camera,Corrosion
+Road,Deck,318.37,46.92,45.62,Medium,High,Partial,Ground,Crack
+Tunnel,Column,237.3,34.02,75.61,Low,Low,Severe,UAV,Corrosion
+Road,Deck,224.31,6.39,95.61,High,High,Partial,UAV,Deformation
+Building,Column,249.6,3.91,77.44,Low,Low,Severe,Fixed Camera,Spalling
+Bridge,Deck,431.22,24.44,84.39,Medium,Low,Partial,Ground,Corrosion
+Tunnel,Column,233.28,11.39,76.3,Medium,Low,None,Ground,Crack
+Tunnel,Wall,470.27,13.07,17.65,Low,Low,None,Fixed Camera,Spalling
+Building,Column,254.48,43.95,83.52,Low,High,None,Ground,Crack
+Bridge,Column,474.85,4.93,20.32,High,Normal,Partial,Fixed Camera,Crack
+Bridge,Beam,417.25,35.91,89.37,High,Normal,Severe,Ground,Spalling
+Tunnel,Column,184.4,13.92,46.41,Low,High,Partial,UAV,Healthy
+Road,Beam,432.5,38.14,68.02,Medium,High,Partial,Fixed Camera,Corrosion
+Tunnel,Surface,59.48,36.26,50.23,Low,Low,Partial,Ground,Crack
+Bridge,Beam,462.9,0.87,10.31,Low,High,Partial,Ground,Healthy
+Building,Wall,317.66,25.7,29.78,Medium,Normal,Severe,Ground,Crack
+Tunnel,Beam,31.92,7.4,98.39,High,High,Partial,Fixed Camera,Healthy
+Bridge,Surface,323.91,43.38,96.11,Low,High,None,UAV,Corrosion
+Tunnel,Wall,487.25,43.64,32.73,High,Low,None,Ground,Corrosion
+Road,Deck,39.55,21.21,99.63,Low,Low,None,Fixed Camera,Spalling
+Tunnel,Deck,279.57,22.5,84.71,Medium,Low,Partial,Ground,Healthy
+Tunnel,Beam,375.16,15.51,61.48,Medium,Low,Severe,UAV,Healthy
+Bridge,Beam,406.08,35.97,4.97,Medium,Normal,Severe,UAV,Corrosion
+Bridge,Surface,209.84,18.25,90.24,Medium,High,Severe,UAV,Deformation
+Bridge,Surface,106.06,13.76,56.19,Low,High,Partial,Fixed Camera,Spalling
+Tunnel,Column,25.96,21.9,86.98,Medium,Low,Severe,Ground,Deformation
+Road,Surface,291.96,5.03,83.61,Medium,Normal,None,Fixed Camera,Deformation
+Building,Column,229.19,37.46,83.47,Low,Normal,Severe,Ground,Crack
+Building,Wall,474.63,1.12,70.12,High,High,Partial,Fixed Camera,Corrosion
+Bridge,Beam,35.0,32.4,29.85,Low,Low,Partial,Ground,Healthy
+Bridge,Wall,344.27,9.55,34.28,Medium,High,Severe,Fixed Camera,Healthy
+Tunnel,Surface,17.36,12.0,31.54,Low,High,Partial,Ground,Crack
+Building,Wall,89.86,31.96,2.98,Low,Normal,Severe,Fixed Camera,Crack
+Bridge,Wall,229.52,49.65,58.67,Low,Normal,Severe,UAV,Healthy
+Road,Wall,230.16,39.0,70.18,Medium,High,None,Fixed Camera,Corrosion
+Road,Surface,344.42,11.68,85.53,Medium,Low,Partial,UAV,Spalling
+Bridge,Wall,455.56,9.21,14.88,Low,Low,None,UAV,Crack
+Bridge,Column,321.32,43.38,54.87,Low,High,Partial,Ground,Healthy
+Building,Surface,477.0,22.49,1.79,Low,High,Severe,UAV,Crack
+Building,Wall,441.4,7.28,10.41,Medium,Low,Partial,UAV,Crack
+Tunnel,Surface,294.33,43.18,6.37,Medium,Low,Severe,Ground,Crack
+Building,Deck,417.73,40.9,72.82,Low,Low,Partial,Fixed Camera,Healthy
+Road,Column,323.08,49.2,9.02,Low,High,None,Fixed Camera,Deformation
+Road,Wall,43.89,45.53,71.93,High,Normal,None,UAV,Deformation
+Bridge,Deck,371.58,42.66,25.71,Low,Low,Severe,Fixed Camera,Corrosion
+Building,Deck,51.98,3.1,87.89,Low,Low,None,UAV,Healthy
+Tunnel,Surface,299.07,5.67,81.5,Low,Low,Severe,Fixed Camera,Deformation
+Road,Deck,352.81,28.66,95.83,Medium,High,Severe,Fixed Camera,Deformation
+Road,Column,37.93,26.81,88.49,Medium,Normal,Severe,Fixed Camera,Healthy
+Tunnel,Column,119.24,23.17,93.4,Medium,Normal,Partial,UAV,Corrosion
+Tunnel,Beam,458.26,20.14,86.02,Low,Low,Severe,Ground,Spalling
+Road,Column,310.08,21.84,69.64,Medium,High,None,Fixed Camera,Healthy
+Road,Deck,126.91,28.68,17.86,Low,Normal,Partial,Fixed Camera,Deformation
+Tunnel,Column,346.89,0.6,27.9,High,High,None,Fixed Camera,Spalling
+Road,Surface,300.4,13.41,22.06,Medium,Normal,Severe,UAV,Crack
+Bridge,Beam,253.28,26.15,60.75,Medium,Low,Severe,Ground,Spalling
+Bridge,Deck,488.21,36.25,50.86,Low,High,None,UAV,Spalling
+Tunnel,Beam,343.31,9.12,86.84,Low,Low,Partial,Fixed Camera,Crack
+Building,Deck,190.84,27.57,95.31,Medium,Normal,None,UAV,Healthy
+Tunnel,Surface,401.04,35.87,41.08,Medium,Normal,Severe,Fixed Camera,Corrosion
+Tunnel,Beam,442.87,22.51,51.13,Low,Low,Partial,Fixed Camera,Corrosion
+Building,Wall,66.98,1.84,97.18,High,Normal,Severe,UAV,Spalling
+Building,Deck,104.27,22.74,28.35,High,Low,Severe,Fixed Camera,Corrosion
+Building,Wall,112.03,15.17,79.45,Medium,Low,None,Fixed Camera,Crack
+Bridge,Beam,347.15,46.52,23.3,High,Low,Severe,Ground,Corrosion
+Road,Wall,303.5,6.67,68.46,Low,Normal,None,UAV,Crack
+Bridge,Wall,311.4,32.8,26.11,Low,High,Partial,UAV,Crack
+Road,Beam,470.68,3.11,88.49,Low,Low,Severe,Fixed Camera,Crack
+Bridge,Surface,389.08,22.59,56.59,Medium,High,Severe,Fixed Camera,Crack
+Road,Wall,68.33,27.92,19.41,Low,Normal,Partial,UAV,Corrosion
+Bridge,Wall,177.02,15.25,23.21,High,Normal,None,UAV,Spalling
+Building,Surface,220.52,23.03,49.89,Low,High,Severe,UAV,Healthy
+Tunnel,Wall,201.0,8.6,96.2,Low,Low,Partial,Fixed Camera,Spalling
+Bridge,Wall,336.31,15.55,77.19,High,Normal,Severe,Ground,Deformation
+Road,Wall,446.49,31.24,49.34,Low,Low,None,Ground,Corrosion
+Building,Column,156.5,15.44,34.43,Low,Low,None,Fixed Camera,Deformation
+Bridge,Surface,278.18,45.04,55.38,Medium,High,None,Fixed Camera,Spalling
+Bridge,Wall,395.76,31.61,75.09,Low,Normal,None,Fixed Camera,Corrosion
+Building,Surface,211.03,22.21,78.61,Low,High,Partial,UAV,Crack
+Bridge,Deck,88.22,2.42,33.14,Low,Normal,Severe,Fixed Camera,Corrosion
+Tunnel,Deck,240.1,25.23,72.39,Medium,High,Partial,UAV,Spalling
+Bridge,Wall,32.34,38.36,66.12,High,Normal,None,Ground,Corrosion
+Tunnel,Surface,471.48,13.65,95.95,High,Normal,None,Fixed Camera,Healthy
+Tunnel,Surface,42.04,40.44,93.18,Low,Normal,None,Fixed Camera,Crack
+Building,Surface,222.04,12.96,79.15,Low,Low,None,UAV,Crack
+Bridge,Column,267.29,41.28,72.62,Medium,Low,Severe,UAV,Spalling
+Building,Deck,492.73,4.72,28.13,High,High,None,UAV,Healthy
+Bridge,Surface,87.18,43.38,84.75,Low,High,Severe,Ground,Corrosion
+Bridge,Surface,61.64,25.21,43.32,Low,Normal,None,Ground,Spalling
+Road,Column,9.31,15.18,27.95,Medium,Normal,Severe,Fixed Camera,Crack
+Bridge,Column,82.01,13.62,39.03,High,Low,Severe,Fixed Camera,Spalling
+Building,Surface,107.6,21.88,83.76,Low,Low,None,UAV,Deformation
+Tunnel,Beam,317.14,49.95,15.71,Low,Low,Partial,Ground,Healthy
+Bridge,Surface,113.75,11.41,46.16,Low,High,Partial,Fixed Camera,Crack
+Road,Surface,15.16,5.61,49.74,Low,Low,Partial,UAV,Corrosion
+Building,Column,414.18,29.46,4.63,Medium,High,Partial,UAV,Spalling
+Bridge,Column,185.97,24.68,20.38,Medium,Low,Partial,Ground,Crack
+Building,Surface,180.08,26.45,82.85,Medium,Low,None,Ground,Deformation
+Road,Surface,154.73,33.51,83.25,Low,Normal,None,Fixed Camera,Spalling
+Road,Surface,487.81,13.72,29.95,Low,High,None,Fixed Camera,Corrosion
+Building,Column,89.21,45.58,87.61,Low,Low,None,UAV,Deformation
+Bridge,Surface,449.63,22.07,77.41,Low,Normal,None,UAV,Corrosion
+Tunnel,Surface,389.52,6.89,42.37,High,High,None,UAV,Healthy
+Road,Wall,42.86,37.24,75.09,Low,High,Severe,Fixed Camera,Deformation
+Bridge,Beam,493.43,32.33,96.17,Low,Low,Severe,Ground,Deformation
+Bridge,Deck,139.33,16.13,46.44,Low,High,None,Fixed Camera,Crack
+Tunnel,Beam,53.8,31.27,24.6,Medium,Normal,None,Ground,Healthy
+Road,Wall,415.51,11.38,94.24,Medium,Normal,Severe,Fixed Camera,Deformation
+Road,Deck,354.8,22.52,60.77,High,High,Severe,Fixed Camera,Crack
+Bridge,Surface,310.52,45.02,11.42,Low,Normal,None,Ground,Corrosion
+Bridge,Wall,82.21,7.11,57.7,Medium,High,Severe,Fixed Camera,Crack
+Tunnel,Surface,241.86,19.64,50.56,Low,Normal,Partial,Fixed Camera,Healthy
+Tunnel,Column,391.38,41.15,85.7,Low,High,Partial,UAV,Healthy
+Road,Wall,155.29,48.49,53.54,High,High,Partial,Ground,Healthy
+Building,Column,159.29,22.97,26.27,Low,High,Severe,Ground,Deformation
+Road,Wall,6.55,25.6,67.89,Medium,Normal,None,UAV,Corrosion
+Bridge,Wall,91.25,28.82,54.71,Low,High,None,Ground,Crack
+Road,Column,438.33,46.65,24.07,Medium,High,None,UAV,Crack
+Building,Deck,223.66,42.98,57.79,High,Low,Severe,Ground,Crack
+Tunnel,Beam,492.2,8.94,82.33,High,Low,Severe,Ground,Spalling
+Building,Surface,200.88,22.12,3.83,High,High,Partial,Ground,Healthy
+Building,Wall,359.02,23.47,63.45,Medium,Low,Severe,Ground,Healthy
+Building,Surface,144.55,39.56,35.61,Low,High,Partial,UAV,Corrosion
+Tunnel,Column,185.09,30.34,29.97,Medium,Low,Partial,UAV,Deformation
+Building,Surface,99.41,32.88,39.87,Medium,Normal,None,Ground,Spalling
+Building,Column,176.8,49.91,34.86,Low,Normal,Severe,Fixed Camera,Corrosion
+Building,Surface,275.88,4.21,83.39,Medium,High,None,UAV,Spalling
+Bridge,Beam,495.93,11.54,28.2,High,High,None,Ground,Corrosion
+Building,Beam,333.78,20.69,73.58,Medium,Normal,Severe,UAV,Healthy
+Tunnel,Beam,103.63,17.72,10.31,Low,Normal,Severe,Fixed Camera,Deformation
+Building,Beam,27.26,1.57,95.19,High,Low,Partial,Fixed Camera,Deformation
+Building,Beam,67.55,5.04,62.61,Low,High,Partial,Fixed Camera,Crack
+Tunnel,Beam,283.46,34.21,70.97,Low,Normal,Partial,Ground,Crack
+Building,Column,383.75,44.03,30.51,Medium,Normal,Partial,Ground,Corrosion
+Tunnel,Wall,470.51,25.95,41.8,Low,High,None,Fixed Camera,Deformation
+Building,Surface,12.83,27.19,23.15,Medium,Low,None,UAV,Healthy
+Tunnel,Beam,263.77,13.13,93.32,Low,Low,Severe,UAV,Corrosion
+Building,Column,238.08,38.51,49.32,Low,Low,Partial,Fixed Camera,Deformation
+Building,Column,329.75,37.71,63.41,Low,Low,Partial,Ground,Corrosion
+Bridge,Column,281.99,29.62,73.69,High,Normal,Partial,UAV,Corrosion
+Bridge,Wall,345.08,11.03,37.74,Medium,High,None,UAV,Deformation
+Building,Surface,330.75,5.3,72.29,Low,High,Severe,UAV,Deformation
+Building,Wall,62.92,3.68,67.92,Low,Normal,None,Ground,Crack
+Road,Deck,400.86,29.84,70.86,Low,Normal,Severe,Fixed Camera,Corrosion
+Tunnel,Column,66.0,41.34,49.43,Medium,Normal,Severe,Ground,Corrosion
+Road,Deck,350.77,42.99,38.91,Low,High,None,UAV,Crack
+Bridge,Beam,210.99,23.45,22.99,Medium,High,None,Fixed Camera,Healthy
+Bridge,Beam,259.36,39.32,82.64,Medium,High,Severe,Ground,Spalling
+Bridge,Wall,452.13,47.37,61.23,High,Low,None,Fixed Camera,Crack
+Bridge,Surface,445.49,14.12,44.99,Medium,Normal,None,UAV,Crack
+Building,Deck,409.84,20.2,94.46,Medium,Normal,Severe,Ground,Healthy
+Bridge,Surface,257.52,46.61,5.74,Low,Normal,Severe,Fixed Camera,Deformation
+Building,Wall,369.44,17.24,85.17,Medium,High,Partial,Ground,Deformation
+Building,Beam,258.88,45.74,99.76,Medium,Normal,None,UAV,Crack
+Bridge,Surface,435.46,49.06,88.81,Low,Normal,Severe,Fixed Camera,Healthy
+Bridge,Surface,204.37,33.26,81.23,High,Low,None,UAV,Corrosion
+Tunnel,Beam,485.27,40.94,38.06,Low,High,None,Fixed Camera,Spalling
+Road,Deck,466.5,37.6,23.9,Low,Normal,Severe,UAV,Healthy
+Bridge,Beam,372.09,35.13,73.75,Low,High,Partial,UAV,Crack
+Tunnel,Surface,143.31,15.69,31.15,High,High,Severe,Ground,Corrosion
+Tunnel,Deck,70.17,3.33,18.43,Medium,High,Severe,UAV,Crack
+Road,Deck,428.08,17.48,78.87,High,Low,None,Ground,Corrosion
+Building,Beam,86.82,33.51,31.94,Low,High,Partial,UAV,Crack
+Bridge,Surface,427.86,5.58,91.53,Medium,High,Severe,UAV,Healthy
+Road,Wall,247.93,1.09,84.22,Low,High,None,UAV,Corrosion
+Bridge,Surface,206.25,7.41,84.92,High,Normal,Severe,Fixed Camera,Spalling
+Tunnel,Column,452.08,35.93,77.39,Low,Low,None,Ground,Healthy
+Tunnel,Wall,303.91,48.65,88.21,Low,Normal,Severe,Fixed Camera,Healthy
+Building,Deck,290.42,49.16,80.77,Low,Low,Partial,Ground,Spalling
+Tunnel,Wall,281.59,24.95,60.65,High,Low,Severe,UAV,Corrosion
+Tunnel,Deck,188.73,43.53,30.29,Medium,High,None,Fixed Camera,Crack
+Road,Deck,393.89,36.97,88.93,Medium,High,Severe,Ground,Crack
+Bridge,Wall,130.14,25.3,84.22,Medium,Normal,Partial,UAV,Spalling
+Bridge,Deck,469.75,28.85,47.82,High,Low,Partial,Ground,Crack
+Road,Deck,447.52,7.29,4.87,High,High,Partial,Ground,Corrosion
+Building,Column,172.05,46.91,64.22,Medium,High,Partial,UAV,Crack
+Bridge,Surface,366.08,17.92,6.01,Low,High,None,Fixed Camera,Spalling
+Tunnel,Surface,288.75,22.58,92.7,Low,High,Severe,UAV,Corrosion
+Bridge,Column,172.14,33.75,96.2,High,Normal,Partial,Fixed Camera,Crack
+Tunnel,Wall,494.32,17.03,19.76,Medium,Normal,Severe,Ground,Corrosion
+Building,Beam,17.49,13.09,67.96,Low,High,None,Ground,Spalling
+Road,Beam,130.06,31.74,10.13,Medium,High,Severe,Ground,Spalling
+Bridge,Beam,262.44,1.74,73.22,High,High,Severe,Fixed Camera,Corrosion
+Road,Column,263.37,36.18,35.38,Low,High,Partial,UAV,Deformation
+Bridge,Column,296.52,25.94,68.42,Medium,High,Partial,Fixed Camera,Crack
+Tunnel,Deck,377.08,30.48,37.91,High,Low,None,Ground,Crack
+Road,Beam,313.62,31.78,15.41,Medium,Low,Severe,Ground,Crack
+Bridge,Wall,302.14,26.59,41.2,Low,Low,None,UAV,Spalling
+Tunnel,Wall,31.49,29.34,12.15,High,Low,None,Fixed Camera,Deformation
+Road,Beam,191.38,34.35,58.11,High,High,None,Ground,Crack
+Road,Beam,119.87,37.78,5.05,High,Low,Partial,Fixed Camera,Spalling
+Bridge,Beam,136.36,36.51,53.2,Medium,Low,Partial,Fixed Camera,Corrosion
+Bridge,Column,279.4,43.55,88.75,Low,Normal,Severe,UAV,Healthy
+Bridge,Column,103.76,9.88,83.95,High,Low,Severe,UAV,Deformation
+Tunnel,Column,150.5,20.36,88.4,Low,Low,Severe,Ground,Spalling
+Bridge,Surface,122.36,47.42,92.28,High,High,Partial,UAV,Spalling
+Road,Wall,474.51,20.13,11.35,High,Low,Partial,Fixed Camera,Healthy
+Road,Wall,472.61,6.68,13.75,Medium,Low,None,UAV,Healthy
+Bridge,Deck,306.92,26.51,56.14,High,High,Partial,Fixed Camera,Spalling
+Bridge,Column,462.64,5.92,89.5,High,Low,None,Ground,Corrosion
+Building,Surface,393.98,10.54,97.46,Low,High,None,Fixed Camera,Corrosion
+Road,Surface,297.02,49.92,5.58,Medium,Low,Partial,UAV,Corrosion
+Tunnel,Wall,8.19,27.3,36.22,Low,Normal,None,UAV,Spalling
+Building,Column,387.4,14.56,22.08,Medium,Normal,None,Ground,Crack
+Bridge,Deck,352.73,49.74,75.84,Low,Low,Severe,UAV,Healthy
+Bridge,Column,309.55,48.34,64.38,Medium,Normal,None,Ground,Corrosion
+Road,Beam,381.41,22.32,12.87,High,High,Partial,Ground,Deformation
+Bridge,Column,258.9,13.39,48.87,High,Low,Partial,UAV,Corrosion
+Tunnel,Beam,353.52,42.0,68.86,Low,High,None,Fixed Camera,Deformation
+Road,Beam,467.91,35.92,78.12,Medium,Normal,Severe,Ground,Corrosion
+Bridge,Deck,191.02,34.5,2.99,Medium,High,Partial,Fixed Camera,Spalling
+Road,Wall,355.52,44.71,89.16,High,Normal,Partial,UAV,Corrosion
+Bridge,Column,240.47,34.63,57.36,Medium,Normal,Severe,Fixed Camera,Corrosion
+Bridge,Beam,338.83,14.55,81.38,Medium,Normal,None,Fixed Camera,Healthy
+Bridge,Column,382.63,34.85,80.99,High,High,Partial,Fixed Camera,Crack
+Tunnel,Wall,27.5,15.64,19.8,Low,Normal,None,Fixed Camera,Corrosion
+Tunnel,Wall,325.07,38.08,11.91,High,Low,None,UAV,Crack
+Road,Surface,117.24,31.18,72.41,High,Normal,None,UAV,Healthy
+Bridge,Wall,336.67,4.33,16.49,High,Low,None,Fixed Camera,Crack
+Bridge,Deck,236.82,25.89,85.14,Low,Low,Partial,UAV,Spalling
+Tunnel,Beam,387.91,17.49,72.89,Medium,Low,Severe,UAV,Crack
+Bridge,Surface,66.08,16.76,84.34,High,Low,Partial,Ground,Corrosion
+Tunnel,Deck,315.03,30.31,30.6,Low,High,Severe,UAV,Healthy
+Bridge,Column,142.84,16.46,32.34,Medium,Low,None,Fixed Camera,Crack
+Road,Beam,427.23,38.96,67.45,Low,Normal,Severe,UAV,Spalling
+Bridge,Wall,464.55,4.0,4.11,Low,Low,None,UAV,Crack
+Bridge,Beam,498.22,33.19,72.92,Medium,Normal,Partial,UAV,Corrosion
+Building,Column,399.02,40.56,83.74,Medium,High,Partial,UAV,Spalling
+Tunnel,Surface,378.1,33.81,42.1,Low,Low,Severe,Ground,Spalling
+Bridge,Surface,111.67,25.11,76.72,Medium,Normal,None,Fixed Camera,Spalling
+Bridge,Surface,171.32,47.54,18.29,Medium,High,None,Fixed Camera,Spalling
+Building,Wall,235.51,15.35,32.9,Medium,High,Severe,UAV,Crack
+Building,Deck,387.82,1.45,97.46,Medium,Normal,None,UAV,Corrosion
+Tunnel,Deck,457.91,21.88,98.65,Medium,Low,None,Ground,Crack
+Building,Beam,98.62,2.13,51.75,Medium,High,None,UAV,Deformation
+Road,Wall,461.57,47.72,93.49,Low,Normal,Partial,Ground,Deformation
+Building,Surface,349.33,10.89,52.75,Medium,Low,Partial,Fixed Camera,Crack
+Road,Surface,307.33,39.55,29.87,Medium,High,Partial,Fixed Camera,Crack
+Tunnel,Column,103.92,38.84,27.42,Medium,Normal,None,Ground,Crack
+Tunnel,Column,32.48,11.28,93.02,Low,High,Partial,Fixed Camera,Healthy
+Tunnel,Surface,286.39,31.25,18.07,Medium,High,None,UAV,Deformation
+Tunnel,Surface,327.5,2.88,58.38,Low,Normal,None,UAV,Corrosion
+Tunnel,Wall,109.34,24.44,56.0,High,High,Severe,Ground,Corrosion
+Road,Deck,280.45,1.23,74.22,Low,Normal,None,Fixed Camera,Corrosion
+Road,Column,428.96,46.1,50.43,High,Low,Partial,Fixed Camera,Spalling
+Tunnel,Deck,418.36,48.82,27.96,Medium,Normal,Partial,Ground,Deformation
+Building,Wall,464.04,11.5,17.77,Medium,Low,None,Ground,Corrosion
+Bridge,Surface,186.11,10.8,62.46,Low,High,Partial,Fixed Camera,Healthy
+Tunnel,Deck,162.43,37.81,72.18,Low,Normal,None,Ground,Spalling
+Building,Surface,375.97,13.04,57.38,Low,Normal,Severe,UAV,Crack
+Bridge,Surface,218.4,44.81,74.1,Low,Normal,None,Fixed Camera,Spalling
+Tunnel,Beam,48.34,28.91,15.01,Medium,Normal,None,Ground,Corrosion
+Tunnel,Deck,144.99,17.86,88.36,Low,Low,Severe,Ground,Healthy
+Road,Deck,212.2,41.72,58.66,High,Low,Partial,Ground,Corrosion
+Bridge,Surface,149.8,24.92,13.56,Low,High,Severe,Fixed Camera,Corrosion
+Bridge,Wall,169.44,45.63,46.73,High,High,Severe,UAV,Spalling
+Building,Beam,150.42,46.44,84.63,Medium,High,None,UAV,Spalling
+Road,Surface,25.54,8.69,89.86,Low,High,None,Fixed Camera,Corrosion
+Road,Column,320.36,0.62,27.2,Medium,Normal,Severe,Ground,Healthy
+Road,Column,300.66,49.2,71.42,Low,Low,Partial,Fixed Camera,Corrosion
+Road,Beam,328.42,45.35,10.9,Low,Low,Severe,Fixed Camera,Crack
+Bridge,Wall,100.19,3.24,4.32,Medium,Low,Partial,Ground,Healthy
+Bridge,Surface,151.35,41.74,56.48,Medium,Low,Severe,Fixed Camera,Crack
+Tunnel,Deck,311.71,23.16,69.79,High,High,Severe,UAV,Crack
+Tunnel,Beam,301.82,13.32,79.78,Medium,Normal,Partial,Fixed Camera,Spalling
+Road,Wall,255.63,44.0,34.68,High,Low,Severe,Ground,Crack
+Road,Deck,178.45,10.24,1.65,High,Normal,None,Fixed Camera,Healthy
+Road,Column,456.9,47.39,48.47,High,Normal,Severe,UAV,Corrosion
+Tunnel,Column,173.19,10.68,2.57,Medium,Normal,None,Fixed Camera,Spalling
+Building,Deck,230.53,30.88,10.11,Low,Normal,Partial,Fixed Camera,Crack
+Building,Beam,340.67,11.54,33.34,Low,Low,Partial,Fixed Camera,Corrosion
+Tunnel,Column,273.8,27.51,44.28,Medium,Low,None,Fixed Camera,Spalling
+Tunnel,Surface,176.71,34.36,28.67,Medium,Low,Severe,Ground,Spalling
+Tunnel,Deck,220.64,9.92,58.6,Low,High,None,UAV,Deformation
+Tunnel,Deck,398.27,26.28,6.48,Medium,Low,None,UAV,Crack
+Tunnel,Column,142.67,23.72,15.31,Low,High,Partial,UAV,Spalling
+Tunnel,Beam,75.42,4.02,69.83,Medium,High,None,Fixed Camera,Corrosion
+Road,Surface,160.02,41.01,15.07,Low,High,Severe,UAV,Spalling
+Road,Beam,425.52,17.12,64.34,Medium,Low,None,Ground,Spalling
+Road,Wall,49.05,28.94,6.41,High,Low,Partial,Fixed Camera,Crack
+Road,Wall,495.89,25.98,41.33,Low,Low,Severe,Fixed Camera,Spalling
+Tunnel,Column,272.8,25.91,18.56,Medium,High,Partial,UAV,Crack
+Building,Column,492.5,5.81,11.85,High,High,None,Fixed Camera,Spalling
+Bridge,Column,469.8,21.46,57.14,Low,Normal,None,Fixed Camera,Deformation
+Tunnel,Wall,229.14,22.89,92.91,Low,High,Partial,UAV,Crack
+Bridge,Beam,103.25,36.82,6.42,Low,High,Partial,Ground,Healthy
+Building,Beam,86.62,42.08,42.73,Medium,Low,Severe,Ground,Corrosion
+Road,Column,123.79,27.48,71.05,Medium,Normal,Partial,UAV,Healthy
+Building,Surface,356.52,4.8,46.81,Low,Normal,Partial,Ground,Crack
+Tunnel,Beam,140.11,12.22,80.84,Medium,Normal,None,Ground,Healthy
+Road,Wall,174.01,8.66,18.78,Low,Low,None,Ground,Crack
+Tunnel,Deck,227.15,6.67,96.0,High,Normal,Partial,Fixed Camera,Corrosion
+Road,Deck,457.05,18.61,39.13,Low,Normal,Partial,Fixed Camera,Healthy
+Bridge,Deck,98.75,11.85,34.82,High,Low,None,Fixed Camera,Crack
+Bridge,Surface,7.49,11.31,87.59,Medium,Normal,Severe,Ground,Crack
+Bridge,Column,34.75,3.21,56.82,Medium,High,Severe,Fixed Camera,Deformation
+Building,Wall,452.86,1.37,52.13,Medium,High,Severe,Ground,Spalling
+Tunnel,Surface,325.52,5.59,72.97,Medium,High,Severe,UAV,Spalling
+Building,Wall,140.16,9.02,58.4,Low,High,None,Ground,Crack
+Bridge,Wall,92.71,21.83,17.09,High,High,Partial,Fixed Camera,Spalling
+Tunnel,Column,150.66,25.77,67.75,Medium,High,Severe,Ground,Crack
+Bridge,Deck,61.82,7.46,14.21,Medium,High,None,Fixed Camera,Healthy
+Building,Column,471.06,21.53,80.78,Medium,High,Partial,Fixed Camera,Deformation
+Building,Surface,393.18,17.42,98.98,High,High,Severe,UAV,Deformation
+Building,Surface,233.88,9.58,38.36,Medium,Low,Partial,UAV,Crack
+Bridge,Surface,433.16,0.84,45.03,Low,Low,Severe,Fixed Camera,Healthy
+Tunnel,Column,128.48,23.62,5.6,Medium,High,Partial,Ground,Spalling
+Tunnel,Wall,359.97,34.44,2.36,Medium,Low,Severe,UAV,Healthy
+Bridge,Wall,428.79,11.7,92.22,High,Low,Severe,UAV,Crack
+Tunnel,Beam,181.6,7.02,13.73,High,High,Partial,Fixed Camera,Deformation
+Bridge,Surface,379.94,44.41,45.13,Medium,High,Partial,Ground,Spalling
+Tunnel,Wall,151.06,14.11,81.72,Low,Low,Partial,UAV,Crack
+Road,Beam,152.93,11.57,89.04,High,High,None,UAV,Corrosion
+Road,Wall,57.99,42.93,52.42,Medium,High,None,Ground,Crack
+Building,Surface,222.83,40.95,56.94,High,High,Partial,UAV,Corrosion
+Road,Deck,366.21,22.69,67.3,Low,High,None,Ground,Corrosion
+Road,Surface,470.41,24.72,96.18,Low,Low,Severe,Fixed Camera,Corrosion
+Road,Column,303.88,11.28,60.66,Low,Normal,Partial,UAV,Spalling
+Bridge,Wall,432.25,4.38,56.39,Medium,Low,None,Fixed Camera,Spalling
+Road,Wall,412.13,28.88,2.44,High,Normal,Partial,Ground,Crack
+Road,Column,90.8,5.37,9.01,Low,Normal,Severe,Fixed Camera,Deformation
+Building,Column,245.48,22.74,58.14,Medium,Normal,Severe,Fixed Camera,Healthy
+Road,Deck,62.88,47.05,93.69,Medium,Low,None,Fixed Camera,Corrosion
+Road,Wall,342.67,47.67,86.8,Medium,Low,Severe,Ground,Crack
+Tunnel,Wall,475.2,12.35,98.28,Low,Low,Partial,Ground,Spalling
+Building,Deck,72.86,31.39,53.26,High,Low,None,Ground,Deformation
+Building,Beam,368.27,23.97,79.01,Low,Low,Partial,Ground,Spalling
+Building,Deck,317.96,43.85,84.2,High,Normal,Partial,Ground,Spalling
+Building,Surface,293.88,13.94,65.16,Low,Low,Partial,UAV,Crack
+Building,Wall,198.11,0.68,34.54,Medium,Normal,Severe,UAV,Deformation
+Building,Column,180.79,8.55,47.53,High,Low,Partial,UAV,Corrosion
+Bridge,Surface,27.4,17.8,85.93,Low,Low,Severe,Fixed Camera,Crack
+Road,Wall,112.86,16.13,30.56,Low,High,Partial,Fixed Camera,Crack
+Building,Deck,12.51,39.67,92.45,Medium,Normal,Severe,Ground,Corrosion
+Road,Surface,292.8,34.19,23.75,Medium,Low,Severe,Ground,Spalling
+Road,Wall,57.4,15.33,75.2,Medium,Low,Severe,UAV,Spalling
+Bridge,Beam,437.14,23.16,63.43,Low,Low,Partial,Ground,Healthy
+Building,Beam,263.96,5.23,75.21,Low,High,Partial,Fixed Camera,Crack
+Tunnel,Column,351.35,44.96,44.3,Medium,Normal,Severe,Ground,Healthy
+Bridge,Wall,208.37,46.8,93.33,Low,Low,Partial,UAV,Spalling
+Tunnel,Beam,282.49,49.0,63.61,High,Low,Severe,Ground,Corrosion
+Road,Deck,471.62,43.49,29.54,Low,Low,Partial,Fixed Camera,Healthy
+Road,Wall,45.95,9.11,64.21,Medium,High,Severe,UAV,Deformation
+Bridge,Deck,130.7,2.79,29.39,Low,Low,Severe,Ground,Corrosion
+Bridge,Deck,391.09,29.19,30.07,Low,Normal,None,Fixed Camera,Healthy
+Tunnel,Beam,53.87,45.67,40.56,Medium,Normal,Partial,UAV,Spalling
+Building,Wall,42.45,9.28,85.39,Medium,Normal,Partial,UAV,Deformation
+Tunnel,Surface,183.96,0.85,50.53,Low,Normal,None,Fixed Camera,Healthy
+Bridge,Beam,50.62,40.37,68.21,Low,Low,Severe,Ground,Corrosion
+Tunnel,Beam,294.61,4.3,39.8,Low,High,Severe,Ground,Spalling
+Bridge,Wall,117.01,20.98,27.1,High,High,None,Ground,Deformation
+Tunnel,Wall,448.37,34.1,95.51,Medium,High,None,UAV,Corrosion
+Bridge,Deck,392.83,12.22,60.75,Low,Low,Severe,UAV,Crack
+Bridge,Wall,351.35,4.66,93.46,Medium,High,Partial,Ground,Deformation
+Bridge,Deck,310.39,38.62,21.14,Medium,Normal,None,UAV,Crack
+Building,Beam,432.42,31.69,15.54,High,Low,None,UAV,Deformation
+Tunnel,Column,115.42,49.43,85.73,High,High,None,Fixed Camera,Healthy
+Tunnel,Surface,437.19,17.54,68.41,Low,Normal,None,Ground,Corrosion
+Tunnel,Beam,395.8,3.56,19.47,Low,Normal,None,Ground,Crack
+Bridge,Wall,375.34,36.85,27.67,Low,Low,None,Ground,Crack
+Tunnel,Surface,282.82,26.33,80.27,High,Low,Severe,UAV,Spalling
+Tunnel,Column,126.89,11.05,45.93,High,High,Severe,UAV,Healthy
+Bridge,Column,214.66,39.2,67.38,Medium,High,None,UAV,Spalling
+Road,Deck,397.82,10.59,32.52,Low,High,Severe,Ground,Crack
+Bridge,Surface,20.73,13.4,38.74,Medium,Low,Partial,UAV,Spalling
+Tunnel,Deck,392.12,5.08,99.08,Low,High,Partial,Ground,Deformation
+Bridge,Beam,123.84,20.27,25.51,Low,High,None,UAV,Corrosion
+Road,Surface,76.43,21.24,51.14,Medium,Normal,Partial,Ground,Deformation
+Bridge,Beam,62.27,25.97,84.6,Low,Normal,Partial,Fixed Camera,Corrosion
+Tunnel,Deck,18.49,35.59,24.68,Low,Normal,Severe,UAV,Deformation
+Road,Surface,264.18,45.35,42.11,Medium,High,Severe,Ground,Corrosion
+Building,Deck,113.04,7.32,61.89,Low,Low,Severe,Fixed Camera,Crack
+Tunnel,Surface,494.77,3.19,48.64,Low,Normal,Severe,Fixed Camera,Healthy
+Road,Deck,289.35,1.42,46.49,Low,Low,Partial,UAV,Spalling
+Road,Column,73.25,7.61,36.89,High,High,None,Ground,Corrosion
+Building,Deck,345.94,33.07,59.08,High,High,Severe,UAV,Healthy
+Bridge,Column,449.38,36.51,62.81,Low,Normal,Partial,Fixed Camera,Deformation
+Bridge,Deck,373.86,39.43,65.68,Medium,Low,Severe,UAV,Crack
+Tunnel,Surface,42.84,12.56,7.97,Low,Normal,Partial,Ground,Spalling
+Building,Surface,448.46,15.64,63.47,Medium,High,Severe,Fixed Camera,Healthy
+Bridge,Surface,398.0,24.42,95.37,Medium,Low,None,UAV,Deformation
+Building,Wall,83.36,3.63,54.56,High,Normal,Severe,UAV,Crack
+Bridge,Beam,30.63,30.75,71.81,Medium,High,None,UAV,Spalling
+Road,Surface,280.87,49.19,56.12,High,Normal,Severe,UAV,Spalling
+Bridge,Column,82.24,18.36,85.62,High,Low,Severe,UAV,Deformation
+Building,Surface,418.12,37.77,93.03,High,Low,Severe,Fixed Camera,Crack
+Road,Wall,182.38,25.25,19.24,Medium,Low,Partial,Fixed Camera,Deformation
+Road,Column,456.88,6.83,44.25,Low,Low,Partial,Ground,Crack
+Road,Wall,285.02,29.32,39.85,Low,Low,None,UAV,Deformation
+Building,Column,95.42,15.34,41.12,Low,Normal,None,Ground,Healthy
+Tunnel,Deck,74.1,2.2,13.43,Low,Normal,Partial,Fixed Camera,Crack
+Tunnel,Beam,290.35,31.93,81.55,Medium,Normal,None,UAV,Corrosion
+Tunnel,Beam,382.13,43.02,4.54,Medium,Normal,None,Ground,Spalling
+Building,Wall,391.85,17.57,53.29,High,High,Partial,UAV,Deformation
+Road,Beam,141.5,19.82,66.53,Low,High,Partial,UAV,Corrosion
+Tunnel,Wall,106.1,44.61,21.54,Low,Normal,Partial,Ground,Spalling
+Building,Wall,13.29,40.77,90.68,High,High,Partial,Fixed Camera,Healthy
+Tunnel,Wall,341.2,35.89,84.02,Low,High,Severe,Ground,Deformation
+Bridge,Beam,42.9,12.82,47.64,Low,Low,Partial,Ground,Deformation
+Tunnel,Wall,213.28,45.56,41.7,High,Normal,None,Ground,Corrosion
+Tunnel,Beam,302.83,8.14,24.42,High,High,Severe,UAV,Healthy
+Road,Wall,468.87,31.53,73.27,Medium,High,Severe,Fixed Camera,Crack
+Building,Surface,159.34,1.93,14.04,High,Normal,None,Fixed Camera,Crack
+Road,Wall,128.64,32.36,68.34,Medium,Low,Severe,UAV,Corrosion
+Road,Column,328.81,14.22,84.4,High,Normal,None,Fixed Camera,Spalling
+Road,Wall,311.52,22.76,23.62,High,Low,Severe,Ground,Healthy
+Road,Deck,169.39,17.59,86.78,Low,High,Severe,Fixed Camera,Crack
+Road,Wall,464.41,9.05,4.3,Medium,Low,None,UAV,Deformation
+Tunnel,Column,423.21,31.29,91.37,Low,Low,None,Fixed Camera,Deformation
+Road,Column,115.87,44.16,12.72,Low,Normal,None,UAV,Spalling
+Road,Beam,123.38,47.97,64.93,High,High,None,Ground,Deformation
+Building,Surface,258.59,10.02,25.76,Medium,Normal,Partial,UAV,Crack
+Bridge,Wall,387.92,36.01,83.82,Medium,Normal,Partial,Fixed Camera,Crack
+Tunnel,Beam,26.8,33.38,51.72,High,High,None,Ground,Healthy
+Tunnel,Surface,348.2,17.5,14.39,High,Normal,Partial,Fixed Camera,Corrosion
+Tunnel,Wall,325.88,1.45,57.53,High,Normal,None,UAV,Crack
+Road,Deck,119.58,34.64,41.38,Medium,Low,None,Ground,Deformation
+Road,Wall,342.27,47.3,66.48,Low,Normal,Severe,UAV,Healthy
+Road,Column,470.39,31.79,88.31,Low,High,None,Fixed Camera,Spalling
+Building,Column,28.16,22.05,41.53,Medium,Normal,None,UAV,Corrosion
+Bridge,Deck,163.23,26.5,29.7,Low,Low,None,Fixed Camera,Corrosion
+Road,Beam,221.9,10.38,2.44,Medium,Normal,None,Fixed Camera,Deformation
+Bridge,Surface,450.13,37.65,57.91,Medium,Normal,Severe,Ground,Crack
+Building,Wall,481.32,37.45,40.83,High,Normal,None,Ground,Crack
+Tunnel,Column,224.84,7.7,38.09,Medium,Low,Severe,UAV,Corrosion
+Road,Beam,376.26,43.96,19.11,Medium,High,None,Fixed Camera,Spalling
+Bridge,Deck,268.17,13.82,43.58,Low,High,Severe,Fixed Camera,Corrosion
+Bridge,Column,271.2,49.12,98.46,Low,Low,Partial,Ground,Corrosion
+Road,Deck,142.66,19.45,30.48,Low,Low,Severe,Ground,Crack
+Tunnel,Wall,112.39,9.31,60.37,High,Normal,Severe,Ground,Crack
+Tunnel,Surface,147.56,17.91,77.87,Low,High,None,Ground,Crack
+Tunnel,Column,280.38,22.29,75.17,Medium,Low,Severe,UAV,Spalling
+Building,Column,19.43,3.93,33.55,Medium,High,Severe,UAV,Spalling
+Bridge,Wall,454.09,29.12,61.48,Low,Normal,None,UAV,Corrosion
+Bridge,Beam,82.36,30.08,87.26,Low,Low,Partial,UAV,Corrosion
+Bridge,Surface,113.94,37.08,2.53,Medium,High,Partial,Ground,Crack
+Building,Column,261.55,1.94,44.14,Medium,High,Partial,UAV,Corrosion
+Bridge,Surface,356.51,27.29,23.2,High,Normal,Severe,UAV,Crack
+Building,Column,52.39,3.12,39.47,Medium,Low,None,UAV,Crack
+Tunnel,Surface,162.26,35.21,42.18,Medium,High,Partial,Ground,Corrosion
+Road,Deck,484.49,3.26,74.92,High,Normal,Partial,Fixed Camera,Healthy
+Bridge,Column,134.86,45.63,10.29,Medium,High,Partial,Ground,Corrosion
+Bridge,Surface,159.96,35.25,51.75,High,Normal,Partial,Fixed Camera,Healthy
+Tunnel,Beam,419.07,25.62,56.86,Low,High,None,Fixed Camera,Corrosion
+Road,Deck,29.86,22.35,49.92,Medium,High,Partial,UAV,Corrosion
+Building,Deck,234.98,6.97,73.46,Low,Normal,Severe,UAV,Deformation
+Road,Beam,192.91,14.9,39.0,Low,Low,Severe,UAV,Crack
+Tunnel,Surface,161.71,43.51,94.55,Low,Normal,None,Ground,Crack
+Tunnel,Wall,146.42,45.27,48.7,Medium,Low,Partial,Ground,Healthy
+Road,Beam,50.23,0.54,57.55,Low,High,Partial,UAV,Spalling
+Building,Surface,160.84,29.91,82.73,Low,High,Severe,Ground,Crack
+Building,Beam,26.31,36.11,28.25,High,Normal,None,Ground,Crack
+Bridge,Beam,391.58,31.13,8.45,High,Normal,Severe,Fixed Camera,Healthy
+Building,Column,202.12,4.54,71.07,Medium,Low,None,Ground,Healthy
+Road,Surface,224.73,11.28,48.82,High,Low,None,Fixed Camera,Corrosion
+Tunnel,Wall,447.33,12.89,89.75,High,Low,None,UAV,Crack
+Bridge,Column,330.74,41.67,98.29,Medium,Normal,Severe,Ground,Deformation
+Bridge,Beam,8.99,23.43,40.51,Low,High,None,Fixed Camera,Corrosion
+Tunnel,Beam,471.87,24.6,42.13,High,Normal,Severe,Ground,Corrosion
+Building,Beam,122.39,46.78,41.39,Medium,High,Severe,Fixed Camera,Deformation
+Tunnel,Surface,58.27,32.04,33.13,Medium,Normal,Partial,Fixed Camera,Corrosion
+Building,Surface,385.22,44.98,78.39,Medium,Normal,Severe,Ground,Spalling
+Tunnel,Column,252.74,23.1,76.14,Medium,Low,Severe,UAV,Healthy
+Road,Wall,219.72,7.9,48.39,High,High,Partial,Fixed Camera,Deformation
+Building,Column,128.5,46.53,5.42,Low,Normal,Partial,UAV,Corrosion
+Road,Deck,276.0,23.21,31.65,High,Normal,Partial,Ground,Corrosion
+Bridge,Beam,140.82,9.49,29.94,High,High,None,Ground,Corrosion
+Tunnel,Beam,451.28,15.47,81.3,Medium,Normal,None,UAV,Corrosion
+Bridge,Beam,111.53,3.01,9.67,Medium,High,Partial,Ground,Corrosion
+Bridge,Column,442.76,23.68,80.76,Low,Low,None,Fixed Camera,Corrosion
+Bridge,Column,281.91,42.73,67.25,Low,Low,Partial,UAV,Crack
+Bridge,Beam,415.1,46.71,73.51,Low,High,None,Ground,Crack
+Tunnel,Column,357.86,46.66,43.79,High,Low,Severe,Ground,Corrosion
+Bridge,Surface,349.86,6.7,68.29,Medium,High,None,UAV,Spalling
+Tunnel,Surface,165.55,19.41,61.29,Low,Normal,None,Fixed Camera,Spalling
+Tunnel,Column,120.78,1.9,77.13,Low,Normal,Severe,UAV,Corrosion
+Road,Beam,109.39,42.83,45.23,High,High,Partial,Ground,Deformation
+Building,Column,429.31,18.26,47.81,Low,Normal,None,Ground,Deformation
+Building,Column,411.11,31.74,64.71,High,Low,None,UAV,Corrosion
+Tunnel,Column,223.08,35.89,11.7,Low,Normal,Severe,Fixed Camera,Crack
+Road,Deck,70.54,21.78,44.19,Medium,Normal,Severe,Fixed Camera,Spalling
+Tunnel,Surface,194.21,15.67,97.22,Low,High,Severe,Fixed Camera,Corrosion
+Tunnel,Wall,311.58,48.13,4.72,Medium,Low,Severe,UAV,Crack
+Tunnel,Wall,229.93,48.24,32.28,Medium,Normal,Partial,Fixed Camera,Healthy
+Road,Deck,391.19,14.83,32.1,Low,Normal,None,Fixed Camera,Corrosion
+Building,Column,498.82,24.24,63.71,Medium,High,None,Fixed Camera,Spalling
+Road,Deck,99.61,48.66,11.47,Medium,High,None,Fixed Camera,Corrosion
+Bridge,Deck,232.53,0.74,63.23,Medium,Low,None,Ground,Crack
+Road,Beam,218.34,20.93,10.41,High,Normal,Partial,UAV,Crack
+Road,Surface,155.72,5.47,10.4,Low,High,None,UAV,Spalling
+Road,Wall,103.06,25.7,73.09,Medium,High,Partial,Fixed Camera,Crack
+Road,Column,37.52,1.72,33.09,High,High,Partial,UAV,Crack
+Building,Wall,444.12,20.64,97.76,High,Low,Severe,UAV,Healthy
+Bridge,Wall,212.83,11.42,4.7,High,High,Severe,Ground,Corrosion
+Building,Surface,250.96,26.9,45.07,Low,Low,None,UAV,Crack
+Building,Wall,458.89,49.8,12.2,High,Low,Partial,Ground,Corrosion
+Road,Wall,389.26,40.13,35.79,Medium,Normal,Severe,UAV,Spalling
+Tunnel,Deck,69.6,42.36,99.82,Low,Normal,Partial,Ground,Corrosion
+Tunnel,Surface,284.88,31.95,89.0,High,Low,Severe,Ground,Crack
+Building,Beam,223.91,2.56,5.78,Medium,Normal,Partial,UAV,Corrosion
+Building,Column,399.62,10.74,56.76,Low,Normal,None,Ground,Crack
+Road,Wall,363.5,46.29,65.13,Low,High,None,Ground,Spalling
+Building,Column,346.75,18.62,21.74,High,Normal,Partial,UAV,Spalling
+Road,Beam,173.57,5.63,15.37,Low,Low,Severe,Ground,Crack
+Tunnel,Column,403.46,35.27,90.53,Low,Normal,Severe,Ground,Corrosion
+Tunnel,Beam,30.93,15.32,96.91,Medium,High,None,Ground,Corrosion
+Bridge,Deck,84.01,13.81,99.2,Low,Low,None,Ground,Spalling
+Tunnel,Wall,171.13,49.9,79.19,High,Normal,None,Ground,Corrosion
+Building,Beam,43.02,42.98,66.69,Medium,Low,Severe,Fixed Camera,Corrosion
+Tunnel,Column,121.32,20.69,35.23,Medium,Normal,Severe,Ground,Healthy
+Road,Wall,415.92,49.02,17.97,High,High,None,Ground,Crack
+Tunnel,Deck,474.38,32.68,8.82,Medium,Normal,Partial,Ground,Healthy
+Bridge,Wall,155.78,37.23,69.64,Low,Low,Severe,Ground,Crack
+Tunnel,Beam,135.94,2.06,78.69,High,Low,None,UAV,Corrosion
+Road,Deck,143.55,6.52,82.82,Medium,Low,Partial,Fixed Camera,Corrosion
+Road,Column,142.47,31.84,91.46,Low,Normal,Severe,UAV,Crack
+Building,Deck,22.79,45.0,88.11,Medium,Normal,Partial,Fixed Camera,Crack
+Tunnel,Deck,463.82,31.38,99.97,High,Normal,Partial,Ground,Crack
+Road,Surface,110.78,7.13,25.16,High,High,Severe,Ground,Healthy
+Bridge,Deck,212.9,6.23,76.57,High,High,None,Fixed Camera,Corrosion
+Building,Deck,9.8,42.29,59.06,High,High,Partial,Fixed Camera,Spalling
+Bridge,Wall,429.69,7.4,26.86,High,Low,None,UAV,Deformation
+Tunnel,Column,366.92,26.25,98.21,High,Low,Severe,Fixed Camera,Deformation
+Tunnel,Wall,473.64,2.34,89.89,Low,Low,Partial,Ground,Deformation
+Tunnel,Wall,391.9,4.49,13.72,Low,Low,Partial,UAV,Corrosion
+Building,Beam,160.28,33.78,3.59,Medium,Low,Partial,Fixed Camera,Crack
+Road,Wall,127.7,34.61,69.14,Medium,Normal,Partial,Fixed Camera,Corrosion
+Building,Surface,350.37,17.4,60.81,Low,Low,Partial,UAV,Crack
+Bridge,Surface,185.24,11.17,93.65,Low,Normal,Severe,Fixed Camera,Crack
+Building,Beam,285.28,40.78,24.17,Low,High,Partial,Ground,Crack
+Bridge,Column,8.1,11.25,9.35,Medium,High,Severe,UAV,Healthy
+Building,Column,35.63,27.33,26.66,High,High,None,Fixed Camera,Healthy
+Road,Wall,270.01,48.43,2.87,High,High,Severe,Ground,Crack
+Bridge,Wall,285.21,7.82,4.55,High,High,Partial,Fixed Camera,Crack
+Tunnel,Wall,376.97,47.07,91.57,High,Low,None,UAV,Crack
+Tunnel,Column,70.32,9.55,35.85,Medium,Low,Severe,Fixed Camera,Corrosion
+Building,Deck,259.03,28.59,41.67,Low,Low,Severe,Fixed Camera,Crack
+Tunnel,Surface,101.25,19.16,2.82,Low,High,Severe,Fixed Camera,Healthy
+Bridge,Deck,51.13,48.26,27.78,Medium,High,Partial,Ground,Crack
+Tunnel,Deck,208.2,14.04,80.67,Low,Normal,Partial,Ground,Crack
+Road,Column,85.85,20.28,61.93,Medium,Low,Severe,Fixed Camera,Crack
+Road,Deck,114.78,49.15,75.62,Medium,High,Severe,Fixed Camera,Healthy
+Building,Beam,162.19,27.06,45.27,Medium,High,None,UAV,Healthy
+Bridge,Wall,133.4,25.38,31.66,High,High,Partial,Fixed Camera,Deformation
+Road,Beam,48.36,13.26,48.8,Medium,Normal,Partial,UAV,Corrosion
+Road,Surface,49.51,35.22,32.98,Low,High,None,Ground,Crack
+Bridge,Wall,100.66,1.21,84.06,Medium,Normal,Severe,Fixed Camera,Crack
+Tunnel,Deck,30.03,2.95,30.47,Medium,Normal,Severe,UAV,Corrosion
+Tunnel,Surface,315.1,30.17,66.32,Low,Low,None,Ground,Deformation
+Building,Wall,147.23,17.41,14.56,Low,High,Severe,UAV,Crack
+Tunnel,Deck,143.47,47.69,69.0,Medium,Normal,Severe,Ground,Corrosion
+Bridge,Beam,169.34,45.21,91.42,High,High,None,Fixed Camera,Spalling
+Road,Wall,333.08,35.83,61.25,Medium,Low,None,UAV,Crack
+Tunnel,Deck,435.96,41.0,56.43,High,Low,None,Fixed Camera,Spalling
+Building,Beam,380.75,33.53,96.15,High,Normal,Severe,UAV,Corrosion
+Tunnel,Surface,365.13,6.72,63.11,Low,Low,None,Ground,Crack
+Bridge,Surface,244.77,38.39,26.7,Medium,Low,Severe,UAV,Corrosion
+Building,Surface,348.43,10.9,29.95,Medium,Low,Partial,UAV,Healthy
+Tunnel,Surface,278.62,16.51,70.83,Low,High,Partial,Fixed Camera,Corrosion
+Building,Column,112.04,41.05,73.81,Medium,High,None,Fixed Camera,Corrosion
+Bridge,Wall,108.25,27.06,31.05,Medium,Normal,Severe,Fixed Camera,Crack
+Road,Wall,151.71,43.07,35.19,Low,Normal,Severe,Ground,Spalling
+Bridge,Column,455.85,11.05,99.11,High,Low,Severe,Fixed Camera,Deformation
+Bridge,Deck,275.97,30.59,11.09,High,Low,None,UAV,Corrosion
+Bridge,Deck,368.28,4.65,41.06,High,Normal,Severe,Ground,Crack
+Bridge,Surface,176.55,32.33,7.18,Low,Low,Severe,Fixed Camera,Healthy
+Road,Beam,206.82,38.25,82.29,High,Normal,Severe,UAV,Deformation
+Road,Deck,67.15,29.45,10.14,Low,High,Partial,UAV,Spalling
+Building,Beam,89.79,13.68,67.73,Low,Low,Severe,Ground,Corrosion
+Tunnel,Wall,414.54,2.05,6.59,High,Low,Partial,UAV,Crack
+Road,Beam,294.5,6.41,67.61,Medium,Low,Severe,Fixed Camera,Deformation
+Road,Wall,172.08,31.3,84.46,Medium,High,Severe,UAV,Spalling
+Tunnel,Column,402.41,46.75,40.48,Medium,High,Severe,Fixed Camera,Spalling
+Road,Column,127.03,10.72,52.69,Low,Low,Partial,Fixed Camera,Crack
+Bridge,Surface,488.14,36.88,40.75,Medium,Normal,Severe,Ground,Spalling
+Bridge,Deck,175.68,43.39,30.75,Medium,High,None,UAV,Deformation
+Tunnel,Surface,171.97,26.28,80.52,Medium,Low,Severe,Ground,Healthy
+Building,Wall,159.4,33.63,27.93,Medium,Low,Partial,Ground,Crack
+Building,Surface,65.45,40.84,72.57,High,High,Partial,Ground,Spalling
+Tunnel,Beam,60.01,13.4,21.41,Medium,Normal,None,Fixed Camera,Spalling
+Tunnel,Wall,325.81,15.2,25.74,Medium,Low,None,Fixed Camera,Healthy
+Bridge,Column,438.18,0.53,34.31,High,Normal,None,Fixed Camera,Deformation
+Building,Deck,396.31,48.17,59.33,Medium,Normal,Partial,Fixed Camera,Healthy
+Road,Wall,74.85,45.92,45.99,Low,High,Severe,UAV,Healthy
+Bridge,Wall,275.06,38.35,74.77,Low,Low,Severe,UAV,Crack
+Tunnel,Beam,57.27,4.41,22.14,Medium,Low,None,Fixed Camera,Deformation
+Building,Deck,27.42,22.65,2.06,Low,Normal,None,Fixed Camera,Spalling
+Road,Column,329.91,5.54,77.88,Medium,High,Severe,UAV,Crack
+Road,Wall,269.9,1.29,82.34,Low,High,None,Ground,Crack
+Bridge,Wall,45.6,31.0,6.89,Low,High,Severe,Ground,Crack
+Building,Beam,22.29,48.06,61.48,Medium,Normal,Severe,Fixed Camera,Deformation
+Building,Surface,494.93,45.19,38.44,High,Normal,Severe,Ground,Corrosion
+Tunnel,Column,19.86,34.99,79.6,Medium,Low,Severe,Fixed Camera,Healthy
+Building,Deck,225.04,5.28,87.57,High,High,Partial,Fixed Camera,Spalling
+Building,Wall,254.79,14.07,85.25,High,Normal,Severe,Fixed Camera,Spalling
+Bridge,Wall,63.05,16.34,77.94,Low,High,None,UAV,Corrosion
+Building,Column,88.69,38.28,27.64,Low,Normal,None,Ground,Corrosion
+Road,Surface,179.14,40.21,81.38,High,Low,None,UAV,Corrosion
+Bridge,Wall,382.03,19.56,53.81,High,High,None,Ground,Crack
+Bridge,Column,256.01,21.19,6.22,Medium,Normal,Partial,UAV,Deformation
+Tunnel,Beam,320.76,2.7,46.24,High,High,Severe,UAV,Spalling
+Building,Surface,492.66,14.81,94.27,Low,Normal,Severe,Fixed Camera,Crack
+Tunnel,Deck,385.16,22.84,88.9,Low,Normal,None,Fixed Camera,Deformation
+Road,Wall,220.01,6.29,11.12,Medium,Normal,None,UAV,Crack
+Bridge,Column,225.99,22.94,74.67,Medium,High,None,Ground,Corrosion
+Bridge,Beam,311.29,42.73,80.77,Low,Normal,Severe,Ground,Spalling
+Bridge,Deck,334.36,29.28,27.87,Low,Low,Partial,Fixed Camera,Crack
+Road,Column,252.85,4.41,47.69,Low,High,Partial,Fixed Camera,Spalling
+Road,Column,324.21,9.99,71.39,Medium,Low,Partial,Ground,Spalling
+Tunnel,Deck,16.65,23.99,44.47,High,Low,Partial,Ground,Spalling
+Tunnel,Beam,217.66,18.39,12.17,High,High,None,Ground,Crack
+Tunnel,Beam,143.07,18.26,70.88,Medium,Normal,Severe,Fixed Camera,Crack
+Building,Surface,68.94,26.7,91.25,Medium,Low,None,Ground,Crack
+Bridge,Wall,54.28,29.43,65.6,Medium,High,Partial,Fixed Camera,Healthy
+Bridge,Deck,303.58,39.94,77.61,Low,Normal,None,UAV,Crack
+Tunnel,Deck,264.18,17.38,36.48,Low,High,Partial,UAV,Corrosion
+Bridge,Deck,130.52,40.37,19.14,Low,High,Severe,UAV,Healthy
+Tunnel,Beam,238.12,17.26,64.63,High,High,Partial,Ground,Deformation
+Building,Wall,248.65,3.24,33.45,High,Normal,None,Fixed Camera,Deformation
+Building,Surface,101.53,27.93,86.15,Medium,Low,Severe,Ground,Healthy
+Road,Column,327.79,29.6,13.14,Medium,Low,Partial,Fixed Camera,Corrosion
+Building,Column,391.56,46.76,43.91,Low,High,Partial,Ground,Corrosion
+Tunnel,Deck,396.77,36.44,40.28,Medium,High,Severe,UAV,Crack
+Building,Wall,303.22,45.93,93.87,Medium,Normal,None,Fixed Camera,Crack
+Road,Beam,258.26,45.46,16.16,Medium,High,Severe,Ground,Spalling
+Bridge,Wall,35.2,30.43,1.97,Low,High,None,Fixed Camera,Crack
+Tunnel,Wall,147.48,26.62,24.57,High,High,Partial,Fixed Camera,Deformation
+Bridge,Beam,51.17,28.09,82.21,Medium,Low,Partial,Ground,Crack
+Road,Deck,482.09,48.93,21.72,High,High,Severe,Ground,Crack
+Road,Wall,71.86,38.77,24.85,High,Low,Partial,Fixed Camera,Deformation
+Road,Column,80.13,5.76,13.86,High,Normal,Severe,Fixed Camera,Crack
+Bridge,Beam,445.34,39.03,71.83,Low,Normal,Partial,UAV,Deformation
+Bridge,Surface,472.24,8.94,7.85,Low,Low,Partial,Fixed Camera,Healthy
+Bridge,Deck,384.09,22.64,33.79,Low,Low,None,UAV,Deformation
+Bridge,Beam,7.68,10.92,28.97,Low,Low,Severe,UAV,Corrosion
+Road,Surface,5.67,34.63,55.96,Medium,Low,Severe,UAV,Healthy
+Road,Surface,192.16,43.93,73.31,Medium,High,Partial,Fixed Camera,Crack
+Tunnel,Wall,75.98,14.87,53.75,Medium,Low,None,UAV,Deformation
+Tunnel,Wall,14.1,4.56,93.17,Low,Low,None,Fixed Camera,Crack
+Bridge,Wall,234.71,15.28,95.19,High,Low,Severe,Fixed Camera,Crack
+Building,Beam,471.82,33.78,36.79,Low,High,Severe,Ground,Healthy
+Building,Beam,165.29,16.77,77.99,Low,High,Partial,Fixed Camera,Corrosion
+Road,Deck,332.26,14.27,74.14,Medium,High,Severe,Fixed Camera,Deformation
+Road,Wall,327.86,9.63,89.4,High,Normal,Partial,UAV,Corrosion
+Road,Surface,129.28,25.13,45.35,Medium,High,None,Fixed Camera,Deformation
+Tunnel,Column,326.96,14.16,53.52,Low,Low,Severe,Fixed Camera,Healthy
+Tunnel,Deck,110.11,36.69,42.16,Medium,High,None,Ground,Corrosion
+Road,Beam,65.39,4.29,85.19,Low,High,None,Ground,Spalling
+Road,Deck,352.18,33.37,23.74,Low,Low,Partial,UAV,Spalling
+Road,Deck,61.15,12.26,24.73,Medium,High,None,UAV,Healthy
+Building,Deck,498.47,24.72,37.89,Low,Normal,Partial,Ground,Crack
+Tunnel,Deck,95.81,14.66,23.8,Low,High,Partial,Ground,Spalling
+Building,Column,299.1,36.28,56.54,Medium,Normal,None,Fixed Camera,Corrosion
+Building,Wall,208.63,47.29,14.31,High,Normal,None,UAV,Crack
+Road,Surface,67.56,45.9,32.7,High,Normal,Partial,UAV,Crack
+Road,Deck,18.78,29.38,91.43,Medium,Low,Partial,Fixed Camera,Spalling
+Bridge,Deck,313.25,23.4,41.51,Low,High,None,Fixed Camera,Healthy
+Bridge,Deck,404.34,41.01,75.08,Low,Normal,Partial,UAV,Corrosion
+Building,Wall,421.8,34.32,12.23,Low,Normal,Partial,Ground,Spalling
+Tunnel,Beam,243.94,9.59,25.51,Medium,High,Severe,Ground,Spalling
+Road,Beam,389.84,41.14,80.93,Medium,Low,Severe,Fixed Camera,Corrosion
+Road,Column,338.06,21.73,76.54,Medium,Low,Severe,UAV,Healthy
+Building,Beam,363.51,9.85,39.23,Medium,Normal,Severe,Fixed Camera,Corrosion
+Bridge,Deck,248.84,14.45,95.49,Low,Low,Severe,Ground,Crack
+Tunnel,Deck,318.54,13.74,91.15,Medium,High,Partial,Ground,Crack
+Bridge,Deck,403.74,26.2,96.27,Low,Low,Partial,Fixed Camera,Healthy
+Bridge,Column,201.95,12.1,43.36,Medium,High,Severe,Ground,Healthy
+Bridge,Deck,403.96,6.62,20.55,Medium,Normal,None,UAV,Corrosion
+Bridge,Beam,298.05,6.62,63.04,Medium,High,Severe,Fixed Camera,Crack
+Road,Wall,87.12,29.37,68.79,Medium,Normal,None,Fixed Camera,Corrosion
+Road,Wall,17.22,36.87,13.42,Medium,High,Partial,Fixed Camera,Deformation
+Bridge,Surface,184.56,16.42,78.86,Low,High,None,Ground,Spalling
+Tunnel,Beam,275.61,2.22,2.79,Low,Low,Partial,UAV,Healthy
+Building,Deck,420.71,6.8,48.79,Medium,High,None,Fixed Camera,Deformation
+Tunnel,Wall,68.11,45.78,33.77,Low,Normal,Partial,Fixed Camera,Healthy
+Tunnel,Beam,401.1,24.93,74.29,Medium,High,Partial,Ground,Spalling
+Tunnel,Wall,432.19,22.95,31.96,Medium,Normal,Severe,UAV,Corrosion
+Bridge,Deck,79.59,2.38,82.85,High,Normal,Partial,Fixed Camera,Deformation
+Road,Wall,426.54,36.57,59.9,High,High,Severe,Ground,Corrosion
+Tunnel,Surface,495.77,26.64,79.6,Low,Low,Severe,Fixed Camera,Corrosion
+Bridge,Surface,364.79,10.5,98.94,High,High,Severe,Ground,Crack
+Tunnel,Wall,393.46,5.95,68.24,Medium,High,None,UAV,Spalling
+Tunnel,Beam,497.24,19.48,98.51,Medium,Low,None,Ground,Spalling
+Bridge,Beam,304.71,41.94,3.85,Low,Normal,Partial,Fixed Camera,Spalling
+Road,Beam,157.4,43.33,34.48,High,High,Severe,Fixed Camera,Crack
+Road,Wall,419.58,30.34,11.68,Low,Low,Severe,Ground,Spalling
+Building,Beam,309.17,36.51,26.97,High,Low,Partial,UAV,Crack
+Bridge,Deck,292.69,6.2,84.05,Low,Normal,Severe,UAV,Spalling
+Building,Surface,130.55,29.61,4.2,Medium,Low,Partial,Fixed Camera,Corrosion
+Building,Deck,379.39,33.51,52.5,Medium,Normal,Severe,Fixed Camera,Deformation
+Building,Beam,45.43,10.44,57.15,Low,High,None,Ground,Deformation
+Road,Deck,462.52,44.07,56.55,Low,Low,Partial,Ground,Deformation
+Bridge,Beam,166.28,10.15,48.05,Medium,High,Partial,Ground,Deformation
+Building,Wall,68.25,16.02,79.27,Low,Low,None,UAV,Spalling
+Bridge,Deck,223.97,31.22,14.22,Medium,Low,Partial,UAV,Crack
+Bridge,Wall,26.02,32.1,31.75,Medium,High,None,Fixed Camera,Spalling
+Road,Wall,343.89,35.12,61.96,High,Low,Severe,Fixed Camera,Corrosion
+Building,Column,451.84,6.04,69.4,Medium,High,None,Fixed Camera,Corrosion
+Building,Beam,419.45,42.55,41.01,Low,High,None,Ground,Corrosion
+Bridge,Surface,68.05,26.88,87.66,Low,Normal,Partial,UAV,Healthy
+Tunnel,Beam,67.5,23.83,42.13,Low,High,Severe,Fixed Camera,Crack
+Road,Surface,407.65,49.06,40.87,High,Normal,None,Fixed Camera,Corrosion
+Road,Beam,462.51,37.15,4.58,High,High,Severe,Fixed Camera,Healthy
+Road,Wall,233.03,6.34,55.56,Low,Low,None,Fixed Camera,Deformation
+Road,Deck,251.99,37.95,71.16,Low,High,Partial,Fixed Camera,Crack
+Building,Deck,162.54,5.21,12.33,High,Low,None,Fixed Camera,Healthy
+Building,Column,447.66,1.86,31.24,High,Normal,None,UAV,Crack
+Tunnel,Surface,324.23,20.48,78.34,High,Low,Severe,Fixed Camera,Deformation
+Road,Surface,147.68,49.68,37.23,High,High,None,UAV,Spalling
+Road,Surface,152.9,9.16,24.92,Medium,Low,Partial,Ground,Spalling
+Bridge,Wall,446.14,33.8,67.55,Low,Normal,Partial,UAV,Deformation
+Building,Surface,11.75,9.08,20.48,Medium,Low,None,Ground,Crack
+Road,Deck,164.75,36.38,89.67,Medium,Low,None,UAV,Crack
+Tunnel,Wall,279.41,25.52,11.45,Medium,High,Severe,UAV,Spalling
+Tunnel,Beam,78.37,34.16,70.95,Medium,High,Severe,Fixed Camera,Corrosion
+Building,Surface,50.59,10.54,50.46,Low,Low,Partial,UAV,Healthy
+Tunnel,Surface,408.56,37.41,87.12,Low,Normal,Severe,UAV,Corrosion
+Tunnel,Beam,447.73,49.78,13.49,Medium,Low,None,Fixed Camera,Crack
+Building,Surface,412.69,33.45,68.11,Low,Normal,Partial,Ground,Deformation
+Road,Beam,449.9,24.93,57.63,Medium,Normal,Severe,Fixed Camera,Corrosion
+Road,Wall,278.79,46.2,48.53,High,Normal,Partial,Fixed Camera,Crack
+Tunnel,Deck,407.07,1.28,49.65,High,Low,None,Fixed Camera,Corrosion
+Tunnel,Beam,195.1,36.63,72.48,Medium,Normal,Severe,Ground,Healthy
+Road,Column,334.8,44.49,93.84,Medium,Low,None,UAV,Corrosion
+Building,Beam,494.47,3.55,10.03,Low,Normal,None,UAV,Corrosion
+Tunnel,Surface,116.74,22.78,2.93,Medium,Normal,Partial,Fixed Camera,Corrosion
+Bridge,Wall,198.0,10.63,80.76,Medium,Low,Partial,Fixed Camera,Crack
+Building,Wall,242.62,28.54,11.71,Medium,High,Partial,UAV,Crack
+Tunnel,Beam,73.32,32.65,98.68,High,High,Severe,UAV,Deformation
+Tunnel,Deck,45.11,15.48,62.32,Medium,Low,Severe,UAV,Healthy
+Bridge,Column,415.71,23.27,65.44,Low,Low,Partial,Ground,Crack
+Bridge,Wall,488.51,14.33,20.69,Low,High,Severe,Ground,Spalling
+Road,Surface,205.34,18.78,24.79,Medium,High,Severe,Fixed Camera,Healthy
+Building,Surface,48.39,8.4,66.28,Medium,High,Partial,Ground,Crack
+Building,Deck,37.58,44.34,91.06,High,Low,None,Fixed Camera,Crack
+Road,Wall,446.2,1.0,98.26,Medium,Normal,Severe,UAV,Healthy
+Building,Beam,234.59,44.18,20.61,Medium,Low,Severe,UAV,Deformation
+Building,Surface,163.41,28.8,14.28,Medium,High,None,Fixed Camera,Crack
+Building,Deck,240.85,16.92,6.58,Medium,Normal,None,UAV,Corrosion
+Building,Wall,162.56,36.29,86.96,Medium,Low,None,Fixed Camera,Crack
+Building,Wall,247.07,25.63,30.18,Medium,High,Partial,Fixed Camera,Corrosion
+Bridge,Wall,430.48,25.21,1.18,Medium,Low,None,Fixed Camera,Deformation
+Building,Wall,298.19,5.95,23.16,Low,Normal,Partial,Ground,Spalling
+Bridge,Wall,348.85,19.78,34.7,High,High,None,Fixed Camera,Spalling
+Building,Surface,185.51,12.43,99.11,Low,Low,None,Fixed Camera,Corrosion
+Road,Deck,370.56,1.28,52.83,Low,Normal,Partial,Fixed Camera,Crack
+Tunnel,Wall,334.98,18.32,21.27,Low,Normal,Partial,Ground,Crack
+Bridge,Column,64.18,4.95,34.15,Low,Low,None,UAV,Deformation
+Building,Column,288.46,13.21,33.7,Medium,Normal,None,Ground,Spalling
+Road,Deck,132.09,5.08,2.95,Low,High,None,Fixed Camera,Crack
+Tunnel,Beam,403.03,5.5,14.38,Low,Normal,Severe,Ground,Corrosion
+Bridge,Beam,215.84,10.35,69.82,Medium,Low,None,UAV,Deformation
+Tunnel,Beam,497.37,49.99,12.9,Medium,High,Partial,UAV,Spalling
+Road,Column,50.79,0.61,23.84,Low,Normal,Severe,Fixed Camera,Corrosion
+Bridge,Beam,391.27,32.11,35.72,Medium,Normal,Partial,UAV,Crack
+Tunnel,Surface,338.48,7.49,76.02,Medium,High,Severe,Ground,Crack
+Building,Wall,384.91,46.07,58.66,High,High,Severe,Ground,Deformation
+Bridge,Column,157.23,5.13,69.21,Medium,Normal,Partial,UAV,Spalling
+Tunnel,Deck,248.57,47.78,57.13,Low,High,Severe,Fixed Camera,Deformation
+Road,Deck,399.27,30.74,68.68,Medium,Low,Partial,Fixed Camera,Healthy
+Road,Wall,120.11,0.56,1.28,Medium,Normal,None,Ground,Healthy
+Bridge,Column,116.89,44.75,93.16,Low,Low,Severe,UAV,Crack
+Tunnel,Beam,277.77,26.32,11.98,High,Normal,Partial,Ground,Crack
+Bridge,Beam,264.16,13.5,41.22,Medium,Low,Severe,Ground,Corrosion
+Bridge,Surface,144.72,38.48,77.33,High,Low,Partial,Ground,Crack
+Tunnel,Surface,152.55,46.37,44.09,Medium,High,None,Fixed Camera,Deformation
+Tunnel,Beam,142.53,24.44,94.74,Medium,Normal,None,UAV,Healthy
+Building,Deck,386.9,16.12,47.29,Medium,High,Severe,UAV,Deformation
+Tunnel,Deck,327.69,39.55,87.62,Medium,High,Severe,Fixed Camera,Crack
+Road,Surface,417.05,34.25,81.27,Medium,Normal,Partial,Ground,Crack
+Bridge,Wall,487.86,44.49,98.12,High,Low,Partial,Ground,Corrosion
+Bridge,Beam,239.71,34.78,92.73,Medium,Normal,Severe,Fixed Camera,Deformation
+Road,Surface,38.01,12.55,89.91,High,Normal,Partial,UAV,Corrosion
+Tunnel,Surface,28.81,46.62,73.43,High,Normal,Partial,Fixed Camera,Crack
+Road,Beam,151.35,5.69,37.33,High,High,Partial,UAV,Crack
+Road,Beam,466.61,13.76,11.51,Medium,Normal,Severe,UAV,Healthy
+Building,Deck,263.99,26.25,69.18,Medium,Normal,None,UAV,Spalling
+Road,Wall,139.53,28.5,97.89,Low,Normal,None,Ground,Healthy
+Bridge,Wall,202.59,1.26,72.93,Medium,Low,Partial,Ground,Deformation
+Road,Beam,301.3,39.14,92.94,Low,Low,Severe,Fixed Camera,Spalling
+Bridge,Column,328.21,18.4,80.63,Low,Low,Partial,Fixed Camera,Crack
+Bridge,Surface,81.19,20.62,17.15,Low,Low,None,Ground,Corrosion
+Bridge,Surface,488.63,40.56,25.67,High,High,Partial,Fixed Camera,Spalling
+Tunnel,Beam,274.66,19.27,34.84,High,High,None,Ground,Healthy
+Building,Column,72.17,2.84,17.66,Medium,Normal,Severe,Ground,Crack
+Bridge,Deck,447.35,9.23,58.58,Medium,High,Partial,UAV,Crack
+Bridge,Beam,41.95,47.82,97.57,Medium,Low,Severe,UAV,Spalling
+Tunnel,Beam,454.33,3.99,76.38,Medium,Normal,Partial,Ground,Crack
+Bridge,Surface,498.3,18.07,42.92,Medium,Normal,Partial,UAV,Spalling
+Road,Beam,351.71,25.41,1.45,Low,Low,Partial,Ground,Crack
+Road,Beam,386.37,24.92,32.01,Low,Low,Partial,UAV,Crack
+Building,Beam,171.96,0.7,53.15,Medium,Low,Partial,Fixed Camera,Corrosion
+Bridge,Surface,471.08,25.31,33.1,Medium,High,Severe,Fixed Camera,Spalling
+Tunnel,Deck,267.21,19.5,11.99,Medium,Normal,Severe,Ground,Spalling
+Road,Deck,367.53,48.62,44.83,High,Low,None,Ground,Crack
+Tunnel,Beam,462.43,8.38,26.07,Low,Normal,Partial,UAV,Healthy
+Tunnel,Surface,487.71,18.03,91.01,Low,Normal,None,UAV,Crack
+Road,Deck,417.44,21.26,11.07,Medium,High,Severe,Ground,Crack
+Tunnel,Deck,154.99,19.84,5.87,Low,Normal,None,Fixed Camera,Spalling
+Road,Deck,483.44,33.46,1.53,Low,Low,Severe,Fixed Camera,Crack
+Tunnel,Surface,315.92,11.17,33.48,Low,Low,Partial,Ground,Spalling
+Road,Surface,465.67,11.44,66.38,Medium,Normal,None,Fixed Camera,Healthy
+Bridge,Beam,339.67,36.6,73.31,Low,Normal,None,Ground,Deformation
+Building,Wall,157.08,25.26,45.87,Medium,High,None,UAV,Spalling
+Road,Deck,188.16,21.05,68.75,Medium,Low,None,Fixed Camera,Spalling
+Road,Wall,277.48,8.88,36.63,Low,Low,Partial,Fixed Camera,Crack
+Building,Surface,396.06,9.78,67.11,High,Normal,Severe,UAV,Corrosion
+Road,Surface,162.4,1.02,5.02,Low,Normal,Severe,UAV,Corrosion
+Road,Surface,291.97,5.03,39.68,High,Normal,Partial,Fixed Camera,Healthy
+Tunnel,Wall,176.08,28.06,79.29,High,Low,Severe,Fixed Camera,Crack
+Building,Surface,408.81,44.65,80.5,Low,Normal,None,Ground,Corrosion
+Bridge,Beam,236.03,14.71,71.9,High,High,Partial,Ground,Healthy
+Road,Surface,42.98,16.72,21.22,High,High,Severe,Fixed Camera,Deformation
+Building,Column,87.2,6.22,25.47,High,Normal,Partial,Ground,Healthy
+Tunnel,Wall,35.25,19.74,99.61,Medium,High,Partial,UAV,Spalling
+Bridge,Column,252.15,2.34,11.23,Low,High,Severe,Ground,Corrosion
+Building,Surface,57.64,45.92,18.89,High,High,Severe,Ground,Deformation
+Bridge,Beam,61.5,33.82,13.87,Low,High,Partial,Fixed Camera,Corrosion
+Bridge,Deck,470.82,49.54,33.44,Low,High,Partial,Ground,Crack
+Bridge,Surface,436.96,44.2,21.81,Low,Low,Severe,Fixed Camera,Deformation
+Road,Beam,228.78,23.91,50.27,Low,Normal,Partial,Fixed Camera,Spalling
+Road,Wall,492.97,26.22,48.13,Medium,High,Severe,Fixed Camera,Healthy
+Tunnel,Column,5.09,9.93,90.25,Medium,Normal,Partial,UAV,Healthy
+Tunnel,Column,308.92,23.37,4.44,High,High,Partial,Ground,Healthy
+Building,Column,310.13,45.2,32.67,Low,Low,Partial,Ground,Crack
+Tunnel,Wall,231.43,3.02,60.07,High,Low,Severe,Ground,Spalling
+Bridge,Beam,201.49,43.25,60.88,High,High,None,Fixed Camera,Deformation
+Bridge,Wall,230.41,17.38,48.53,Low,High,Severe,UAV,Healthy
+Road,Column,210.41,45.03,81.75,Low,High,Partial,Fixed Camera,Corrosion
+Bridge,Surface,366.59,47.07,7.21,High,Low,None,Ground,Crack
+Building,Deck,72.0,33.71,81.73,Medium,Low,None,Fixed Camera,Healthy
+Bridge,Wall,102.83,33.39,49.98,High,Normal,Partial,Fixed Camera,Corrosion
+Bridge,Wall,94.36,22.91,14.24,Medium,Low,Severe,Ground,Spalling
+Building,Beam,134.92,41.86,88.68,Medium,High,None,Fixed Camera,Corrosion
+Tunnel,Beam,265.0,48.1,65.27,Low,Normal,None,Fixed Camera,Corrosion
+Tunnel,Wall,60.05,38.87,17.19,Medium,Low,Severe,UAV,Deformation
+Building,Column,434.74,31.29,4.33,Low,Low,Severe,Fixed Camera,Corrosion
+Road,Deck,152.19,30.54,14.97,Medium,High,None,UAV,Deformation
+Bridge,Beam,85.46,42.55,61.27,High,Normal,Severe,Ground,Crack
+Building,Column,339.43,27.29,18.75,Medium,Low,None,UAV,Corrosion
+Bridge,Surface,23.85,40.29,23.35,High,Low,Partial,Fixed Camera,Corrosion
+Road,Beam,311.88,25.69,3.49,Medium,High,Severe,Ground,Deformation
+Bridge,Column,350.61,3.59,72.57,Medium,Normal,None,Fixed Camera,Corrosion
+Building,Column,111.38,19.51,81.23,Medium,Normal,Severe,Fixed Camera,Spalling
+Bridge,Deck,25.77,22.5,79.89,High,Normal,Severe,UAV,Deformation
+Tunnel,Deck,185.0,7.51,13.63,Medium,Normal,None,Fixed Camera,Spalling
+Road,Surface,53.8,5.57,90.43,Low,High,Partial,UAV,Spalling
+Road,Column,62.66,27.01,67.56,High,Low,None,Ground,Corrosion
+Road,Column,130.86,4.71,89.86,Medium,Low,Severe,Ground,Corrosion
+Building,Deck,151.26,15.5,45.27,Low,Normal,None,Fixed Camera,Spalling
+Road,Beam,267.34,37.36,44.26,Medium,Normal,Severe,UAV,Crack
+Tunnel,Beam,340.8,48.24,78.67,High,Normal,None,Fixed Camera,Healthy
+Building,Wall,298.42,36.03,10.24,Medium,Low,Partial,Fixed Camera,Deformation
+Tunnel,Deck,78.44,49.63,52.57,Low,Low,Partial,Fixed Camera,Corrosion
+Bridge,Wall,90.18,35.07,83.8,High,Normal,Partial,Fixed Camera,Spalling
+Bridge,Deck,439.99,15.04,83.19,High,High,Partial,UAV,Healthy
+Bridge,Surface,281.38,33.77,95.66,Medium,Low,None,Fixed Camera,Crack
+Bridge,Column,435.62,35.26,70.13,Low,Low,Partial,Ground,Deformation
+Tunnel,Surface,188.92,18.9,21.57,Low,Normal,None,UAV,Crack
+Building,Deck,309.13,1.38,3.01,Medium,High,Severe,Fixed Camera,Spalling
+Building,Column,264.21,35.31,48.46,High,Normal,Severe,UAV,Healthy
+Road,Beam,162.97,1.57,51.86,Low,Normal,Severe,Fixed Camera,Spalling
+Tunnel,Beam,237.61,31.74,24.79,Low,High,Partial,Ground,Spalling
+Bridge,Wall,253.73,8.6,13.35,Low,High,Partial,Ground,Healthy
+Tunnel,Deck,104.38,28.5,59.03,Medium,High,Partial,Ground,Deformation
+Road,Deck,160.93,25.44,76.66,Low,Low,Severe,UAV,Deformation
+Road,Beam,396.75,1.17,99.32,Low,Normal,Severe,Ground,Spalling
+Tunnel,Surface,458.32,18.46,76.07,Low,Low,Severe,Fixed Camera,Spalling
+Tunnel,Column,183.1,30.25,79.57,Medium,High,Severe,Fixed Camera,Deformation
+Tunnel,Surface,156.95,42.51,62.03,Medium,Low,None,Fixed Camera,Healthy
+Building,Surface,101.62,44.49,98.61,Low,High,None,UAV,Deformation
+Bridge,Beam,340.85,24.45,64.36,High,High,Partial,UAV,Deformation
+Tunnel,Beam,164.93,36.56,86.17,Low,Normal,Partial,Ground,Crack
+Tunnel,Beam,493.94,16.16,94.63,Low,Normal,Severe,UAV,Deformation
+Tunnel,Wall,166.21,17.44,93.06,High,Normal,None,Fixed Camera,Deformation
+Road,Surface,200.1,10.13,38.76,Medium,Low,None,Fixed Camera,Deformation
+Road,Deck,303.65,28.32,8.79,Medium,Normal,Partial,Fixed Camera,Crack
+Building,Column,401.83,16.07,18.02,Low,High,None,UAV,Healthy
+Bridge,Wall,237.41,4.68,6.86,High,Normal,Partial,Fixed Camera,Crack
+Building,Deck,214.21,34.41,11.43,Medium,Low,Severe,Ground,Crack
+Bridge,Surface,497.84,35.53,19.28,High,Normal,Severe,UAV,Spalling
+Road,Beam,10.19,18.32,34.77,Low,Normal,Partial,Fixed Camera,Spalling
+Road,Surface,448.06,4.3,54.81,Medium,Normal,Severe,Fixed Camera,Corrosion
+Road,Column,78.82,21.6,71.46,High,Low,Severe,UAV,Deformation
+Building,Wall,394.03,22.4,21.88,High,High,None,UAV,Corrosion
+Tunnel,Wall,310.88,33.6,67.58,Low,High,None,Ground,Crack
+Tunnel,Column,174.21,16.11,70.72,High,High,None,UAV,Crack
+Road,Deck,437.57,34.29,56.3,Low,Normal,None,Fixed Camera,Healthy
+Tunnel,Deck,11.39,43.64,90.46,Medium,Normal,None,Ground,Crack
+Tunnel,Wall,117.21,12.26,11.99,Low,Low,Partial,Fixed Camera,Crack
+Building,Wall,285.61,48.96,18.54,Medium,High,Partial,Fixed Camera,Deformation
+Bridge,Beam,179.01,19.63,43.44,Low,Normal,None,Fixed Camera,Corrosion
+Road,Deck,307.14,13.73,13.54,Low,Normal,Severe,UAV,Deformation
+Road,Column,16.93,21.36,57.06,Low,Normal,Severe,UAV,Healthy
+Building,Deck,62.65,5.17,40.44,Low,Low,Partial,Fixed Camera,Deformation
+Building,Beam,67.91,6.72,29.17,High,High,Partial,UAV,Corrosion
+Tunnel,Wall,98.7,21.01,17.83,High,Low,Partial,Fixed Camera,Spalling
+Road,Wall,232.37,38.24,34.2,High,High,Severe,UAV,Spalling
+Bridge,Beam,377.3,45.07,61.19,Low,High,Partial,UAV,Corrosion
+Building,Column,453.24,33.41,58.0,Medium,Normal,Severe,UAV,Crack
+Bridge,Wall,418.51,5.71,17.2,Medium,Normal,Partial,Ground,Corrosion
+Bridge,Surface,102.46,33.76,13.37,High,Normal,Severe,UAV,Crack
+Road,Wall,223.37,31.95,3.64,Medium,Normal,Partial,Ground,Healthy
+Road,Surface,103.71,40.39,2.23,High,Normal,Partial,Ground,Deformation
+Building,Beam,135.91,41.35,88.1,High,High,Severe,Ground,Crack
+Road,Beam,254.26,43.48,5.46,High,Normal,Partial,Fixed Camera,Corrosion
+Road,Wall,38.71,21.0,73.39,Low,Normal,None,UAV,Healthy
+Road,Deck,113.0,35.04,87.33,Low,Low,Severe,Fixed Camera,Corrosion
+Bridge,Surface,468.01,13.78,10.71,Medium,Low,Partial,Ground,Deformation
+Building,Column,235.73,49.97,44.19,Medium,High,Severe,UAV,Corrosion
+Tunnel,Wall,225.47,9.18,96.27,Low,High,Partial,Fixed Camera,Healthy
+Bridge,Column,12.21,1.0,83.58,Low,Low,None,Ground,Deformation
+Road,Wall,127.46,7.87,49.48,High,Low,Partial,Fixed Camera,Crack
+Bridge,Deck,433.81,38.91,76.49,Medium,Normal,Partial,Fixed Camera,Corrosion
+Road,Deck,86.49,22.62,83.5,Low,Normal,None,UAV,Spalling
+Road,Deck,210.49,22.65,35.45,Medium,High,Severe,UAV,Healthy
+Bridge,Deck,12.09,47.77,89.32,Medium,Low,Partial,Fixed Camera,Crack
+Building,Beam,241.78,46.02,47.58,High,High,Partial,UAV,Spalling
+Road,Beam,15.41,15.9,53.25,Low,Normal,None,UAV,Corrosion
+Building,Surface,410.71,10.85,99.97,Medium,High,Severe,Fixed Camera,Healthy
+Tunnel,Column,413.3,42.5,84.49,Medium,High,Severe,UAV,Deformation
+Road,Wall,394.93,45.35,36.82,Low,High,None,UAV,Corrosion
+Building,Wall,145.27,27.31,2.02,High,Normal,None,Ground,Crack
+Building,Beam,419.43,31.66,62.99,Low,High,Partial,UAV,Crack
+Tunnel,Wall,273.78,13.22,70.69,Low,Normal,None,Ground,Spalling
+Building,Beam,190.04,40.14,65.43,Medium,Low,None,Fixed Camera,Corrosion
+Building,Surface,314.54,31.79,96.82,Low,High,None,Ground,Corrosion
+Tunnel,Column,11.11,25.42,86.43,Low,High,Severe,Fixed Camera,Healthy
+Road,Surface,75.77,3.48,45.43,High,Normal,None,UAV,Corrosion
+Building,Deck,372.44,45.84,7.22,Low,High,Partial,UAV,Deformation
+Building,Deck,125.86,30.96,48.13,High,Normal,Partial,Ground,Crack
+Building,Deck,301.01,10.04,69.24,Medium,High,Partial,Fixed Camera,Crack
+Bridge,Surface,195.63,30.52,61.16,Low,Low,None,UAV,Corrosion
+Tunnel,Wall,428.13,34.03,54.28,Low,Low,Severe,Ground,Spalling
+Bridge,Column,476.45,26.53,47.41,Medium,Low,None,Ground,Spalling
+Tunnel,Deck,442.36,36.05,30.08,Medium,High,None,Ground,Healthy
+Road,Deck,138.96,29.28,28.46,Low,High,Partial,UAV,Corrosion
+Road,Deck,101.11,47.41,50.52,Low,Low,None,Fixed Camera,Corrosion
+Building,Column,239.85,3.16,16.9,High,Low,Severe,UAV,Healthy
+Tunnel,Deck,8.63,5.76,34.73,Low,Normal,Partial,UAV,Corrosion
+Road,Column,17.78,9.1,33.07,High,Normal,Severe,Fixed Camera,Crack
+Tunnel,Deck,278.88,34.66,59.13,Medium,Low,Severe,Ground,Crack
+Road,Surface,262.62,32.46,7.6,Medium,Low,Severe,UAV,Deformation
+Bridge,Surface,497.32,44.66,83.14,Low,High,None,Ground,Deformation
+Road,Column,104.91,36.78,56.68,Low,Low,None,Ground,Crack
+Bridge,Surface,132.76,25.66,67.41,High,Normal,None,Fixed Camera,Corrosion
+Road,Column,61.2,49.6,70.61,Low,Normal,None,Fixed Camera,Deformation
+Building,Surface,459.18,13.67,29.86,Low,Normal,Partial,Fixed Camera,Healthy
+Bridge,Surface,390.02,41.74,47.57,Medium,Normal,None,Ground,Corrosion
+Road,Column,412.06,21.63,95.67,Low,Normal,Partial,Ground,Healthy
+Building,Wall,451.87,32.61,76.9,Medium,Normal,Severe,UAV,Corrosion
+Bridge,Surface,264.83,36.5,96.99,High,Low,Partial,Ground,Crack
+Building,Deck,228.34,31.87,74.88,Medium,Normal,None,Fixed Camera,Crack
+Tunnel,Wall,168.54,7.46,18.38,High,Normal,Partial,Fixed Camera,Corrosion
+Tunnel,Column,296.66,22.43,7.39,High,Normal,None,Fixed Camera,Corrosion
+Bridge,Wall,229.87,28.29,58.19,Low,Normal,None,Fixed Camera,Healthy
+Road,Beam,228.52,42.53,36.42,Low,Low,Partial,Ground,Crack
+Bridge,Beam,468.78,22.46,28.27,Medium,High,Partial,Fixed Camera,Corrosion
+Building,Surface,492.1,45.98,80.91,Medium,High,Severe,UAV,Crack
+Road,Surface,399.26,22.3,37.33,Low,High,Severe,Ground,Deformation
+Tunnel,Deck,379.6,27.66,32.38,High,High,Severe,Fixed Camera,Healthy
+Road,Wall,341.88,39.92,85.15,Medium,Normal,Severe,UAV,Crack
+Tunnel,Beam,87.21,29.36,84.78,Low,High,Severe,Fixed Camera,Corrosion
+Road,Surface,34.26,48.03,36.28,Medium,High,Partial,Ground,Crack
+Road,Wall,346.91,33.19,83.42,Low,Low,Severe,Ground,Corrosion
+Road,Surface,365.75,26.37,85.23,High,Low,Partial,UAV,Crack
+Building,Surface,28.25,1.67,42.97,Medium,Low,Severe,Ground,Spalling
+Building,Beam,464.39,20.98,7.58,Low,Normal,None,UAV,Deformation
+Bridge,Beam,50.11,15.31,1.16,Low,Normal,Severe,Fixed Camera,Spalling
+Bridge,Surface,146.52,37.53,52.81,High,Normal,None,Ground,Crack
+Tunnel,Column,337.83,10.81,35.06,Medium,Low,Partial,Fixed Camera,Corrosion
+Building,Surface,89.09,10.66,99.72,High,High,Severe,Fixed Camera,Spalling
+Tunnel,Surface,32.43,9.88,77.47,Low,Low,Partial,Ground,Spalling
+Bridge,Deck,168.92,6.72,76.37,Low,Normal,Severe,Fixed Camera,Crack
+Tunnel,Deck,384.16,15.89,95.57,Low,Low,Partial,UAV,Deformation
+Bridge,Deck,209.77,44.35,88.88,Medium,High,Severe,UAV,Corrosion
+Building,Column,328.22,38.86,32.5,Low,Normal,Severe,UAV,Crack
+Road,Column,291.91,36.89,17.43,Low,High,None,Ground,Crack
+Building,Surface,16.0,39.97,74.84,Medium,High,Partial,Fixed Camera,Healthy
+Tunnel,Deck,494.33,13.84,38.45,Medium,Normal,Partial,Fixed Camera,Corrosion
+Tunnel,Column,25.51,44.43,47.84,Low,High,Partial,Fixed Camera,Healthy
+Building,Beam,484.06,7.3,63.41,Medium,Low,Partial,Fixed Camera,Corrosion
+Building,Surface,277.18,17.15,90.88,Medium,High,Partial,UAV,Corrosion
+Bridge,Wall,481.76,29.54,42.49,Low,High,None,Ground,Deformation
+Tunnel,Surface,61.8,5.59,78.55,Low,High,Severe,UAV,Crack
+Tunnel,Wall,247.75,36.64,27.57,Low,Low,None,UAV,Corrosion
+Building,Deck,88.9,19.67,70.1,Medium,High,Partial,Ground,Corrosion
+Road,Wall,30.23,39.33,1.16,High,High,Partial,Ground,Healthy
+Tunnel,Deck,310.68,24.9,87.28,Low,Low,Severe,UAV,Spalling
+Road,Beam,107.85,9.45,4.01,Low,Normal,None,Fixed Camera,Corrosion
+Building,Wall,295.91,36.87,71.56,High,Normal,Severe,Ground,Crack
+Building,Surface,60.62,12.98,5.58,High,Normal,Severe,Ground,Spalling
+Bridge,Deck,169.33,24.8,27.36,Medium,High,None,UAV,Crack
+Tunnel,Surface,391.91,4.24,50.22,High,Normal,Severe,Fixed Camera,Crack
+Road,Column,221.34,31.08,42.57,Medium,Low,None,Ground,Corrosion
+Bridge,Deck,315.73,33.46,19.99,Medium,High,None,UAV,Spalling
+Tunnel,Wall,325.49,19.24,34.05,Low,High,Partial,Ground,Corrosion
+Bridge,Deck,422.66,47.74,73.04,Medium,High,Severe,Fixed Camera,Spalling
+Building,Surface,165.84,43.77,67.26,Low,Normal,Partial,UAV,Spalling
+Tunnel,Beam,345.21,35.54,8.11,High,Normal,Severe,UAV,Healthy
+Bridge,Deck,481.0,35.83,74.98,High,Normal,Severe,Fixed Camera,Deformation
+Bridge,Wall,366.47,12.99,6.25,Medium,High,Partial,UAV,Corrosion
+Road,Column,247.49,33.01,54.75,Low,Low,Partial,Fixed Camera,Deformation
+Bridge,Beam,317.21,10.31,26.75,Low,High,Partial,UAV,Healthy
+Tunnel,Column,371.14,7.63,59.18,Low,Low,None,Fixed Camera,Corrosion
+Tunnel,Deck,308.08,49.97,26.87,Low,High,Severe,Ground,Corrosion
+Road,Surface,13.25,31.31,98.51,Medium,Low,None,Ground,Crack
+Tunnel,Surface,101.41,21.83,31.66,High,High,Severe,Ground,Healthy
+Building,Wall,406.18,14.76,24.95,Low,High,Severe,UAV,Crack
+Tunnel,Surface,139.96,30.39,28.57,Low,Low,None,Fixed Camera,Crack
+Tunnel,Beam,367.12,2.95,89.75,Medium,Low,None,Fixed Camera,Spalling
+Bridge,Surface,189.2,5.19,63.99,Low,Low,Severe,Ground,Deformation
+Bridge,Wall,263.33,2.13,73.34,High,Low,Partial,Ground,Corrosion
+Tunnel,Deck,38.65,25.21,91.88,Low,Low,Partial,Ground,Deformation
+Road,Deck,94.71,30.23,91.28,Low,Low,Partial,Fixed Camera,Deformation
+Bridge,Surface,478.81,3.59,74.16,Low,Low,Partial,Ground,Corrosion
+Road,Column,445.62,36.2,20.58,Low,Low,Severe,UAV,Spalling
+Tunnel,Deck,327.88,11.9,84.49,Medium,High,Partial,Ground,Spalling
+Tunnel,Surface,232.52,34.42,21.17,Low,Low,Partial,Ground,Healthy
+Building,Wall,339.5,49.1,74.55,Medium,Low,Partial,Fixed Camera,Deformation
+Bridge,Surface,311.21,34.71,68.87,Medium,High,Severe,UAV,Healthy
+Tunnel,Deck,286.43,44.22,76.13,Low,High,None,Fixed Camera,Crack
+Building,Wall,34.29,47.44,53.74,Low,Normal,Partial,UAV,Corrosion
+Bridge,Surface,318.24,24.59,64.23,Medium,Normal,Severe,UAV,Crack
+Tunnel,Beam,385.62,35.27,95.38,Medium,Low,Severe,Ground,Corrosion
+Tunnel,Wall,497.07,42.67,11.01,High,Low,Partial,Ground,Healthy
+Bridge,Beam,10.48,18.15,31.58,Low,Normal,None,Fixed Camera,Corrosion
+Bridge,Column,366.44,13.44,61.52,Low,Normal,None,Fixed Camera,Crack
+Bridge,Wall,288.04,47.36,96.44,Low,Low,None,Fixed Camera,Crack
+Tunnel,Beam,219.86,36.45,10.46,Medium,Normal,Severe,UAV,Corrosion
+Tunnel,Deck,68.15,11.37,3.23,Medium,Low,Partial,Fixed Camera,Crack
+Building,Deck,207.5,22.73,6.52,High,High,Partial,UAV,Corrosion
+Road,Column,180.42,39.92,6.19,Medium,High,Severe,UAV,Deformation
+Bridge,Wall,154.9,27.58,90.87,Low,Normal,Partial,UAV,Corrosion
+Tunnel,Wall,366.79,32.67,72.4,Medium,High,Partial,UAV,Spalling
+Tunnel,Wall,351.86,37.81,68.03,High,High,None,UAV,Spalling
+Bridge,Column,296.56,31.29,52.73,Low,High,Partial,Ground,Deformation
+Road,Wall,469.64,27.23,78.41,Medium,High,Partial,UAV,Crack
+Bridge,Deck,178.18,37.61,16.41,High,Low,Severe,UAV,Healthy
+Road,Beam,125.68,36.51,39.8,Medium,Low,Severe,Ground,Spalling
+Tunnel,Deck,329.67,31.68,49.51,Medium,Normal,None,Ground,Crack
+Road,Deck,103.41,18.31,11.93,Low,High,Severe,Ground,Crack
+Building,Beam,160.93,20.59,42.53,Medium,High,None,Fixed Camera,Crack
+Tunnel,Deck,116.18,48.54,32.33,Low,High,None,Fixed Camera,Deformation
+Building,Column,39.23,6.06,4.52,Medium,Normal,Partial,UAV,Spalling
+Bridge,Beam,414.61,13.79,14.54,Low,Low,None,UAV,Corrosion
+Bridge,Deck,131.0,24.87,76.64,High,High,Partial,UAV,Corrosion
+Bridge,Surface,239.15,41.92,2.79,High,Low,None,UAV,Healthy
+Road,Deck,26.44,8.6,93.49,Medium,Normal,Severe,Ground,Healthy
+Tunnel,Column,351.17,14.21,9.56,Low,Low,Severe,Fixed Camera,Spalling
+Bridge,Wall,168.63,3.76,80.12,Low,High,Severe,Ground,Spalling
+Bridge,Deck,373.64,35.45,89.96,High,Low,None,Fixed Camera,Deformation
+Tunnel,Wall,209.14,12.29,94.17,Medium,Low,None,Ground,Deformation
+Bridge,Surface,101.9,19.74,86.88,Medium,Normal,Partial,UAV,Corrosion
+Building,Deck,259.02,22.46,29.47,Low,Normal,Partial,Fixed Camera,Crack
+Tunnel,Beam,69.6,44.62,33.98,Medium,Normal,Partial,UAV,Deformation
+Tunnel,Wall,223.07,20.86,43.23,Medium,Normal,Partial,Fixed Camera,Crack
+Tunnel,Surface,162.07,7.69,14.79,Medium,Low,None,Fixed Camera,Crack
+Building,Beam,456.42,26.45,3.2,Medium,Low,None,UAV,Deformation
+Tunnel,Beam,35.16,48.17,87.04,High,Normal,Partial,UAV,Spalling
+Building,Beam,348.54,30.58,55.86,Low,Normal,None,UAV,Healthy
+Tunnel,Beam,95.46,49.18,61.26,Low,High,None,Ground,Corrosion
+Road,Deck,162.93,42.13,92.77,Medium,High,None,Fixed Camera,Healthy
+Bridge,Deck,210.68,2.28,66.85,Low,Normal,None,Fixed Camera,Corrosion
+Road,Deck,454.47,33.09,69.39,High,Low,Partial,Fixed Camera,Deformation
+Bridge,Surface,125.08,14.69,78.91,Medium,Normal,Partial,UAV,Corrosion
+Building,Surface,50.2,28.2,12.52,High,Low,None,Fixed Camera,Crack
+Road,Surface,162.75,14.33,36.66,Medium,Low,Severe,Fixed Camera,Corrosion
+Tunnel,Column,56.81,17.77,96.85,Low,High,Partial,UAV,Deformation
+Bridge,Surface,68.66,46.2,92.37,Low,Normal,Partial,UAV,Crack
+Bridge,Deck,289.06,10.73,88.52,High,Normal,Severe,Fixed Camera,Spalling
+Road,Deck,35.15,43.77,45.76,Low,Low,Partial,Ground,Crack
+Building,Column,20.31,2.01,85.86,Medium,Normal,Severe,UAV,Crack
+Road,Column,358.63,5.0,5.79,High,High,Severe,Ground,Spalling
+Building,Surface,184.02,42.81,15.7,Low,High,None,Ground,Healthy
+Building,Wall,67.06,31.71,41.98,Low,Normal,Partial,Ground,Corrosion
+Bridge,Column,130.54,37.49,48.86,Medium,Normal,Severe,Ground,Spalling
+Road,Beam,322.83,10.87,27.09,High,High,None,UAV,Healthy
+Road,Deck,141.39,27.09,36.29,Low,Normal,Partial,Fixed Camera,Spalling
+Building,Beam,249.79,36.99,17.11,High,Low,None,Fixed Camera,Spalling
+Road,Deck,65.24,31.55,49.42,Medium,Normal,None,UAV,Crack
+Tunnel,Deck,296.11,23.85,79.59,High,Low,Severe,UAV,Corrosion
+Tunnel,Column,161.46,48.01,66.47,Low,Normal,Partial,Ground,Corrosion
+Road,Column,315.35,33.97,11.67,Low,Normal,None,Ground,Corrosion
+Road,Beam,405.16,45.43,49.27,High,High,Severe,UAV,Deformation
+Building,Deck,307.76,36.62,70.07,High,Low,Severe,Fixed Camera,Corrosion
+Tunnel,Beam,151.4,36.91,53.46,Medium,High,None,Ground,Crack
+Tunnel,Wall,131.59,4.46,39.78,Medium,Normal,None,UAV,Healthy
+Bridge,Beam,167.07,18.29,62.57,High,High,Severe,UAV,Spalling
+Building,Surface,86.49,42.99,96.9,Low,Normal,None,UAV,Healthy
+Bridge,Beam,94.68,12.01,10.4,Medium,Normal,None,Ground,Spalling
+Tunnel,Surface,396.39,6.22,39.61,High,Normal,Partial,UAV,Crack
+Building,Surface,195.44,16.64,41.25,Low,Low,Severe,Fixed Camera,Spalling
+Road,Surface,220.82,11.41,58.12,Low,Low,None,UAV,Spalling
+Building,Wall,299.05,46.3,16.07,High,Low,Severe,Ground,Crack
+Road,Beam,296.88,43.46,18.49,Low,High,Partial,Fixed Camera,Corrosion
+Road,Beam,38.35,25.23,29.25,Low,Normal,Severe,Fixed Camera,Corrosion
+Building,Wall,416.61,3.54,95.63,High,High,Severe,UAV,Spalling
+Road,Deck,92.78,35.87,73.68,Medium,High,Severe,UAV,Crack
+Bridge,Column,362.92,31.36,66.51,High,Normal,Partial,Fixed Camera,Spalling
+Tunnel,Beam,387.47,48.54,81.88,High,High,Partial,UAV,Crack
+Road,Column,358.88,28.17,13.63,Low,Normal,Severe,Ground,Corrosion
+Bridge,Wall,291.59,17.15,86.07,Low,Normal,Severe,Fixed Camera,Crack
+Road,Deck,12.23,26.19,59.89,Low,Normal,Partial,UAV,Crack
+Tunnel,Deck,183.39,48.97,34.2,Low,Normal,None,Fixed Camera,Corrosion
+Bridge,Deck,304.4,34.97,81.77,Medium,High,Partial,UAV,Crack
+Tunnel,Wall,196.79,33.76,80.45,Medium,High,Severe,UAV,Corrosion
+Tunnel,Surface,432.42,12.41,84.73,Medium,High,None,Ground,Healthy
+Bridge,Surface,157.86,37.31,12.44,Low,Low,None,UAV,Spalling
+Bridge,Column,150.3,37.64,96.97,Low,High,None,UAV,Spalling
+Bridge,Surface,136.67,16.21,96.0,Medium,High,Partial,UAV,Healthy
+Building,Surface,169.73,24.44,36.39,Medium,Low,Partial,Ground,Healthy
+Bridge,Deck,280.92,15.08,7.52,Low,Normal,Partial,UAV,Healthy
+Bridge,Deck,354.97,13.31,17.54,Medium,Normal,Partial,UAV,Crack
+Bridge,Column,332.97,1.78,99.29,Low,Normal,Severe,UAV,Spalling
+Bridge,Beam,404.82,14.62,56.74,Low,Low,None,Fixed Camera,Deformation
+Road,Column,443.53,27.92,36.31,Medium,High,Severe,Ground,Deformation
+Building,Column,408.96,0.58,29.53,Low,High,Partial,Fixed Camera,Spalling
+Tunnel,Wall,14.38,14.52,26.44,Medium,High,Partial,Ground,Crack
+Bridge,Wall,369.28,44.13,66.75,Low,High,Severe,Ground,Healthy
+Road,Column,108.16,29.89,42.52,Low,Low,None,Fixed Camera,Corrosion
+Road,Column,70.8,30.59,96.58,Low,High,None,Ground,Corrosion
+Road,Column,321.05,20.47,68.7,High,Normal,Partial,Ground,Corrosion
+Tunnel,Surface,163.27,33.99,79.41,Medium,Low,Partial,Fixed Camera,Corrosion
+Bridge,Wall,33.27,9.9,29.98,High,Low,Partial,UAV,Crack
+Building,Column,73.13,41.03,8.84,Medium,Normal,Partial,Ground,Corrosion
+Building,Deck,5.46,6.28,49.29,Medium,Normal,None,Fixed Camera,Healthy
+Road,Deck,452.1,32.97,32.14,Low,High,Severe,Ground,Corrosion
+Tunnel,Surface,17.19,17.39,21.01,Low,Normal,None,Fixed Camera,Spalling
+Tunnel,Surface,108.68,37.5,95.31,Low,Low,Severe,UAV,Deformation
+Tunnel,Beam,211.05,27.71,44.95,Low,Low,Partial,Ground,Spalling
+Building,Beam,181.5,22.89,18.3,Medium,Low,Partial,UAV,Corrosion
+Road,Beam,456.3,8.89,20.67,Low,High,Severe,UAV,Spalling
+Bridge,Surface,24.94,32.02,28.79,Low,High,Partial,Fixed Camera,Crack
+Building,Surface,258.55,48.75,99.93,Low,Normal,None,Ground,Crack
+Road,Surface,341.84,41.37,27.53,Medium,High,Partial,Ground,Deformation
+Road,Deck,466.19,3.47,33.55,Medium,High,Partial,Ground,Healthy
+Bridge,Surface,312.08,19.12,66.27,High,Low,Partial,Ground,Deformation
+Bridge,Deck,402.86,46.32,30.1,Low,Low,Partial,Ground,Crack
+Bridge,Beam,46.44,25.4,22.36,Low,Normal,None,Fixed Camera,Corrosion
+Tunnel,Beam,196.04,33.27,16.71,Low,Low,Severe,Ground,Crack
+Bridge,Beam,190.1,45.67,31.96,High,High,Partial,UAV,Spalling
+Road,Column,443.71,43.75,11.49,Low,Normal,Partial,UAV,Crack
+Bridge,Column,79.93,25.34,2.85,Medium,Normal,None,Ground,Healthy
