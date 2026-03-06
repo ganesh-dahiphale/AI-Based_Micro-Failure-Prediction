@@ -8,7 +8,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700&display=swap"
         rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js">
+    </script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -64,13 +65,36 @@
                         <span class="metric-value timestamp" id="val-time">--</span>
                     </div>
                 </div>
+
+                <!-- Live Sensor Feed Console -->
+                <div
+                    style="margin-top: 1rem; background: rgba(0, 0, 0, 0.4); border-radius: 8px; padding: 1rem; border: 1px solid rgba(46, 160, 67, 0.3); font-family: monospace; color: #e6edf3;">
+                    <h3
+                        style="margin: 0 0 0.5rem 0; font-size: 0.9rem; color: #2ea043; display: flex; align-items: center; gap: 8px;">
+                        <span class="status-dot ready"></span> LIVE SENSOR STREAM
+                    </h3>
+                    <div id="sensor-console" style="font-size: 0.85rem; line-height: 1.5; white-space: pre-wrap;">
+                        Awaiting data stream...</div>
+                </div>
+
+                <div style="display: flex; gap: 1rem; margin-top: 1rem; height: 300px;">
+                    <!-- Trend Chart Panel -->
+                    <div
+                        style="flex: 1; background: rgba(0, 0, 0, 0.2); border-radius: 8px; padding: 1rem; border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 0.9rem; color: #8b949e;">System Risk
+                            Trend</h3>
+                        <div style="height: 230px; width: 100%;">
+                            <canvas id="trendChart"></canvas>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!-- Main Content Area -->
             <div class="content-split">
 
                 <!-- Left: Table -->
-                <section class="panel glass table-panel">
+                <section class="panel glass table-panel" style="margin-bottom: 0;">
                     <h2>Maintenance Prioritization Queue</h2>
                     <div class="table-container">
                         <table id="assets-table">
@@ -92,16 +116,24 @@
                 </section>
 
                 <!-- Right: Explainability Details -->
-                <section class="panel glass detail-panel">
+                <section class="panel glass detail-panel" style="margin-bottom: 0;">
                     <h2>Asset Explainer (SHAP)</h2>
                     <p class="subtitle">Understand <em>why</em> the AI flagged this asset.</p>
 
                     <div class="asset-stats"
-                        style="display: flex; justify-content: space-between; margin-bottom: 1rem; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); padding: 1rem; border-radius: 8px;">
+                        style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); padding: 1rem; border-radius: 8px;">
                         <div><strong>Maint. History:</strong> <span id="stat-maint"
-                                style="color:#e6edf3; font-weight:bold;">--</span> days ago</div>
+                                style="color:#e6edf3; font-weight:bold;">--</span> d ago</div>
                         <div><strong>Usage Stress:</strong> <span id="stat-usage"
                                 style="color:#e6edf3; font-weight:bold;">--</span>/100</div>
+                    </div>
+
+                    <div class="asset-stats"
+                        style="display: flex; justify-content: space-between; margin-bottom: 1rem; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); padding: 1rem; border-radius: 8px;">
+                        <div><strong>Failure Prob:</strong> <span id="stat-fail-prob"
+                                style="color:#f85149; font-weight:bold;">--</span>%</div>
+                        <div><strong>Remaining Life:</strong> <span id="stat-rul"
+                                style="color:#d29922; font-weight:bold;">--</span></div>
                     </div>
 
                     <div class="select-container">
@@ -119,8 +151,17 @@
                         <h4>Risk Confidence: <span id="detail-score">--</span>/100</h4>
                     </div>
 
-                    <div id="recommendation-box" class="recommendation">
-                        ✅ Operating normally.
+                    <div id="recommendation-box" class="recommendation"
+                        style="text-align: left; background: rgba(0,0,0,0.2) !important;">
+                        ✅ Routine operations normal.
+                    </div>
+
+                    <div id="rca-box"
+                        style="margin-top: 1rem; margin-bottom: 1rem; padding: 1rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); background: rgba(0,0,0,0.2);">
+                        <h3 style="margin: 0 0 0.5rem 0; font-size: 0.9rem; color: #8b949e;">Root Cause Analysis</h3>
+                        <p id="rca-text"
+                            style="margin: 0; font-family: monospace; white-space: pre-wrap; font-size: 0.85rem; color: #e6edf3; line-height: 1.4;">
+                            --</p>
                     </div>
 
                     <h3 class="chart-title">Real-time Feature Drivers</h3>
@@ -128,12 +169,10 @@
                         <canvas id="shapChart"></canvas>
                     </div>
                 </section>
-
             </div>
         </div>
-    </div>
 
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

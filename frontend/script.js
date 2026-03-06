@@ -15,12 +15,43 @@ const valCritical = document.getElementById('val-critical');
 const valAvgRisk = document.getElementById('val-avg-risk');
 const valTime = document.getElementById('val-time');
 
-// Chart Instance
+// Chart Instances
 let shapChart = null;
+let trendChart = null;
 
-// Initialization
+// History Arrays
+let timeHistory = [];
+let riskHistory = [];
 async function init() {
+    initTrendChart();
     await checkStatus();
+}
+
+function initTrendChart() {
+    const ctx = document.getElementById('trendChart').getContext('2d');
+    trendChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: timeHistory,
+            datasets: [{
+                label: 'Avg System Risk',
+                data: riskHistory,
+                borderColor: '#d29922',
+                tension: 0.4,
+                fill: true,
+                backgroundColor: 'rgba(210, 153, 34, 0.1)'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: { ticks: { color: '#8b949e', maxTicksLimit: 5 }, grid: { display: false } },
+                y: { min: 0, max: 100, ticks: { color: '#8b949e' }, grid: { color: 'rgba(255,255,255,0.05)' } }
+            },
+            plugins: { legend: { display: false } }
+        }
+    });
 }
 
 async function checkStatus() {
@@ -57,6 +88,8 @@ btnAdvance.addEventListener('click', async () => {
     } catch (e) { console.error(e); }
     btnAdvance.disabled = false;
 });
+
+
 
 btnFailure.addEventListener('click', async () => {
     btnFailure.disabled = true;
@@ -98,6 +131,23 @@ async function updateDashboard() {
         const criticalCount = data.assets.filter(a => a.risk_score > 80).length;
         valCritical.textContent = criticalCount;
 
+        // --- 1c. Update Trend Chart ---
+        if (trendChart) {
+            const timeStr = data.timestamp.split(' ')[1];
+
+            // Push to arrays
+            timeHistory.push(timeStr);
+            riskHistory.push(avgRisk);
+
+            // Keep window size of 20
+            if (timeHistory.length > 20) {
+                timeHistory.shift();
+                riskHistory.shift();
+            }
+
+            trendChart.update();
+        }
+
         // 2. Banner
         if (data.ground_truth_failure) {
             groundTruthBanner.classList.remove('hidden');
@@ -136,6 +186,10 @@ async function updateDashboard() {
             document.getElementById('stat-maint').textContent = activeAsset.maintenance_history_days;
             document.getElementById('stat-usage').textContent = activeAsset.usage_frequency_score.toFixed(1);
 
+            // New RUL and Fail prob
+            document.getElementById('stat-rul').textContent = activeAsset.remaining_useful_life;
+            document.getElementById('stat-fail-prob').textContent = activeAsset.risk_score.toFixed(1);
+
             detailScore.textContent = activeAsset.risk_score.toFixed(1);
 
             riskScoreBox.className = 'risk-box';
@@ -147,13 +201,39 @@ async function updateDashboard() {
                 riskScoreBox.className = 'risk-box';
             }
 
+            // Use consistent icon based on risk
             let recIcon = '✅';
             if (activeAsset.risk_score > 80) recIcon = '🚨';
             else if (activeAsset.risk_score > 50) recIcon = '⚠️';
 
-            recommendationBox.innerHTML = `${recIcon} <strong>Action:</strong> ${activeAsset.maintenance_recommendation}`;
+            // Smart Alert Engine Array parsing
+            let recHTML = `<strong>${recIcon} Recommended Action:</strong><br><ul style="list-style: none; padding-left: 0; margin-top: 0.5rem; color: #e6edf3; font-size: 0.9rem;">`;
+            if (Array.isArray(activeAsset.maintenance_recommendation)) {
+                activeAsset.maintenance_recommendation.forEach(rec => {
+                    recHTML += `<li style="margin-bottom: 0.25rem;">✓ ${rec}</li>`;
+                });
+            } else {
+                recHTML += `<li>✓ ${activeAsset.maintenance_recommendation}</li>`;
+            }
+            recHTML += `</ul>`;
+
+            recommendationBox.innerHTML = recHTML;
 
             await updateShapChart(activeAsset.id);
+        }
+
+        // --- 1e. Update Live Sensor Feed Console ---
+        const consoleEl = document.getElementById('sensor-console');
+        if (consoleEl && data.assets.length > 0) {
+            let streamHTML = "";
+            // Show top 3 assets streaming
+            data.assets.slice(0, 3).forEach(a => {
+                const s = a.sensor_data;
+                if (s) {
+                    streamHTML += `[LIVE] ${a.id.padEnd(18)} | Temp: ${s.temperature.toFixed(1)}°C | Vib: ${s.vibration.toFixed(2)}g | Load: ${s.load.toFixed(1)}%<br>`;
+                }
+            });
+            consoleEl.innerHTML = streamHTML;
         }
 
     } catch (e) {
@@ -166,6 +246,12 @@ async function updateShapChart(assetId) {
         const res = await fetch(`${API_BASE}/asset/${assetId}/shap`);
         const data = await res.json();
 
+        // Update RCA Text
+        const rcaEl = document.getElementById('rca-text');
+        if (rcaEl && data.root_cause_analysis) {
+            rcaEl.textContent = data.root_cause_analysis;
+        }
+
         const ctx = document.getElementById('shapChart').getContext('2d');
 
         if (shapChart) {
@@ -175,12 +261,21 @@ async function updateShapChart(assetId) {
         // Determine colors (red for increased risk, green for reduced risk)
         const bgColors = data.values.map(v => v > 0 ? 'rgba(248, 81, 73, 0.8)' : 'rgba(46, 160, 67, 0.8)');
 
+        // Use percentages for labels if available, otherwise raw values
+        const displayData = data.percentages ? data.percentages : data.values;
+        // Format labels: Feature (+35%)
+        const formattedLabels = data.features.map((f, i) => {
+            const sign = data.values[i] > 0 ? '+' : '';
+            const perc = data.percentages ? data.percentages[i].toFixed(1) : '?';
+            return `${f} (${sign}${perc}%)`;
+        });
+
         shapChart = new Chart(ctx, {
-            type: 'bar',
+            type: 'bar', // A simple bar chart showing positive/negative contribution magnitude
             data: {
-                labels: data.features,
+                labels: formattedLabels,
                 datasets: [{
-                    data: data.values,
+                    data: displayData,
                     backgroundColor: bgColors,
                     borderWidth: 1,
                     borderColor: 'rgba(255, 255, 255, 0.1)',
@@ -192,7 +287,14 @@ async function updateShapChart(assetId) {
                 maintainAspectRatio: false,
                 indexAxis: 'y', // Horizontal bar chart
                 plugins: {
-                    legend: { display: false }
+                    legend: { display: false },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                return `Contribution: ${context.raw}%`;
+                            }
+                        }
+                    }
                 },
                 scales: {
                     x: {
@@ -214,3 +316,5 @@ async function updateShapChart(assetId) {
 
 // Start sequence
 init();
+
+
