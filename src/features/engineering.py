@@ -22,6 +22,18 @@ def create_features(df: pd.DataFrame) -> pd.DataFrame:
     # Adding Road Defect continuous telemetry
     if 'Defect_Depth_mm' in df_feat.columns:
         base_cols.extend(['Defect_Length_mm', 'Defect_Width_mm', 'Defect_Depth_mm'])
+        
+    # Injecting simulated new data sources (Maintenance History, Usage frequency)
+    if 'maintenance_history_days' not in df_feat.columns:
+        # Simulating days since last maintenance (higher = more risk)
+        np.random.seed(42) # Ensuring consistency
+        df_feat['maintenance_history_days'] = np.random.randint(10, 500, size=len(df_feat)).astype(float)
+    
+    if 'usage_frequency_score' not in df_feat.columns:
+        # Simulating usage stress index (1 to 100)
+        df_feat['usage_frequency_score'] = np.random.uniform(10.0, 100.0, size=len(df_feat))
+        
+    base_cols.extend(['maintenance_history_days', 'usage_frequency_score'])
     
     window_sizes = [3, 6] # Simulating 45min and 90min windows
     

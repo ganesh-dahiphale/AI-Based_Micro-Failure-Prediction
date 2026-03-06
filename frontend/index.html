@@ -80,6 +80,8 @@
                                     <th>Risk Score</th>
                                     <th>Trend</th>
                                     <th>LSTM MSE</th>
+                                    <th>Early Warning</th>
+                                    <th>Action Needed</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -93,6 +95,14 @@
                 <section class="panel glass detail-panel">
                     <h2>Asset Explainer (SHAP)</h2>
                     <p class="subtitle">Understand <em>why</em> the AI flagged this asset.</p>
+
+                    <div class="asset-stats"
+                        style="display: flex; justify-content: space-between; margin-bottom: 1rem; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); padding: 1rem; border-radius: 8px;">
+                        <div><strong>Maint. History:</strong> <span id="stat-maint"
+                                style="color:#e6edf3; font-weight:bold;">--</span> days ago</div>
+                        <div><strong>Usage Stress:</strong> <span id="stat-usage"
+                                style="color:#e6edf3; font-weight:bold;">--</span>/100</div>
+                    </div>
 
                     <div class="select-container">
                         <label>Target Asset:</label>

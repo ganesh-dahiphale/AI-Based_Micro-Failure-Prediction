@@ -162,10 +162,28 @@ def get_assets():
         assets_data = []
         static_ids = ["Grid Node G-01", "Water Main W-04", "Pump P-03", "Bridge B-05", "Road Segment R-12"]
         
+        # Extract the new objective features
+        feature_names = model_state["feature_names"]
+        maint_idx = feature_names.index('maintenance_history_days') if 'maintenance_history_days' in feature_names else -1
+        usage_idx = feature_names.index('usage_frequency_score') if 'usage_frequency_score' in feature_names else -1
+        
+        maint_days = float(current_instance[maint_idx]) if maint_idx >= 0 else 0.0
+        usage_score = float(current_instance[usage_idx]) if usage_idx >= 0 else 0.0
+        
         for i, target_str in enumerate(actual_targets):
             current_risk = float(risk_arrays[i])
             is_anomaly = bool(actual_labels[i] == 1)
             trend = "Spiking" if current_risk > 60 else "Stable"
+            
+            # Predict early failure warning and maintenance recommendation based on risk
+            early_failure_warning = bool(lstm_error > 0.05) or (current_risk > 75.0)
+            
+            if current_risk > 80:
+                recommendation = "Immediate Inspection Required"
+            elif current_risk > 50:
+                recommendation = "Schedule Preventive Maintenance"
+            else:
+                recommendation = "Routine Monitoring"
             
             assets_data.append({
                 "id": static_ids[i],
@@ -175,8 +193,13 @@ def get_assets():
                 "lstm_mse": round(lstm_error, 3),
                 "last_updated": time_obs,
                 "is_anomaly": is_anomaly,
-                "target_idx": i
+                "target_idx": i,
+                "maintenance_history_days": int(maint_days),
+                "usage_frequency_score": round(usage_score, 1),
+                "early_failure_warning": early_failure_warning,
+                "maintenance_recommendation": recommendation
             })
+
         
         # Sort by risk score descending
         assets_data.sort(key=lambda x: x["risk_score"], reverse=True)

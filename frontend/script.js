@@ -111,12 +111,20 @@ async function updateDashboard() {
         const limit = data.assets.length > 5 ? 5 : data.assets.length;
         data.assets.slice(0, limit).forEach(asset => {
             const riskClass = getRiskClass(asset.risk_score);
+            const warningIcon = asset.early_failure_warning ? '⚠️ Yes' : '✅ No';
+            // Use same generic risk colors for action text if desired
+            let actionColor = '#8b949e';
+            if (asset.risk_score > 80) actionColor = '#f85149';
+            else if (asset.risk_score > 50) actionColor = '#d29922';
+
             const row = document.createElement('tr');
             row.innerHTML = `
                 <td>${asset.id}</td>
                 <td class="score ${riskClass}">${asset.risk_score.toFixed(1)}</td>
                 <td>${asset.trend}</td>
                 <td>${asset.lstm_mse.toFixed(3)}</td>
+                <td>${warningIcon}</td>
+                <td style="color: ${actionColor}; font-weight: 500;">${asset.maintenance_recommendation}</td>
             `;
             tableBody.appendChild(row);
         });
@@ -124,19 +132,26 @@ async function updateDashboard() {
         // 4. Update Detail Panel for the currently selected asset
         const activeAsset = data.assets.find(a => a.id === assetSelect.value);
         if (activeAsset) {
+            // Update newly added Maintenance and Usage Stats
+            document.getElementById('stat-maint').textContent = activeAsset.maintenance_history_days;
+            document.getElementById('stat-usage').textContent = activeAsset.usage_frequency_score.toFixed(1);
+
             detailScore.textContent = activeAsset.risk_score.toFixed(1);
 
             riskScoreBox.className = 'risk-box';
             if (activeAsset.risk_score > 80) {
                 riskScoreBox.classList.add('score-red');
-                recommendationBox.innerHTML = '🚨 <strong>Recommendation:</strong> Immediate maintenance required. Dispatch inspection team.';
-            } else if (activeAsset.risk_score > 60) {
+            } else if (activeAsset.risk_score > 50) {
                 riskScoreBox.classList.add('score-orange');
-                recommendationBox.innerHTML = '⚠️ <strong>Recommendation:</strong> Schedule proactive maintenance within 7 days.';
             } else {
                 riskScoreBox.className = 'risk-box';
-                recommendationBox.innerHTML = '✅ <strong>Recommendation:</strong> Operating normally. Continue automated monitoring.';
             }
+
+            let recIcon = '✅';
+            if (activeAsset.risk_score > 80) recIcon = '🚨';
+            else if (activeAsset.risk_score > 50) recIcon = '⚠️';
+
+            recommendationBox.innerHTML = `${recIcon} <strong>Action:</strong> ${activeAsset.maintenance_recommendation}`;
 
             await updateShapChart(activeAsset.id);
         }
